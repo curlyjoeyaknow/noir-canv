@@ -1,4 +1,4 @@
-name: Marcus Chen
+﻿name: Marcus Chen
 slug: marcus-chen
 example_artists:
 - MATTE_STEPHENS
@@ -8,6 +8,7 @@ prompt_prefix: 'Flat illustration, mid-century style, '
 prompt_suffix: ', vibrant colors, geometric, pop art'
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 example_ref_folder: artwork

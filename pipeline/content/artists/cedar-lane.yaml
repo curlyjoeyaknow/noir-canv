@@ -1,16 +1,17 @@
-name: Cedar Lane
+﻿name: Cedar Lane
 slug: cedar-lane
 example_artists:
-  - Loïc_Lusnia
+  - LoÃ¯c_Lusnia
 example_ref_folder: artwork
-style_reference: Loïc Lusnia, sci-fi atmosphere, moody landscapes, cinematic
+style_reference: LoÃ¯c Lusnia, sci-fi atmosphere, moody landscapes, cinematic
 prompt_prefix: Sci-fi atmosphere, cinematic, "
 prompt_suffix: ", moody landscapes, atmospheric lighting, contemplative"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
-bio: Cedar Lane paints worlds on the edge of tomorrow—atmospheric landscapes where the familiar meets the alien, where light falls in ways that feel both natural and impossible. Based in Paris, Lane's work draws on European and American sci-fi traditions. His pieces have been featured in concept art publications and exhibited in galleries worldwide. Collectors describe his work as meditative and otherworldly.
+bio: Cedar Lane paints worlds on the edge of tomorrowâ€”atmospheric landscapes where the familiar meets the alien, where light falls in ways that feel both natural and impossible. Based in Paris, Lane's work draws on European and American sci-fi traditions. His pieces have been featured in concept art publications and exhibited in galleries worldwide. Collectors describe his work as meditative and otherworldly.
 statement: I paint the silence before the future arrives.

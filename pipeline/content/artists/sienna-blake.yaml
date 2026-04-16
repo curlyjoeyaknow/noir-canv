@@ -1,4 +1,4 @@
-name: Sienna Blake
+﻿name: Sienna Blake
 slug: sienna-blake
 example_artists:
   - AMOK_ISLAND
@@ -8,9 +8,10 @@ prompt_prefix: Botanical illustration, natural history style, "
 prompt_suffix: ", Australian flora and fauna, detailed specimens, scientific elegance"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
-bio: Sienna Blake documents the natural world with the precision of a naturalist and the soul of a painter. Based in Melbourne, she draws on Australia's unique flora and fauna—banksias, orchids, cockatoos at dusk—to create works that feel both scientific and lyrical. Her pieces have appeared in botanical journals, design publications, and galleries across Australia and Europe. Blake's work brings the wild indoors, inviting contemplation of the living world.
+bio: Sienna Blake documents the natural world with the precision of a naturalist and the soul of a painter. Based in Melbourne, she draws on Australia's unique flora and faunaâ€”banksias, orchids, cockatoos at duskâ€”to create works that feel both scientific and lyrical. Her pieces have appeared in botanical journals, design publications, and galleries across Australia and Europe. Blake's work brings the wild indoors, inviting contemplation of the living world.
 statement: Every species holds a story. I try to honor that before it slips away.

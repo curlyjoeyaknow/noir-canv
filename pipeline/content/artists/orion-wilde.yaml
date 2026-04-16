@@ -1,4 +1,4 @@
-name: Orion Wilde
+﻿name: Orion Wilde
 slug: orion-wilde
 example_artists:
   - JEREMY_GEDDES
@@ -8,9 +8,10 @@ prompt_prefix: Hyperrealistic surrealism, atmospheric, "
 prompt_suffix: ", floating figures, cinematic lighting, dreamlike precision"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
-bio: Orion Wilde creates images that feel like memories of dreams—astronauts floating in empty streets, figures suspended in impossible spaces, each detail rendered with photographic precision. His work has been exhibited in galleries from Melbourne to New York and collected by fans of both fine art and science fiction. Wilde's pieces invite viewers to pause and question what they're seeing.
-statement: I paint the moment when reality bends—when gravity forgets and light remembers.
+bio: Orion Wilde creates images that feel like memories of dreamsâ€”astronauts floating in empty streets, figures suspended in impossible spaces, each detail rendered with photographic precision. His work has been exhibited in galleries from Melbourne to New York and collected by fans of both fine art and science fiction. Wilde's pieces invite viewers to pause and question what they're seeing.
+statement: I paint the moment when reality bendsâ€”when gravity forgets and light remembers.

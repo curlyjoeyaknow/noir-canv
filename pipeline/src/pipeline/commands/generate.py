@@ -218,15 +218,38 @@ def _generate_gemini(
 
         contents = _build_gemini_content(prompt, style_refs, artist)
 
-        response = client.models.generate_content(
-            model=gemini_model,
-            contents=contents,
-            config=genai_types.GenerateContentConfig(
-                response_modalities=["TEXT", "IMAGE"],
-            ),
-        )
+        response = None
+        for _attempt in range(3):
+            try:
+                response = client.models.generate_content(
+                    model=gemini_model,
+                    contents=contents,
+                    config=genai_types.GenerateContentConfig(
+                        response_modalities=["TEXT", "IMAGE"],
+                    ),
+                )
+                break
+            except Exception as _exc:
+                click.echo(f"Gemini API error (attempt {_attempt + 1}/3): {_exc}")
+                if _attempt == 2:
+                    click.echo("All retries failed, skipping this image")
+                else:
+                    import time
+                    time.sleep(2 ** _attempt)
+
+        if response is None:
+            continue
 
         img = None
+        if (
+            not response.candidates
+            or not response.candidates[0]
+            or not response.candidates[0].content
+            or not response.candidates[0].content.parts
+        ):
+            click.echo("Gemini returned no content (blocked or empty), skipping")
+            continue
+
         for part in response.candidates[0].content.parts:
             if hasattr(part, "inline_data") and part.inline_data:
                 img = Image.open(io.BytesIO(part.inline_data.data)).convert("RGB")

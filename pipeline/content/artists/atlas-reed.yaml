@@ -1,4 +1,4 @@
-name: Atlas Reed
+﻿name: Atlas Reed
 slug: atlas-reed
 example_artists:
   - ASHLEY_WOOD
@@ -8,9 +8,10 @@ prompt_prefix: Industrial art, gritty, "
 prompt_suffix: ", mechanical forms, war-torn atmosphere, raw texture"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
-bio: Atlas Reed captures the beauty of decay—rusted metal, fractured landscapes, and figures that emerge from the wreckage. His work draws on industrial aesthetics and post-apocalyptic imagination, creating pieces that feel both brutal and tender. Based in Detroit, Reed has exhibited in underground galleries and design studios worldwide. His pieces appeal to collectors who want art with edge and narrative depth.
+bio: Atlas Reed captures the beauty of decayâ€”rusted metal, fractured landscapes, and figures that emerge from the wreckage. His work draws on industrial aesthetics and post-apocalyptic imagination, creating pieces that feel both brutal and tender. Based in Detroit, Reed has exhibited in underground galleries and design studios worldwide. His pieces appeal to collectors who want art with edge and narrative depth.
 statement: Ruin has its own grammar. I learn it, one canvas at a time.

@@ -1,4 +1,4 @@
-name: Leo Strand
+﻿name: Leo Strand
 slug: leo-strand
 example_artists:
 - Cleon_Peterson
@@ -7,6 +7,7 @@ prompt_prefix: 'Bold graphic art, '
 prompt_suffix: ', gold and crimson on black, street art, raw'
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 example_ref_folder: artwork

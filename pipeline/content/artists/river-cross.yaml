@@ -1,4 +1,4 @@
-name: River Cross
+﻿name: River Cross
 slug: river-cross
 example_artists:
   - Glenn_Barr
@@ -8,9 +8,10 @@ prompt_prefix: Retro pop culture, lowbrow, "
 prompt_suffix: ", vintage aesthetic, bold colors, comic influence"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
-bio: River Cross channels the spirit of mid-century America—hot rods, pin-ups, and the golden age of illustration. His work blends lowbrow aesthetic with fine art sensibility, creating pieces that feel both nostalgic and fresh. Based in Detroit, Cross has exhibited in galleries from LA to London. His pieces appeal to collectors who want art with personality and a sense of humor.
+bio: River Cross channels the spirit of mid-century Americaâ€”hot rods, pin-ups, and the golden age of illustration. His work blends lowbrow aesthetic with fine art sensibility, creating pieces that feel both nostalgic and fresh. Based in Detroit, Cross has exhibited in galleries from LA to London. His pieces appeal to collectors who want art with personality and a sense of humor.
 statement: The past had better colors. I'm just borrowing them.

@@ -1,4 +1,4 @@
-name: Aaron Craig
+﻿name: Aaron Craig
 slug: aaron-craig
 example_artists:
   - Aaron_Craig
@@ -8,10 +8,11 @@ prompt_prefix: Fine art, gallery quality, playful illustration,
 prompt_suffix: ", candy colours, fruit motifs, bold graphic style, Aaron Craig aesthetic"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 lightning_steps: 4
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
 bio: Aaron Craig is an artist whose work draws on playful candy and fruit motifs. Their pieces explore bold graphic illustration with a distinctive aesthetic that blends whimsy and contemporary expression.
-statement: I seek to capture the sweet and surreal—where everyday flavours become visual poetry.
+statement: I seek to capture the sweet and surrealâ€”where everyday flavours become visual poetry.

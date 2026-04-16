@@ -1,4 +1,4 @@
-name: Kai Voss
+﻿name: Kai Voss
 slug: kai-voss
 example_artists:
 - MARK_RYDEN
@@ -8,6 +8,7 @@ prompt_suffix: ', earth tones, burnt sienna, ochre, minimalist composition, larg
   color fields'
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 example_ref_folder: artwork

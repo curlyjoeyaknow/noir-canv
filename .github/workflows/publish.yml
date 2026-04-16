@@ -1,0 +1,102 @@
+# Publish workflow — triggered when gallery data or images land on main.
+#
+# Responsibilities:
+#   1. Validate data/*.json against pipeline schemas (hard gate).
+#   2. Write a Job Summary with current gallery counts and changed files.
+#   3. Vercel auto-deploys from main; this workflow ensures data is valid
+#      before that deploy picks up the change.
+#
+# This workflow is intentionally separate from ci.yml so:
+#   - Engineers see a dedicated "Publish" check in the GitHub UI.
+#   - The summary is specific to what changed in the gallery.
+#
+# Secrets required: none beyond GITHUB_TOKEN (automatic).
+
+name: Publish Gallery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/artists.json"
+      - "data/pieces.json"
+      - "data/collections.json"
+      - "data/mockups.json"
+      - "apps/web/public/images/**"
+
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  validate-and-summarize:
+    name: Validate & publish summary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: pipeline/pyproject.toml
+
+      - name: Install pipeline
+        run: pip install -e "pipeline/[dev]"
+
+      - name: Validate gallery data (hard gate)
+        run: pipeline register --validate-only
+
+      - name: Write publish summary
+        run: |
+          python - <<'EOF'
+          import json, os, subprocess, sys
+          from pathlib import Path
+
+          root = Path(".")
+          pieces_path = root / "data" / "pieces.json"
+          artists_path = root / "data" / "artists.json"
+          collections_path = root / "data" / "collections.json"
+
+          artists = json.loads(artists_path.read_text()) if artists_path.exists() else []
+          pieces  = json.loads(pieces_path.read_text())  if pieces_path.exists()  else []
+          collections = json.loads(collections_path.read_text()) if collections_path.exists() else []
+
+          # Changed files in this push
+          result = subprocess.run(
+              ["git", "diff", "--name-only", "HEAD~1", "HEAD", "--",
+               "data/", "apps/web/public/images/"],
+              capture_output=True, text=True
+          )
+          changed = [f for f in result.stdout.strip().splitlines() if f]
+
+          summary_path = os.environ["GITHUB_STEP_SUMMARY"]
+          with open(summary_path, "a") as f:
+              f.write("## Gallery publish summary\n\n")
+              f.write(f"| | Count |\n|---|---|\n")
+              f.write(f"| Artists | **{len(artists)}** |\n")
+              f.write(f"| Pieces  | **{len(pieces)}** |\n")
+              f.write(f"| Collections | **{len(collections)}** |\n\n")
+
+              if changed:
+                  f.write("### Files updated in this push\n\n")
+                  for c in changed:
+                      f.write(f"- `{c}`\n")
+              else:
+                  f.write("_No data or image files changed in this push._\n")
+
+              f.write("\n")
+              # List artist names
+              if artists:
+                  f.write("### Artists in gallery\n\n")
+                  for a in artists:
+                      name = a.get("name", a.get("slug", "?"))
+                      slug = a.get("slug", "")
+                      f.write(f"- {name} (`{slug}`)\n")
+                  f.write("\n")
+          EOF

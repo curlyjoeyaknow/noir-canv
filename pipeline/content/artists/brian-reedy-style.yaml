@@ -1,4 +1,4 @@
-name: Brian Reedy Style
+﻿name: Brian Reedy Style
 slug: brian-reedy-style
 example_artists:
   - BRIAN_REEDY
@@ -8,6 +8,7 @@ prompt_prefix: Fine art, gallery quality, distinctive character, clean compositi
 prompt_suffix: ", brian reedy style"
 negative_prompt: busy, cluttered, stacked, overlapping figures, multiple figures piled, messy composition, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 lightning_steps: 4
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2

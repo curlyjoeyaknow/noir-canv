@@ -1,4 +1,4 @@
-name: Vera Lane
+﻿name: Vera Lane
 slug: vera-lane
 example_artists:
   - Erik_Sherman
@@ -8,9 +8,10 @@ prompt_prefix: Graphic art, bold shapes, "
 prompt_suffix: ", vibrant color, playful composition, contemporary"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
-bio: Vera Lane creates art that pops—bold shapes, graphic colors, and compositions that feel both designed and spontaneous. Her work draws on mid-century modern and contemporary pop culture, creating pieces that energize any space. Based in Chicago, Lane has worked with brands and exhibited in design galleries. Her pieces appeal to collectors who want art with immediate impact.
+bio: Vera Lane creates art that popsâ€”bold shapes, graphic colors, and compositions that feel both designed and spontaneous. Her work draws on mid-century modern and contemporary pop culture, creating pieces that energize any space. Based in Chicago, Lane has worked with brands and exhibited in design galleries. Her pieces appeal to collectors who want art with immediate impact.
 statement: Color is a language. I try to speak it clearly.

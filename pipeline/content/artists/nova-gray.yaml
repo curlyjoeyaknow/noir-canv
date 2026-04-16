@@ -1,4 +1,4 @@
-name: Nova Gray
+﻿name: Nova Gray
 slug: nova-gray
 example_artists:
   - Mab_Graves
@@ -8,9 +8,10 @@ prompt_prefix: Dark whimsy, gothic horror, haunting beauty, "
 prompt_suffix: ", vintage doll aesthetic, unsettling melancholy, ornate, highly detailed, crisp"
 negative_prompt: busy, cluttered, photorealistic, text, watermark, cute, cheerful
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.78
 ip_adapter_blend_count: 2
 steps: 35
 cfg_scale: 8.5  # Higher for more pop and punch
-bio: Nova Gray inhabits the space between sweet and sinister—her work features figures that seem both innocent and haunted, with a vintage doll aesthetic that feels both nostalgic and unsettling. Based in Indianapolis, Gray has built a devoted following for her dark whimsy. Her pieces have been featured in galleries and collected by those who appreciate beauty with an edge.
+bio: Nova Gray inhabits the space between sweet and sinisterâ€”her work features figures that seem both innocent and haunted, with a vintage doll aesthetic that feels both nostalgic and unsettling. Based in Indianapolis, Gray has built a devoted following for her dark whimsy. Her pieces have been featured in galleries and collected by those who appreciate beauty with an edge.
 statement: Pretty things can hold shadows. I try to show both.

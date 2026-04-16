@@ -1,4 +1,4 @@
-name: Ren Nakamura
+﻿name: Ren Nakamura
 slug: ren-nakamura
 example_artists:
 - HORITOMO
@@ -7,6 +7,7 @@ prompt_prefix: 'Japanese ukiyo-e, '
 prompt_suffix: ', irezumi tattoos, wabi-sabi, ink wash'
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 example_ref_folder: artwork

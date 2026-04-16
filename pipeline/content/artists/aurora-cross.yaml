@@ -1,4 +1,4 @@
-name: Aurora Cross
+﻿name: Aurora Cross
 slug: aurora-cross
 example_artists:
   - ALFRED_LIU
@@ -8,9 +8,10 @@ prompt_prefix: Sci-fi concept art, cinematic, "
 prompt_suffix: ", atmospheric lighting, detailed environments, otherworldly"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
 steps: 30
 cfg_scale: 7.5
-bio: Aurora Cross is a concept artist whose work bridges science fiction and fine art. Based in Los Angeles, she creates atmospheric scenes that feel both futuristic and timeless—vast landscapes, architectural wonders, and moments of quiet drama under alien skies. Her pieces have been featured in art books, game studios, and galleries from San Francisco to Tokyo. Collectors describe her work as immersive, with each canvas inviting you to step into another world.
-statement: I paint the moments between—the breath before discovery, the silence after the storm.
+bio: Aurora Cross is a concept artist whose work bridges science fiction and fine art. Based in Los Angeles, she creates atmospheric scenes that feel both futuristic and timelessâ€”vast landscapes, architectural wonders, and moments of quiet drama under alien skies. Her pieces have been featured in art books, game studios, and galleries from San Francisco to Tokyo. Collectors describe her work as immersive, with each canvas inviting you to step into another world.
+statement: I paint the moments betweenâ€”the breath before discovery, the silence after the storm.

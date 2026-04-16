@@ -1,4 +1,4 @@
-name: Angela Ho Style
+﻿name: Angela Ho Style
 slug: angela-ho-style
 example_artists:
   - Angela_Ho
@@ -8,6 +8,7 @@ prompt_prefix: Fine art, gallery quality,
 prompt_suffix: ", angela ho style"
 negative_prompt: busy, cluttered, photorealistic, text, watermark
 model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
 lightning_steps: 4
 ip_adapter_scale: 0.7
 ip_adapter_blend_count: 2
