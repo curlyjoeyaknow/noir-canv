@@ -1,0 +1,14 @@
+name: Ren Nakamura
+slug: ren-nakamura
+example_artists:
+- HORITOMO
+style_reference: Horitomo, Japanese ukiyo-e cats with irezumi tattoo motifs
+prompt_prefix: 'Japanese ukiyo-e, '
+prompt_suffix: ', irezumi tattoos, wabi-sabi, ink wash'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+example_ref_folder: artwork
+steps: 30
+cfg_scale: 7.5

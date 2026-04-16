@@ -122,12 +122,16 @@ export function ImageCarousel({
               aria-selected={i === activeIndex}
               aria-label={`Go to image ${i + 1}`}
               onClick={() => goTo(i)}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                i === activeIndex
-                  ? "w-6 bg-accent"
-                  : "w-2 bg-border hover:bg-border-hover"
-              }`}
-            />
+              className="flex min-h-[44px] min-w-[44px] items-center justify-center"
+            >
+              <span
+                className={`h-2 rounded-full transition-all duration-300 ${
+                  i === activeIndex
+                    ? "w-6 bg-accent"
+                    : "w-2 bg-border hover:bg-border-hover"
+                }`}
+              />
+            </button>
           ))}
         </div>
       )}

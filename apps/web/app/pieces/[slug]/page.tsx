@@ -82,7 +82,7 @@ export default async function PieceDetailPage({ params }: PageProps) {
           </p>
 
           {/* Metadata */}
-          <dl className="mt-8 grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
+          <dl className="mt-8 grid grid-cols-1 gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
             {piece.medium && (
               <div className="rounded-sm border border-border/60 bg-surface/50 p-3">
                 <dt className="text-xs font-semibold uppercase tracking-wider text-dim">Medium</dt>

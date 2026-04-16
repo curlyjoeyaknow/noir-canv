@@ -1,0 +1,15 @@
+name: Kai Voss
+slug: kai-voss
+example_artists:
+- MARK_RYDEN
+style_reference: Mark Ryden, Rothko-esque abstract color fields
+prompt_prefix: 'Fine art painting, gallery quality, '
+prompt_suffix: ', earth tones, burnt sienna, ochre, minimalist composition, large
+  color fields'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+example_ref_folder: artwork
+steps: 30
+cfg_scale: 7.5

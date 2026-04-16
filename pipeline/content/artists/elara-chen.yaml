@@ -1,0 +1,24 @@
+name: Elara Chen
+slug: elara-chen
+example_artists:
+- SHEPARD_FAIREY
+style_reference: bold graphic propaganda-style posters, high-contrast red/black/cream
+  palettes, geometric patterns, political iconography, screen-print aesthetic
+prompt_prefix: 'Fine art, gallery quality, '
+prompt_suffix: ', inspired by bold graphic propaganda-style posters, high-contrast
+  red/black/cream palettes, geometric patterns, political iconography, screen-print
+  aesthetic, cohesive portfolio aesthetic'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: main
+steps: 30
+cfg_scale: 7.5
+bio: Elara Chen is an artist whose work draws on bold graphic propaganda-style posters,
+  high-contrast red/black/cream palettes, geometric patterns, political iconography,
+  screen-print aesthetic. Their pieces explore the boundaries between tradition and
+  contemporary expression, creating compositions that invite contemplation and connection.
+statement: "I seek to capture the in-between\u2014the moment before form settles,\
+  \ where possibility still breathes."

@@ -1,0 +1,23 @@
+name: Nova Ash
+slug: nova-ash
+example_artists:
+- Amy_Sol
+style_reference: Amy Sol-inspired contemporary art with distinctive visual style and
+  technique
+prompt_prefix: 'Fine art, gallery quality, '
+prompt_suffix: ', inspired by amy sol-inspired contemporary art with distinctive visual
+  style and technique, cohesive portfolio aesthetic'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: main
+steps: 30
+cfg_scale: 7.5
+bio: Nova Ash is an artist whose work draws on Amy Sol-inspired contemporary art with
+  distinctive visual style and technique. Their pieces explore the boundaries between
+  tradition and contemporary expression, creating compositions that invite contemplation
+  and connection.
+statement: "I seek to capture the in-between\u2014the moment before form settles,\
+  \ where possibility still breathes."

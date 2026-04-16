@@ -34,7 +34,7 @@ export function Footer() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className="text-sm text-muted transition-colors duration-200 hover:text-accent"
+                    className="block py-2 text-sm text-muted transition-colors duration-200 hover:text-accent"
                   >
                     {label}
                   </Link>
@@ -54,7 +54,7 @@ export function Footer() {
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-muted transition-colors duration-200 hover:text-accent"
+                    className="block py-2 text-sm text-muted transition-colors duration-200 hover:text-accent"
                   >
                     {label}
                   </a>

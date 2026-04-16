@@ -66,7 +66,7 @@ export default function HomePage() {
           </h2>
           <Link
             href="/collections"
-            className="text-sm text-muted transition-colors duration-200 hover:text-accent"
+            className="inline-block py-2 text-sm text-muted transition-colors duration-200 hover:text-accent"
           >
             View all &rarr;
           </Link>
@@ -90,7 +90,7 @@ export default function HomePage() {
           </h2>
           <Link
             href="/artists"
-            className="text-sm text-muted transition-colors duration-200 hover:text-accent"
+            className="inline-block py-2 text-sm text-muted transition-colors duration-200 hover:text-accent"
           >
             View all &rarr;
           </Link>
@@ -109,7 +109,7 @@ export default function HomePage() {
           </h2>
           <Link
             href="/collections"
-            className="text-sm text-muted transition-colors duration-200 hover:text-accent"
+            className="inline-block py-2 text-sm text-muted transition-colors duration-200 hover:text-accent"
           >
             View all &rarr;
           </Link>

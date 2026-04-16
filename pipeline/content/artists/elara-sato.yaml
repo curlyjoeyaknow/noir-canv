@@ -1,0 +1,14 @@
+name: Elara Sato
+slug: elara-sato
+example_artists:
+- ANDY_KEHOE
+style_reference: Andy Kehoe, enchanted forests, glowing spirit animals
+prompt_prefix: 'Fine art painting, gallery quality, '
+prompt_suffix: ', moody forest, ethereal light, spirit animals, dark palette'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+example_ref_folder: artwork
+steps: 30
+cfg_scale: 7.5

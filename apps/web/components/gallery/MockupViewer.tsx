@@ -88,7 +88,7 @@ export function MockupViewer({ pieceTitle, mockups }: MockupViewerProps) {
         <div
           role="tablist"
           aria-label="Mockup categories"
-          className="flex gap-1 rounded-sm border border-border/60 bg-surface p-1"
+          className="flex flex-wrap gap-1 rounded-sm border border-border/60 bg-surface p-1"
         >
           {availableTabs.map((tab) => (
             <button
@@ -98,7 +98,7 @@ export function MockupViewer({ pieceTitle, mockups }: MockupViewerProps) {
               aria-selected={activeTab === tab.key}
               aria-controls={`mockup-panel-${tab.key}`}
               onClick={() => setActiveTab(tab.key)}
-              className={`rounded-sm px-4 py-2 text-sm font-medium transition-all duration-200 ${
+              className={`min-h-[44px] rounded-sm px-3 py-2.5 text-sm font-medium transition-all duration-200 ${
                 activeTab === tab.key
                   ? "bg-card text-foreground shadow-sm"
                   : "text-muted hover:text-foreground"

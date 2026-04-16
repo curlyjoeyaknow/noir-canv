@@ -1,0 +1,12 @@
+name: Brian Reedy Style (Gemini)
+slug: brian-reedy-gemini
+example_artists:
+  - BRIAN_REEDY
+example_ref_folder: main
+style_reference: BRIAN_REEDY style
+prompt_prefix: Fine art, gallery quality, distinctive character, clean composition,
+prompt_suffix: ", brian reedy style"
+negative_prompt: busy, cluttered, stacked, overlapping figures, messy composition, photorealistic, text, watermark
+model_type: gemini
+model_id: gemini-2.0-flash-exp
+gemini_model: gemini-2.0-flash-exp

@@ -1,0 +1,16 @@
+name: Luna Stone
+slug: luna-stone
+example_artists:
+  - BLANCA_GOMEZ
+example_ref_folder: artwork
+style_reference: Blanca Gomez, minimalist illustration, flat color, everyday poetry
+prompt_prefix: Minimalist illustration, flat color, "
+prompt_suffix: ", everyday moments, simple shapes, warm palette"
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+steps: 30
+cfg_scale: 7.5
+bio: Luna Stone finds poetry in the ordinary—a cup of coffee, a window, a quiet street. Her minimalist illustrations use flat color and simple shapes to capture moments of calm and connection. Based in Madrid, Stone has worked with major brands and exhibited in design galleries worldwide. Her pieces bring warmth and simplicity to modern interiors, appealing to collectors who value understatement.
+statement: Less is a kind of attention. I try to give it.

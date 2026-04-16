@@ -1,0 +1,17 @@
+name: Brian Reedy Style (FLUX)
+slug: brian-reedy-flux
+example_artists:
+  - BRIAN_REEDY
+example_ref_folder: main
+style_reference: BRIAN_REEDY style
+prompt_prefix: Fine art, gallery quality, distinctive character, clean composition,
+prompt_suffix: ", brian reedy style"
+negative_prompt: busy, cluttered, stacked, overlapping figures, multiple figures piled, messy composition, photorealistic, text, watermark
+model_id: black-forest-labs/FLUX.1-dev
+model_type: flux
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+flux_ip_adapter_repo: XLabs-AI/flux-ip-adapter-v2
+flux_ip_adapter_weight: ip_adapter.safetensors
+steps: 50
+cfg_scale: 3.5

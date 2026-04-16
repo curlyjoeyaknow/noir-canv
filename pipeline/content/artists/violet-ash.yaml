@@ -1,0 +1,16 @@
+name: Violet Ash
+slug: violet-ash
+example_artists:
+  - AUDREY_KAWASAKI
+example_ref_folder: artwork
+style_reference: Audrey Kawasaki, romantic feminine figures, delicate linework, ethereal
+prompt_prefix: Romantic illustration, ethereal, "
+prompt_suffix: ", delicate figures, soft tones, introspective mood"
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+steps: 30
+cfg_scale: 7.5
+bio: Violet Ash paints figures that exist between waking and dream—young women with distant gazes, surrounded by botanical motifs and soft light. Her work blends Eastern and Western influences, creating a visual language that feels both intimate and universal. Based in Brooklyn, Ash has built a devoted following through galleries and social media. Her pieces bring a sense of quiet romance to any space.
+statement: I paint the moment before the thought completes—that fragile in-between.

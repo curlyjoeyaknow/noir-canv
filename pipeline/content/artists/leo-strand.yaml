@@ -1,0 +1,14 @@
+name: Leo Strand
+slug: leo-strand
+example_artists:
+- Cleon_Peterson
+style_reference: Cleon Peterson, bold graphic, gold/crimson figures on black
+prompt_prefix: 'Bold graphic art, '
+prompt_suffix: ', gold and crimson on black, street art, raw'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+example_ref_folder: artwork
+steps: 30
+cfg_scale: 6.0  # Lower for more variety

@@ -1,0 +1,17 @@
+name: Angela Ho Style
+slug: angela-ho-style
+example_artists:
+  - Angela_Ho
+example_ref_folder: main
+style_reference: Angela Ho style
+prompt_prefix: Fine art, gallery quality,
+prompt_suffix: ", angela ho style"
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+lightning_steps: 4
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+ip_adapter_weight: ip-adapter-plus_sdxl_vit-h.safetensors
+ip_adapter_image_encoder_folder: models/image_encoder
+steps: 30
+cfg_scale: 7.5

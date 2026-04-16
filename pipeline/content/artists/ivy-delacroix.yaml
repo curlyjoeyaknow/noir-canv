@@ -1,0 +1,14 @@
+name: Ivy Delacroix
+slug: ivy-delacroix
+example_artists:
+- JAMES_JEAN
+style_reference: James Jean, Art Nouveau, women merging with botanical forms
+prompt_prefix: 'Art Nouveau, botanical, '
+prompt_suffix: ', flowing hair, vines, delicate, gallery quality'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+example_ref_folder: artwork
+steps: 30
+cfg_scale: 7.5

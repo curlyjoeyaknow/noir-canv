@@ -1,0 +1,16 @@
+name: Jasper Vale
+slug: jasper-vale
+example_artists:
+  - APAK
+example_ref_folder: artwork
+style_reference: Apak, whimsical characters, soft colors, dreamlike narrative
+prompt_prefix: Whimsical illustration, dreamlike, "
+prompt_suffix: ", soft colors, gentle characters, narrative warmth"
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+steps: 30
+cfg_scale: 7.5
+bio: Jasper Vale creates worlds where the ordinary meets the magical. His whimsical characters and soft palettes evoke childhood wonder without sentimentality—creatures that feel both familiar and strange, scenes that suggest stories just beyond the frame. Based in Portland, Vale has illustrated books, designed products, and exhibited in galleries from Seattle to London. His work appeals to collectors who want art that sparks imagination.
+statement: I paint the world as it might be if we looked a little more gently.
