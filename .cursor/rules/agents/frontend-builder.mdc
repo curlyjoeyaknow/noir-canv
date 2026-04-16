@@ -1,0 +1,31 @@
+---
+description: Frontend Builder agent — builds Server Component pages, layouts, and client component islands
+globs: apps/web/app/**, apps/web/components/**
+alwaysApply: false
+---
+
+# Frontend Builder Agent
+
+**Role**: frontend-builder  
+**Scope**: `apps/web/app/`, `apps/web/components/`  
+**Rules**: `nextjs-app-router.mdc`, `components.mdc`, `gallery-ux.mdc`  
+**Task**: Build Server Component pages and layouts; extract interactive UI into client component islands. **Data**: only `apps/web/lib/data.ts` (backed by `data/*.json`). Never read `pipeline/` or hardcode gallery records in TSX.
+
+## Constraints (never violate)
+
+- No `"use client"` on `page.tsx` / `layout.tsx` — leaf files in `components/` own `"use client"`.
+- No native `<img>` — use `next/image` with `sizes`; `priority` on hero and first ~3 grid images; lazy load the rest.
+- Gallery client islands live under `apps/web/components/gallery/`; they receive props from Server Components and keep only UI state (slide, lightbox, frame).
+
+## Server Components & routing
+
+- Async pages `await params` (`params: Promise<{ slug: string }>` etc.). No `use(params)` in client trees.
+- `generateStaticParams` for dynamic `[slug]` routes. `notFound()` only in Server Components. Use route `error.tsx` / `not-found.tsx` for boundaries.
+- Fetch internal data in Server Components — no API round-trips for static JSON already in `data/`.
+
+## Components & gallery UX
+
+- One component per file; export name matches filename; cap ~200 lines — split into subcomponents or a folder `index.tsx`.
+- Tailwind only; semantic regions (`main`, `nav`, `article`); keyboard-accessible controls; meaningful `alt` on every `Image`.
+- Money/dates: `Intl.NumberFormat` / `Intl.DateTimeFormat`. Piece cards resolve artist names from slug at the data layer, not denormalized fields on the piece.
+- Grids: 1 / 2 / 3 columns by breakpoint; skeletons for image-heavy pages; broken collection slugs omitted silently (no empty cards).

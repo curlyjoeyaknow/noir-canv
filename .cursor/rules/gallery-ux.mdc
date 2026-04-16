@@ -1,0 +1,64 @@
+---
+description: Gallery UI and interaction patterns
+globs: apps/web/components/**/*.tsx, apps/web/app/**/*.tsx
+alwaysApply: false
+---
+
+# Gallery UX Rules
+
+## Piece Detail Page
+
+- Hero section shows the main piece image with a frame selector below.
+- **Frame selector**: interactive toggle between frame styles (Unframed, Black, White, Natural Wood, Gold). Each option shows a real mockup image, not the same image with different labels.
+- **Mockup carousel**: horizontal carousel showing the piece in different room settings (apartment, office, studio, gallery wall) and the artist holding it. Supports keyboard navigation (arrow keys), touch swipe on mobile, and dot indicators.
+- **Image lightbox**: click any image to open full-screen overlay with zoom capability and close on Escape/click-outside.
+- Edition progress: "8 of 15 sold" with a visual progress bar.
+- Price display: starting price with size options (Small, Medium, Large).
+- Artist attribution: linked to the artist profile page.
+
+## Artist Profile Page
+
+- Portrait (photorealistic, generated) in a hero section.
+- Bio and artist statement.
+- Studio shots in a secondary image row or carousel.
+- Full grid of the artist's pieces below, using `PieceCard` components.
+- Influences listed as tags or text.
+
+## Collection Page
+
+- Collection description at the top.
+- Grid of pieces belonging to the collection.
+- Pieces that don't exist (broken slug references) are silently excluded, never rendered as empty cards.
+
+## Piece Card Component
+
+- Image (with `next/image`, responsive sizes, lazy loading by default).
+- Title and artist name (artist name resolved from `artistSlug` at the data layer, never stored on the piece).
+- Edition badge: "Sold Out" when `editionSold >= editionSize`, "Almost Gone" when `editionSize - editionSold <= 2`.
+- Starting price: lowest size option price, formatted with `Intl.NumberFormat`.
+
+## Interactive Components (Client Components)
+
+All of these are `"use client"` files in `apps/web/components/gallery/`:
+
+- `ImageCarousel.tsx` -- horizontal scroll with navigation, swipe, keyboard, dots
+- `ImageLightbox.tsx` -- full-screen overlay, zoom, Escape to close
+- `FrameSelector.tsx` -- toggle between frame style mockup images
+- `MockupViewer.tsx` -- combines carousel + frame selector for piece detail
+- `EditionBadge.tsx` -- dynamic badge based on edition sold/total
+
+Page-level Server Components pass data as props to these client components. The client components own only UI state (active slide, lightbox open, selected frame).
+
+## Performance
+
+- `priority` on the hero image and first 3 `PieceCard` images.
+- All other images lazy load (default `next/image` behavior).
+- Carousel images outside the viewport should not be fetched until the user scrolls to them.
+- Skeleton loading states for image-heavy pages (artist profile, collection grid).
+
+## Responsive Design
+
+- Gallery grid: 1 column on mobile (<640px), 2 columns on tablet (640-1024px), 3 columns on desktop (>1024px).
+- Carousel: full-width on mobile with swipe, constrained width on desktop with arrow buttons.
+- Navigation: hamburger menu on mobile, horizontal links on desktop.
+- Lightbox: covers full viewport on all screen sizes.

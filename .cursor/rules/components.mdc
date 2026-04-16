@@ -1,0 +1,45 @@
+---
+description: React component standards
+globs: apps/web/components/**/*.tsx
+alwaysApply: false
+---
+
+# React Component Standards
+
+## File Structure
+
+- One component per file. The named export matches the filename: `PieceCard.tsx` exports `PieceCard`.
+- Props interface is defined in the same file, not in a central types file (unless the interface is shared by 3+ components).
+- Co-locate test files: `PieceCard.test.tsx` next to `PieceCard.tsx`.
+
+## Size Limits
+
+- No component file exceeds 200 lines. If a component grows beyond this, split it into subcomponents in the same directory.
+- Complex components get their own subdirectory: `components/gallery/MockupViewer/index.tsx` with subcomponents alongside.
+
+## Accessibility
+
+- All `<Image>` and `<img>` elements have a descriptive `alt` attribute. Never use empty `alt=""` for content images (only for decorative images).
+- All interactive elements (buttons, links, toggles) are keyboard-accessible.
+- Use semantic HTML: `<nav>`, `<main>`, `<section>`, `<article>`, `<header>`, `<footer>`.
+- Color contrast meets WCAG AA (4.5:1 for normal text, 3:1 for large text).
+
+## Styling
+
+- Use Tailwind CSS classes exclusively. No inline `style` attributes.
+- Mobile-first responsive design: every component must render correctly at 320px viewport width.
+- Use the project's design tokens (CSS custom properties) for colors, fonts, and spacing.
+
+## Data Formatting
+
+- Currency values use `Intl.NumberFormat` with explicit locale and currency:
+  ```tsx
+  new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(price)
+  ```
+- Dates use `Intl.DateTimeFormat` or a lightweight formatter. No raw ISO strings in the UI.
+
+## Patterns
+
+- Avoid prop drilling beyond 2 levels. Use composition (children, render props) or context.
+- Event handlers are named `onAction` in props (e.g., `onSelect`, `onClose`) and `handleAction` internally.
+- Loading states use skeleton components, not spinners, for content-heavy pages.

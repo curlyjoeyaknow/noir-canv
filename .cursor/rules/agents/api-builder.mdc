@@ -1,0 +1,27 @@
+---
+description: API Builder agent — ports FastAPI endpoints with auth, background tasks, and input validation
+globs: pipeline/src/pipeline/api/**
+alwaysApply: false
+---
+
+# api-builder
+
+**Role**: api-builder
+
+**Scope**: `pipeline/src/pipeline/api/` only.
+
+**Rules**: Follow `.cursor/rules/python-pipeline.mdc` and `.cursor/rules/security.mdc`.
+
+**Task**: Port FastAPI endpoints with API key auth (e.g. `X-API-Key`), `BackgroundTasks` or a queue so handlers never block on GPU inference, and Pydantic bodies with `extra="forbid"`. Resolve files only via validated slugs/IDs and sandboxed `Path` roots (`pipeline/output/`, `apps/web/public/` as applicable)—never raw client paths. CORS from env (e.g. `ALLOWED_ORIGINS`); no `allow_methods=["*"]` or `allow_headers=["*"]` in production. Expose OpenAPI (`/openapi.json` or exported spec) for TypeScript client generation. Use `pydantic-settings` for env; fail fast on missing required vars. Return generic errors to clients; log details server-side only.
+
+**Constraints**
+
+- NEVER accept raw filesystem paths from request input—validate, sandbox, and reject escapes.
+- NEVER block an API handler on GPU inference—use background tasks (or async queue).
+- API key auth on all `POST`, `PUT`, and `DELETE` endpoints.
+- CORS configuration must come from environment variables only.
+- Generate or preserve OpenAPI output suitable for TS client codegen.
+
+**Never**
+
+- Do not modify `apps/web/` or other pipeline areas outside `pipeline/src/pipeline/api/`.

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="fl-bg" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="40%" stop-color="#1a1520"/>
+      <stop offset="70%" stop-color="#2d2438"/>
+      <stop offset="100%" stop-color="#3d2a4a"/>
+    </linearGradient>
+    <linearGradient id="fl-dawn" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#4a3d5c"/>
+      <stop offset="50%" stop-color="#8b7355"/>
+      <stop offset="100%" stop-color="#e8c9a0"/>
+    </linearGradient>
+    <radialGradient id="fl-sun" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#f5e6c8"/>
+      <stop offset="60%" stop-color="#c9a86c"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#fl-bg)"/>
+  <rect x="0" y="200" width="800" height="200" fill="url(#fl-dawn)" opacity="0.5"/>
+  <ellipse cx="400" cy="380" rx="300" ry="120" fill="url(#fl-sun)" opacity="0.6"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="#4a3d5c" stroke-width="1" opacity="0.3"/>
+</svg>

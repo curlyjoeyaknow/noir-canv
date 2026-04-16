@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="es-sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0E1A"/>
+      <stop offset="60%" stop-color="#1A2340"/>
+      <stop offset="100%" stop-color="#2C3E6B"/>
+    </linearGradient>
+    <radialGradient id="es-glow" cx="0.72" cy="0.4" r="0.5" fx="0.75" fy="0.38">
+      <stop offset="0%" stop-color="#D4A842" stop-opacity="0.7"/>
+      <stop offset="30%" stop-color="#C4943A" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#1A2340" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0A0E1A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="es-rim" cx="0.8" cy="0.4" r="0.35">
+      <stop offset="0%" stop-color="#F0C860" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1A2340" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="es-mist1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8899BB" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#8899BB" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#8899BB" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#es-sky)"/>
+  <!-- Golden light source glow -->
+  <ellipse cx="310" cy="160" rx="200" ry="200" fill="url(#es-glow)"/>
+  <!-- Mist layers -->
+  <ellipse cx="200" cy="280" rx="250" ry="40" fill="#6B7FA0" opacity="0.06"/>
+  <ellipse cx="180" cy="300" rx="280" ry="50" fill="#8899BB" opacity="0.05"/>
+  <ellipse cx="220" cy="260" rx="200" ry="30" fill="#7B8FAF" opacity="0.07"/>
+  <ellipse cx="150" cy="320" rx="240" ry="35" fill="#5A6E8F" opacity="0.04"/>
+  <rect x="0" y="240" width="400" height="160" fill="url(#es-mist1)"/>
+  <!-- Profile silhouette facing right — dark navy/charcoal -->
+  <path d="M80,380 L80,300 Q82,260 95,230 Q105,210 110,195 Q115,180 118,165 Q120,150 125,138 Q130,125 140,115 Q148,108 155,105 Q160,103 165,102 Q172,101 178,102 Q185,104 190,108 Q195,113 198,120 Q200,128 200,135 Q198,142 195,148 Q200,150 205,148 Q210,145 215,140 Q218,135 220,132 Q222,128 225,126 Q228,125 232,128 Q234,132 234,138 Q233,142 230,148 Q226,155 220,162 Q215,168 210,172 Q205,175 200,178 Q196,182 194,188 Q192,195 192,205 Q192,215 195,225 Q200,240 210,260 Q215,275 220,295 Q225,315 230,340 Q233,360 235,380 Z" fill="#141C2E" opacity="0.95"/>
+  <!-- Rim light on right edge of profile -->
+  <path d="M220,132 Q222,128 225,126 Q228,125 232,128 Q234,132 234,138 Q233,142 230,148 Q226,155 220,162 Q215,168 210,172 Q205,175 200,178 Q196,182 194,188 Q192,195 192,205 Q192,215 195,225 Q200,240 210,260 Q215,275 220,295" stroke="#D4A842" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <!-- Forehead rim light -->
+  <path d="M165,102 Q172,101 178,102 Q185,104 190,108 Q195,113 198,120 Q200,128 200,135" stroke="#D4A842" stroke-width="1.2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <!-- Atmospheric particles near light -->
+  <g opacity="0.15" fill="#F0C860">
+    <circle cx="290" cy="140" r="1"/>
+    <circle cx="310" cy="180" r="0.8"/>
+    <circle cx="275" cy="200" r="1.2"/>
+    <circle cx="330" cy="160" r="0.6"/>
+    <circle cx="260" cy="150" r="0.9"/>
+    <circle cx="320" cy="210" r="0.7"/>
+    <circle cx="285" cy="120" r="1"/>
+    <circle cx="340" cy="190" r="0.5"/>
+    <circle cx="300" cy="230" r="0.8"/>
+    <circle cx="250" cy="180" r="0.6"/>
+  </g>
+</svg>

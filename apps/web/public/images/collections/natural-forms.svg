@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="nat-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2520"/>
+      <stop offset="100%" stop-color="#0d1510"/>
+    </linearGradient>
+    <radialGradient id="nat-leaf" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7d9b6e"/>
+      <stop offset="100%" stop-color="#3d5a3d"/>
+    </radialGradient>
+    <radialGradient id="nat-gold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f4d03f"/>
+      <stop offset="100%" stop-color="#8b7355"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#nat-bg)"/>
+  <ellipse cx="200" cy="200" rx="120" ry="80" fill="url(#nat-leaf)" opacity="0.8" transform="rotate(-25 200 200)"/>
+  <ellipse cx="400" cy="220" rx="100" ry="70" fill="url(#nat-gold)" opacity="0.7"/>
+  <ellipse cx="600" cy="200" rx="110" ry="75" fill="url(#nat-leaf)" opacity="0.75" transform="rotate(20 600 200)"/>
+  <path d="M 150 300 Q 250 250 350 300 Q 450 350 550 280" fill="none" stroke="url(#nat-leaf)" stroke-width="20" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="250" cy="320" r="40" fill="url(#nat-gold)" opacity="0.5"/>
+  <circle cx="550" cy="300" r="35" fill="url(#nat-leaf)" opacity="0.4"/>
+</svg>

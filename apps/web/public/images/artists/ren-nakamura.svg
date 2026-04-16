@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="rn-paper" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#F5F0E1"/>
+      <stop offset="100%" stop-color="#E8E0CC"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#rn-paper)"/>
+  <!-- Subtle paper texture dots -->
+  <g fill="#D4C9A8" opacity="0.15">
+    <circle cx="50" cy="30" r="0.5"/><circle cx="120" cy="55" r="0.4"/><circle cx="200" cy="20" r="0.6"/>
+    <circle cx="280" cy="45" r="0.3"/><circle cx="350" cy="70" r="0.5"/><circle cx="80" cy="100" r="0.4"/>
+    <circle cx="310" cy="120" r="0.5"/><circle cx="45" cy="180" r="0.3"/><circle cx="370" cy="200" r="0.4"/>
+    <circle cx="90" cy="280" r="0.5"/><circle cx="320" cy="300" r="0.4"/><circle cx="160" cy="350" r="0.3"/>
+    <circle cx="250" cy="370" r="0.5"/><circle cx="380" cy="340" r="0.3"/><circle cx="30" cy="360" r="0.4"/>
+  </g>
+  <!-- Enso circle — bold, intentionally imperfect brushstroke -->
+  <path d="M200,75 Q280,72 330,120 Q378,170 375,230 Q372,290 325,330 Q275,370 210,372 Q145,370 100,335 Q55,295 50,230 Q48,170 85,120 Q125,75 190,73" 
+    fill="none" stroke="#1A1A1A" stroke-width="18" stroke-linecap="round" opacity="0.88"
+    stroke-dasharray="850" stroke-dashoffset="60"/>
+  <!-- Second pass for ink variation -->
+  <path d="M195,78 Q275,76 322,118 Q368,165 368,228 Q366,288 322,328 Q272,365 212,368 Q148,366 105,332 Q62,295 56,232 Q52,172 88,122 Q128,78 192,76"
+    fill="none" stroke="#2C2C2C" stroke-width="8" stroke-linecap="round" opacity="0.3"
+    stroke-dasharray="800" stroke-dashoffset="80"/>
+  <!-- Thinner inner edge of brush -->
+  <path d="M202,82 Q272,80 318,122 Q360,168 362,228 Q360,285 318,322 Q270,358 212,360 Q152,358 110,328 Q68,292 62,232 Q58,176 92,128 Q130,82 198,80"
+    fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" opacity="0.15"/>
+  <!-- Subtle face profile emerging from the ink — very minimal -->
+  <!-- Forehead to nose line within the enso -->
+  <path d="M175,140 Q172,155 170,170 Q168,185 172,195 Q175,205 178,215 Q180,220 176,228 Q172,235 170,240"
+    fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+  <!-- Eye suggestion -->
+  <path d="M182,175 Q190,172 198,175" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  <!-- Lip suggestion -->
+  <path d="M178,248 Q185,252 195,250" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+  <!-- Chin line -->
+  <path d="M170,240 Q168,260 172,275 Q178,288 188,295" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" opacity="0.2"/>
+  <!-- Ink splatter — wabi-sabi imperfection -->
+  <circle cx="330" cy="115" r="3" fill="#1A1A1A" opacity="0.25"/>
+  <circle cx="338" cy="108" r="1.5" fill="#1A1A1A" opacity="0.2"/>
+  <circle cx="345" cy="120" r="1" fill="#1A1A1A" opacity="0.18"/>
+  <circle cx="82" cy="340" r="2" fill="#1A1A1A" opacity="0.15"/>
+  <circle cx="75" cy="348" r="1.2" fill="#1A1A1A" opacity="0.12"/>
+  <!-- Break in the enso — the opening for breath -->
+  <rect x="180" y="68" width="30" height="20" fill="url(#rn-paper)"/>
+</svg>

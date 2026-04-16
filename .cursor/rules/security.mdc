@@ -1,0 +1,42 @@
+---
+description: Security rules for all code
+globs: "**/*.{ts,tsx,py}"
+alwaysApply: false
+---
+
+# Security Rules
+
+## API Route Handlers (Next.js)
+
+- Never use `execSync`, `exec`, `spawn`, or any child process execution in API route handlers.
+- No open proxies. If proxying to the pipeline API, validate the target URL against an allowlist and never forward arbitrary paths.
+- Validate and sanitize all request input. Use Zod for TypeScript request body validation.
+- Rate limit mutation endpoints.
+
+## FastAPI Endpoints
+
+- All mutation endpoints (`POST`, `PUT`, `DELETE`) require authentication. Use API key validation via a header (e.g., `X-API-Key`).
+- Never accept arbitrary filesystem paths from request input. Validate that all paths are within the expected `pipeline/output/` or `apps/web/public/` directories.
+- Return generic error messages to clients. Log detailed errors server-side only.
+- No `allow_methods=["*"]` or `allow_headers=["*"]` in production CORS configuration.
+
+## Environment Variables
+
+- All secrets, API keys, URLs, and configuration values come from environment variables.
+- `.env` files are never committed to git. Only `.env.example` templates with empty values.
+- Validate required env vars at application startup. Fail fast with a clear message if missing.
+- Use `@t3-oss/env-nextjs` or equivalent for TypeScript env validation.
+- Use `pydantic-settings` with `BaseSettings` for Python env validation.
+
+## Data Handling
+
+- Never expose internal error stack traces to API consumers.
+- Never log API keys, tokens, or user credentials.
+- Sanitize user-provided strings before rendering in HTML (React handles this by default, but be careful with `dangerouslySetInnerHTML`).
+- Never use `dangerouslySetInnerHTML` unless absolutely necessary, and always sanitize input first.
+
+## Dependencies
+
+- Review dependency additions for known vulnerabilities.
+- Pin major versions in `package.json` and `pyproject.toml`.
+- Run `pnpm audit` and `pip audit` periodically.

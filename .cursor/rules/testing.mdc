@@ -1,0 +1,46 @@
+---
+description: Test requirements and standards
+globs: "**/*.test.{ts,tsx}, **/*.spec.{ts,tsx}, **/tests/**/*.py, **/e2e/**/*.ts"
+alwaysApply: false
+---
+
+# Testing Rules
+
+## Frontend Testing Stack
+
+- **Unit tests**: Vitest + React Testing Library. Co-located with source: `Component.test.tsx` next to `Component.tsx`.
+- **E2E tests**: Playwright. Located in `apps/web/e2e/`.
+- Every new component gets a co-located test file.
+- Every new utility function gets a test.
+
+## Python Testing Stack
+
+- **Unit and integration tests**: pytest. Located in `pipeline/tests/`.
+- Every new CLI command gets a test in `pipeline/tests/test_{command}.py`.
+- FastAPI endpoints tested with `httpx.AsyncClient` via `TestClient`.
+
+## Data Validation Tests
+
+- Test that `data/artists.json` parses against the Artist Zod schema.
+- Test that `data/pieces.json` parses against the Piece Zod schema.
+- Test that `data/collections.json` parses against the Collection Zod schema.
+- Test that all `artistSlug` references in pieces resolve to existing artists.
+- Test that all `pieceSlugs` in collections resolve to existing pieces.
+
+## E2E Coverage (minimum)
+
+- Homepage loads and renders featured pieces.
+- Artist index page lists all artists.
+- Artist detail page renders for a valid slug.
+- Piece detail page renders for a valid slug.
+- Collection page renders for a valid slug.
+- 404 page renders for an invalid slug.
+- Navigation links work (no dead links).
+- Images load (no broken image icons).
+
+## Test Patterns
+
+- Use `describe`/`it` blocks with descriptive names: `describe("PieceCard")` / `it("renders edition progress correctly")`.
+- Use fixture files for test data, not inline mock objects. Fixtures live in `__fixtures__/` directories.
+- No mocking of the data layer in integration tests -- use real fixture JSON files.
+- Assertions should be specific: prefer `toHaveTextContent("8 of 15 sold")` over `toBeTruthy()`.

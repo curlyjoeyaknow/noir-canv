@@ -1,0 +1,51 @@
+---
+description: Python pipeline best practices
+globs: pipeline/**/*.py
+alwaysApply: false
+---
+
+# Python Pipeline Rules
+
+## Package Structure
+
+- All pipeline code lives under `pipeline/src/pipeline/`.
+- CLI commands are in `pipeline/src/pipeline/commands/` and registered in the Click CLI group.
+- Library code is in `pipeline/src/pipeline/lib/`.
+- FastAPI app is in `pipeline/src/pipeline/api/`.
+- No standalone script files. Every operation is a Click CLI command or a utility function called by one.
+
+## Data Models
+
+- Use Pydantic `BaseModel` with `model_config = ConfigDict(extra="forbid")` for all data models.
+- Models must match the JSON Schema in `packages/shared/schemas/`. Any mismatch is a bug.
+- Validate pipeline output against schemas before writing to `data/`.
+
+## Imports
+
+- All imports at the top of the file. No inline imports inside functions.
+- Heavy ML dependencies (torch, diffusers, google-genai) should be in optional dependency groups and imported at module level with a try/except that gives a clear installation instruction.
+
+## Path Handling
+
+- Use `pathlib.Path` for all filesystem operations. Never concatenate paths with `/` strings.
+- All paths must work on both Windows and Unix. Test with `Path` objects, not string literals.
+- Never accept arbitrary filesystem paths from API request input. Validate that paths are within expected directories (sandboxing).
+
+## FastAPI
+
+- Endpoints must not block on long-running operations (GPU inference, image generation). Use `BackgroundTasks`, Celery, or an async task queue.
+- CORS origins come from environment variables (`ALLOWED_ORIGINS`), never hardcoded IPs or URLs.
+- All mutation endpoints (`POST`, `PUT`, `DELETE`) require authentication via API key or token.
+- Return structured error responses with appropriate HTTP status codes.
+
+## Type Safety
+
+- Type hints on all function signatures (parameters and return types).
+- Use `str | None` union syntax (not `Optional[str]`).
+- Pydantic models for all request/response bodies in FastAPI.
+
+## Output
+
+- Generated images go to `pipeline/output/` (gitignored).
+- Final registered data goes to `data/*.json` via the `register` command.
+- The pipeline never writes to `apps/web/` source files. It writes to `data/` and `apps/web/public/images/` (static assets only).

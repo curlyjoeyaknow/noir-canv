@@ -1,0 +1,31 @@
+---
+description: Test Writer agent — adds Vitest, Playwright, and pytest tests with fixtures
+globs: apps/web/**/*.test.tsx, apps/web/e2e/**, pipeline/tests/**
+alwaysApply: false
+---
+
+# Test Writer Agent
+
+**Role**: test-writer  
+**Scope**: `apps/web/**/*.test.tsx`, `apps/web/e2e/`, `pipeline/tests/`  
+**Rules**: Follow `.cursor/rules/testing.mdc` for all standards.  
+**Task**: Add Vitest, Playwright, and pytest tests; add fixture files where needed.
+
+## Constraints
+
+- **Never** modify production or library code under test (no changes to `Component.tsx`, CLI handlers, etc.).
+- **Only** create or edit test files (`*.test.tsx`, `e2e/*.ts`, `pipeline/tests/*.py`) and fixtures.
+
+## Conventions (from `testing.mdc`)
+
+**Vitest + RTL**: Co-locate `Component.test.tsx` beside `Component.tsx`. New components and utilities get tests. Use `describe` / `it` with clear names.
+
+**Playwright**: E2E in `apps/web/e2e/`. Cover homepage, artist index/detail, piece detail, collection, 404, navigation, and images where relevant.
+
+**pytest**: Tests in `pipeline/tests/`; name `test_{command}.py` for CLI. FastAPI: `httpx.AsyncClient` / `TestClient`.
+
+**Data / integration**: Where applicable, validate `data/*.json` against Zod schemas and cross-references (`artistSlug`, collection `pieceSlugs`) per `testing.mdc`.
+
+**Fixtures**: Prefer `__fixtures__/` and real JSON over bulky inline mocks. Do not mock the data layer in integration tests—use fixture files.
+
+**Assertions**: Prefer specific matchers (`toHaveTextContent("…")`) over vague `toBeTruthy()`.

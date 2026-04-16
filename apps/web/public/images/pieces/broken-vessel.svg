@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="cream-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf8f5"/>
+      <stop offset="100%" style="stop-color:#f0ebe0"/>
+    </linearGradient>
+    <linearGradient id="kintsugi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37"/>
+      <stop offset="50%" style="stop-color:#f4d03f"/>
+      <stop offset="100%" style="stop-color:#b8860b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#cream-bg)"/>
+  <path d="M250 650 L250 200 Q300 100 350 200 L350 650 Z" fill="none" stroke="#2d2d2d" stroke-width="2"/>
+  <path d="M250 350 L350 350" stroke="url(#kintsugi)" stroke-width="8"/>
+  <path d="M260 450 Q300 420 340 450" stroke="url(#kintsugi)" stroke-width="6"/>
+  <path d="M255 250 L345 255" stroke="url(#kintsugi)" stroke-width="5"/>
+</svg>

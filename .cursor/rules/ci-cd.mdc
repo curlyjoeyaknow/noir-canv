@@ -1,0 +1,45 @@
+---
+description: CI/CD pipeline rules
+globs: .github/**/*.yml
+alwaysApply: false
+---
+
+# CI/CD Rules
+
+## Pipeline Stages (in order)
+
+1. **Lint**: ESLint for TypeScript, Ruff for Python. Must pass with zero errors.
+2. **Typecheck**: `tsc --noEmit` for TypeScript, `pyright` for Python.
+3. **Schema drift check**: Regenerate Zod/Pydantic from JSON Schema, run `git diff --exit-code` on generated files.
+4. **Test**: Vitest for frontend unit tests, pytest for pipeline tests.
+5. **Build**: `pnpm turbo run build`. Must succeed.
+6. **E2E** (main branch only): Playwright against the built app.
+
+## Triggers
+
+- CI runs on every push to any branch and every pull request.
+- E2E tests run only on pushes to `main` or PRs targeting `main`.
+
+## Secrets
+
+- No secrets in CI config files. Use GitHub Actions secrets.
+- Required secrets: `GEMINI_API_KEY` (for pipeline tests that hit the API).
+- API keys are never logged or echoed in CI output.
+
+## Caching
+
+- Cache `node_modules/` via pnpm store.
+- Cache `.next/cache/` for faster builds.
+- Cache Python `venv/` or pip cache for pipeline dependencies.
+
+## Branch Protection
+
+- `main` requires all CI checks to pass before merge.
+- `main` requires at least one approval on PRs.
+- No force pushes to `main`.
+
+## Deployment
+
+- Vercel auto-deploys `apps/web/` from `main`.
+- Preview deployments on every PR.
+- Pipeline (FastAPI) deploys separately (Railway, Render, or Vercel Python runtime).

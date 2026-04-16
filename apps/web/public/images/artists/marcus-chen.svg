@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="mc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#16213E"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#mc-bg)"/>
+  <!-- Bold geometric face -->
+  <!-- Head shape — blocky -->
+  <rect x="110" y="55" width="180" height="220" rx="20" fill="#FF1493" opacity="0.9"/>
+  <rect x="120" y="65" width="160" height="200" rx="15" fill="#0066FF" opacity="0.7"/>
+  <!-- Forehead block -->
+  <rect x="130" y="60" width="140" height="60" fill="#FFD700" opacity="0.85"/>
+  <!-- Eyes — KAWS X-style -->
+  <g stroke="#111" stroke-width="5" stroke-linecap="round">
+    <line x1="148" y1="140" x2="172" y2="164"/>
+    <line x1="172" y1="140" x2="148" y2="164"/>
+    <line x1="228" y1="140" x2="252" y2="164"/>
+    <line x1="252" y1="140" x2="228" y2="164"/>
+  </g>
+  <!-- Nose -->
+  <polygon points="200,175 190,205 210,205" fill="#FF1493" stroke="#111" stroke-width="3"/>
+  <!-- Mouth -->
+  <rect x="165" y="220" width="70" height="18" rx="9" fill="#111"/>
+  <rect x="175" y="222" width="15" height="14" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="195" y="222" width="15" height="14" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="215" y="222" width="12" height="14" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <!-- Jaw outline -->
+  <path d="M110,200 Q110,280 150,300 Q180,315 200,318 Q220,315 250,300 Q290,280 290,200" fill="none" stroke="#111" stroke-width="4"/>
+  <!-- Neck -->
+  <rect x="170" y="280" width="60" height="50" fill="#FF1493" stroke="#111" stroke-width="3"/>
+  <!-- Shoulders -->
+  <path d="M100,340 Q120,320 170,318 L170,340 Z" fill="#0066FF" stroke="#111" stroke-width="3"/>
+  <path d="M300,340 Q280,320 230,318 L230,340 Z" fill="#FFD700" stroke="#111" stroke-width="3"/>
+  <rect x="100" y="340" width="200" height="60" fill="#0066FF" stroke="#111" stroke-width="3"/>
+  <!-- Hair spikes -->
+  <polygon points="130,65 145,20 160,60" fill="#FFD700" stroke="#111" stroke-width="2"/>
+  <polygon points="165,55 185,8 200,52" fill="#FF1493" stroke="#111" stroke-width="2"/>
+  <polygon points="200,52 220,5 240,55" fill="#0066FF" stroke="#111" stroke-width="2"/>
+  <polygon points="240,55 258,15 275,62" fill="#FFD700" stroke="#111" stroke-width="2"/>
+  <!-- Bold black outlines on head -->
+  <rect x="110" y="55" width="180" height="220" rx="20" fill="none" stroke="#111" stroke-width="4"/>
+  <!-- Ear accents -->
+  <ellipse cx="108" cy="165" rx="15" ry="25" fill="#FFD700" stroke="#111" stroke-width="3"/>
+  <ellipse cx="292" cy="165" rx="15" ry="25" fill="#FF1493" stroke="#111" stroke-width="3"/>
+</svg>

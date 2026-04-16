@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "midnight-abstractions",
+    "name": "Midnight Abstracts",
+    "description": "Minimalist abstractions and wabi-sabi contemplations—works by Kai Voss and Ren Nakamura that explore darkness, silence, and the space between.",
+    "coverImageUrl": "/images/collections/midnight-abstractions.svg",
+    "pieceSlugs": [
+      "kai-voss-001",
+      "kai-voss-002",
+      "kai-voss-003",
+      "kai-voss-004",
+      "kai-voss-005",
+      "kai-voss-006",
+      "kai-voss-008",
+      "kai-voss-011",
+      "ren-nakamura-001",
+      "ren-nakamura-002",
+      "ren-nakamura-003",
+      "ren-nakamura-004",
+      "ren-nakamura-005",
+      "ren-nakamura-007",
+      "ren-nakamura-012"
+    ],
+    "featured": false,
+    "sortOrder": 0
+  },
+  {
+    "slug": "urban-fragments",
+    "name": "Urban Fragments",
+    "description": "Street art energy meets geometric pop—Leo Strand and Marcus Chen capture the pulse of the city in bold colors and raw textures.",
+    "coverImageUrl": "/images/collections/urban-fragments.svg",
+    "pieceSlugs": [
+      "marcus-chen-001",
+      "marcus-chen-002",
+      "marcus-chen-003",
+      "marcus-chen-004",
+      "marcus-chen-005",
+      "marcus-chen-006",
+      "marcus-chen-007",
+      "marcus-chen-008",
+      "marcus-chen-011",
+      "leo-strand-001",
+      "leo-strand-002",
+      "leo-strand-003",
+      "leo-strand-004",
+      "leo-strand-006",
+      "leo-strand-008",
+      "leo-strand-010",
+      "leo-strand-012"
+    ],
+    "featured": false,
+    "sortOrder": 0
+  },
+  {
+    "slug": "natural-forms",
+    "name": "Natural Forms",
+    "description": "Botanical beauty by Ivy Delacroix—ferns, flowers, and foliage rendered in soft greens and golds.",
+    "coverImageUrl": "/images/collections/natural-forms.svg",
+    "pieceSlugs": [
+      "ivy-delacroix-001",
+      "ivy-delacroix-002",
+      "ivy-delacroix-003",
+      "ivy-delacroix-004",
+      "ivy-delacroix-005",
+      "ivy-delacroix-006",
+      "ivy-delacroix-007",
+      "ivy-delacroix-008",
+      "ivy-delacroix-009",
+      "ivy-delacroix-011",
+      "ivy-delacroix-012"
+    ],
+    "featured": false,
+    "sortOrder": 0
+  },
+  {
+    "slug": "first-light",
+    "name": "First Light",
+    "description": "Dawn and morning light across the gallery—works that capture the first rays, silver thresholds, and the quiet awakening of day.",
+    "coverImageUrl": "/images/collections/first-light.svg",
+    "pieceSlugs": [
+      "kai-voss-010",
+      "elara-sato-006",
+      "elara-sato-007",
+      "ivy-delacroix-010",
+      "ren-nakamura-008",
+      "leo-strand-005"
+    ],
+    "featured": false,
+    "sortOrder": 0
+  },
+  {
+    "slug": "new-arrivals",
+    "name": "New Arrivals",
+    "description": "The latest releases from each artist—fresh editions just added to the gallery.",
+    "coverImageUrl": "/images/collections/new-arrivals.svg",
+    "pieceSlugs": [
+      "kai-voss-012",
+      "elara-sato-012",
+      "marcus-chen-012",
+      "ivy-delacroix-012",
+      "ren-nakamura-012",
+      "leo-strand-012"
+    ],
+    "featured": false,
+    "sortOrder": 0
+  }
+]

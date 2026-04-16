@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="sand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e4dc"/>
+      <stop offset="100%" style="stop-color:#d8d4cc"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a4a4a"/>
+      <stop offset="100%" style="stop-color:#2d2d2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#sand)"/>
+  <path d="M100 400 Q200 350 300 400 Q400 450 500 400" stroke="#c8c4bc" stroke-width="3" fill="none"/>
+  <path d="M80 450 Q250 400 400 450 Q520 500 520 450" stroke="#c8c4bc" stroke-width="2"/>
+  <path d="M120 500 Q300 450 480 500" stroke="#c8c4bc" stroke-width="2"/>
+  <path d="M150 350 Q280 320 450 350" stroke="#c8c4bc" stroke-width="2"/>
+  <ellipse cx="200" cy="350" rx="40" ry="50" fill="url(#rock)"/>
+  <ellipse cx="400" cy="400" rx="35" ry="45" fill="url(#rock)"/>
+  <ellipse cx="300" cy="500" rx="30" ry="40" fill="url(#rock)"/>
+</svg>

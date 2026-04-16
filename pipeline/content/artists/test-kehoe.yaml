@@ -1,0 +1,11 @@
+name: Test Kehoe Artist
+slug: test-kehoe
+example_artists:
+  - ANDY_KEHOE
+example_ref_folder: main
+style_reference: "Andy Kehoe's dreamlike forest scenes with soft luminous colors, ethereal creatures, layered transparency effects, and romantic atmospheric lighting"
+model_type: gemini
+gemini_model: gemini-3.1-flash-image-preview
+prompt_prefix: "Fine art, gallery quality, "
+prompt_suffix: ", dreamlike ethereal style, soft luminous palette, cohesive portfolio aesthetic"
+negative_prompt: "busy, cluttered, photorealistic, text, watermark"

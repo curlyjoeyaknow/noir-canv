@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="bd-bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1A3A28"/>
+      <stop offset="100%" stop-color="#142E20"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bd-bg)"/>
+  <!-- Back layer monstera leaves — darkest, most transparent -->
+  <path d="M-30,200 Q20,150 80,120 Q140,95 180,120 Q210,145 200,200 Q190,250 160,280 Q130,300 100,310 Q60,320 30,300 Q-10,270 -30,200 Z" fill="#1E4830" opacity="0.6"/>
+  <path d="M80,120 L120,180" stroke="#142E20" stroke-width="2" opacity="0.5"/>
+  <path d="M120,180 Q130,150 155,140" stroke="#142E20" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="100" cy="165" rx="12" ry="18" fill="url(#bd-bg)" opacity="0.7"/>
+  <path d="M540,100 Q580,160 600,230 Q610,300 580,350 Q550,390 510,400 Q470,405 430,380 Q400,350 410,300 Q425,250 460,210 Q490,170 540,100 Z" fill="#1E5030" opacity="0.55"/>
+  <path d="M490,170 L470,250" stroke="#142E20" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="485" cy="220" rx="10" ry="15" fill="url(#bd-bg)" opacity="0.6"/>
+  <!-- Mid layer leaves — medium green, slightly transparent -->
+  <!-- Large monstera leaf left -->
+  <path d="M50,450 Q100,380 160,340 Q220,310 270,340 Q310,375 300,440 Q285,500 250,540 Q210,575 160,580 Q110,580 70,550 Q40,520 50,450 Z" fill="#2D6B40" opacity="0.7"/>
+  <path d="M160,340 L200,430" stroke="#1E4830" stroke-width="2.5" opacity="0.5"/>
+  <path d="M200,430 Q180,400 175,370" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <path d="M200,430 Q230,410 250,380" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <path d="M200,430 Q220,460 230,500" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <path d="M200,430 Q170,460 150,500" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <ellipse cx="170" cy="390" rx="15" ry="20" fill="url(#bd-bg)" opacity="0.6"/>
+  <ellipse cx="235" cy="400" rx="12" ry="18" fill="url(#bd-bg)" opacity="0.6"/>
+  <ellipse cx="225" cy="470" rx="14" ry="16" fill="url(#bd-bg)" opacity="0.5"/>
+  <ellipse cx="165" cy="475" rx="12" ry="18" fill="url(#bd-bg)" opacity="0.5"/>
+  <!-- Large monstera leaf right -->
+  <path d="M420,300 Q480,250 540,240 Q590,240 610,280 Q625,330 600,390 Q570,440 520,470 Q470,490 420,480 Q380,465 370,420 Q365,375 420,300 Z" fill="#2A6038" opacity="0.65"/>
+  <path d="M540,240 L490,370" stroke="#1E4830" stroke-width="2.5" opacity="0.5"/>
+  <path d="M490,370 Q510,340 530,310" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <path d="M490,370 Q460,340 440,320" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <path d="M490,370 Q510,400 520,440" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <path d="M490,370 Q460,400 440,440" stroke="#1E4830" stroke-width="2" opacity="0.4"/>
+  <ellipse cx="520" cy="315" rx="12" ry="16" fill="url(#bd-bg)" opacity="0.55"/>
+  <ellipse cx="455" cy="340" rx="10" ry="15" fill="url(#bd-bg)" opacity="0.55"/>
+  <ellipse cx="510" cy="420" rx="13" ry="15" fill="url(#bd-bg)" opacity="0.5"/>
+  <!-- Front layer — brightest leaves -->
+  <!-- Tropical leaf center-bottom -->
+  <path d="M200,650 Q260,580 320,550 Q380,530 420,560 Q450,600 430,660 Q400,720 350,750 Q290,775 230,760 Q180,740 170,700 Q165,670 200,650 Z" fill="#358548" opacity="0.75"/>
+  <path d="M320,550 L310,680" stroke="#2D6B40" stroke-width="2.5" opacity="0.5"/>
+  <path d="M310,680 Q280,650 260,620" stroke="#2D6B40" stroke-width="2" opacity="0.4"/>
+  <path d="M310,680 Q340,650 370,630" stroke="#2D6B40" stroke-width="2" opacity="0.4"/>
+  <path d="M310,680 Q330,710 340,740" stroke="#2D6B40" stroke-width="2" opacity="0.4"/>
+  <path d="M310,680 Q280,710 260,738" stroke="#2D6B40" stroke-width="2" opacity="0.4"/>
+  <ellipse cx="275" cy="635" rx="13" ry="16" fill="url(#bd-bg)" opacity="0.5"/>
+  <ellipse cx="355" cy="628" rx="11" ry="14" fill="url(#bd-bg)" opacity="0.5"/>
+  <!-- Teal leaf overlay — top right -->
+  <path d="M380,60 Q440,40 500,60 Q540,90 540,150 Q535,210 500,250 Q460,280 410,280 Q360,270 340,230 Q320,190 340,140 Q355,90 380,60 Z" fill="#1A8A6A" opacity="0.5"/>
+  <path d="M460,60 L430,200" stroke="#147050" stroke-width="2" opacity="0.4"/>
+  <!-- Gold veining detail on front leaves -->
+  <g stroke="#C4A040" stroke-width="0.8" fill="none" opacity="0.35">
+    <path d="M310,560 L310,680"/>
+    <path d="M200,370 L200,430"/>
+    <path d="M480,260 L490,370"/>
+  </g>
+  <!-- Gold butterfly silhouette -->
+  <g transform="translate(380,180)" fill="#C4A040" opacity="0.7">
+    <path d="M0,0 Q-15,-12 -25,-8 Q-30,-2 -20,5 Q-10,8 0,0 Z"/>
+    <path d="M0,0 Q15,-12 25,-8 Q30,-2 20,5 Q10,8 0,0 Z"/>
+    <path d="M0,0 Q-10,8 -15,15 Q-12,20 -5,15 Q0,8 0,0 Z"/>
+    <path d="M0,0 Q10,8 15,15 Q12,20 5,15 Q0,8 0,0 Z"/>
+    <ellipse cx="0" cy="0" rx="1" ry="5" fill="#C4A040"/>
+  </g>
+</svg>

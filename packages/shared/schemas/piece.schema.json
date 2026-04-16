@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://noircanvas.com/schemas/piece.schema.json",
+  "title": "Piece",
+  "description": "An art piece in the Noir Canvas gallery. Slug format: '{artistSlug}-{sequential}' (e.g. 'kai-voss-001'). Pieces reference artists by artistSlug only — no denormalized artistName.",
+  "type": "object",
+  "required": [
+    "slug",
+    "title",
+    "description",
+    "artistSlug",
+    "imageUrl",
+    "editionSize",
+    "editionsSold",
+    "priceCents",
+    "currency",
+    "availabilityStatus",
+    "tags"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*-[0-9]{3}$",
+      "description": "Primary identifier: '{artistSlug}-{sequential}' (e.g. 'kai-voss-001')."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Display title of the piece."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Substantive gallery description. Never a placeholder."
+    },
+    "artistSlug": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+      "description": "Reference to the artist. Resolved to full Artist at read time."
+    },
+    "imageUrl": {
+      "type": "string",
+      "pattern": "^/images/pieces/",
+      "description": "Relative URL to the piece's primary image."
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2024,
+      "description": "Year the piece was created."
+    },
+    "medium": {
+      "type": "string",
+      "description": "Artistic medium (e.g. 'Digital print on archival canvas')."
+    },
+    "dimensions": {
+      "type": "string",
+      "description": "Physical dimensions (e.g. '30 x 40 in')."
+    },
+    "editionSize": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500,
+      "description": "Total editions available. Fixed at creation, never increases."
+    },
+    "editionsSold": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Editions sold. Must be <= editionSize."
+    },
+    "reservedCount": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0,
+      "description": "Editions currently reserved (in cart / pending payment). Reduces visible availability without counting as sold."
+    },
+    "availabilityStatus": {
+      "type": "string",
+      "enum": ["available", "low-stock", "reserved", "sold-out", "archived"],
+      "description": "Derived availability state. 'low-stock' when <3 remaining, 'sold-out' stays permanent unless a real reversal."
+    },
+    "priceCents": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Price per edition in the smallest currency unit (cents for USD). Use integer to avoid floating-point rounding."
+    },
+    "currency": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "default": "USD",
+      "description": "ISO 4217 currency code (e.g. 'USD', 'EUR', 'GBP')."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Categorization tags for filtering and discovery."
+    },
+    "mockups": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+      "uniqueItems": true,
+      "description": "Mockup slugs referencing Mockup objects for this piece."
+    }
+  }
+}

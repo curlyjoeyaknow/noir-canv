@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="petal-white" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#f8f4ff"/>
+      <stop offset="100%" style="stop-color:#e8e0f0"/>
+    </linearGradient>
+    <linearGradient id="petal-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e6e0f0"/>
+      <stop offset="50%" style="stop-color:#9370db"/>
+      <stop offset="100%" style="stop-color:#4a3f91"/>
+    </linearGradient>
+    <radialGradient id="throat" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#daa520"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="#f5f0f8"/>
+  <ellipse cx="300" cy="350" rx="180" ry="220" fill="url(#petal-white)"/>
+  <ellipse cx="300" cy="350" rx="120" ry="160" fill="url(#petal-purple)"/>
+  <ellipse cx="300" cy="380" rx="60" ry="80" fill="url(#throat)"/>
+  <path d="M240 350 Q300 320 360 350" stroke="#4a3f91" stroke-width="2" fill="none"/>
+</svg>

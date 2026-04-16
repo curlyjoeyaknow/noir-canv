@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="ls-concrete" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7A7A7A"/>
+      <stop offset="50%" stop-color="#6B6B6B"/>
+      <stop offset="100%" stop-color="#5A5A5A"/>
+    </linearGradient>
+    <filter id="ls-rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#ls-concrete)"/>
+  <!-- Concrete texture noise -->
+  <g opacity="0.08">
+    <circle cx="30" cy="25" r="2" fill="#999"/><circle cx="85" cy="40" r="1.5" fill="#555"/>
+    <circle cx="150" cy="15" r="1" fill="#888"/><circle cx="220" cy="35" r="2" fill="#666"/>
+    <circle cx="300" cy="20" r="1.5" fill="#999"/><circle cx="370" cy="50" r="1" fill="#555"/>
+    <circle cx="55" cy="80" r="1.5" fill="#777"/><circle cx="180" cy="90" r="1" fill="#888"/>
+    <circle cx="340" cy="85" r="2" fill="#666"/><circle cx="100" cy="380" r="1.5" fill="#555"/>
+    <circle cx="250" cy="360" r="1" fill="#888"/><circle cx="350" cy="370" r="2" fill="#777"/>
+  </g>
+  <!-- Spray paint layers — stencil face -->
+  <!-- Layer 1: teal background spray -->
+  <ellipse cx="200" cy="185" rx="110" ry="130" fill="#1A8A8A" opacity="0.25"/>
+  <ellipse cx="195" cy="180" rx="100" ry="120" fill="#20A0A0" opacity="0.15"/>
+  <!-- Layer 2: red accent spray -->
+  <ellipse cx="220" cy="160" rx="60" ry="80" fill="#CC3333" opacity="0.2"/>
+  <!-- Stencil face -->
+  <path d="M145,100 Q140,80 155,65 Q170,52 190,48 Q210,46 225,52 Q245,60 255,78 Q262,95 260,115 Q258,135 255,150 Q252,162 248,172 Q242,185 232,195 Q222,205 210,210 Q200,213 190,210 Q178,205 168,195 Q158,185 152,172 Q148,162 145,150 Q142,135 142,115 Z" fill="#2A2A2A" opacity="0.9"/>
+  <!-- Stencil cutout — lighter areas for face features -->
+  <ellipse cx="175" cy="128" rx="14" ry="8" fill="url(#ls-concrete)" opacity="0.7"/>
+  <ellipse cx="225" cy="128" rx="14" ry="8" fill="url(#ls-concrete)" opacity="0.7"/>
+  <!-- Nose shadow -->
+  <path d="M195,145 L192,170 Q198,175 205,170 L202,145" fill="#1A1A1A" opacity="0.6"/>
+  <!-- Mouth -->
+  <path d="M178,188 Q190,195 200,195 Q210,195 222,188" fill="none" stroke="url(#ls-concrete)" stroke-width="3" opacity="0.6"/>
+  <!-- Neck/shoulders stencil -->
+  <path d="M175,210 L170,260 Q140,280 90,310 L90,380 L310,380 L310,310 Q260,280 230,260 L225,210" fill="#2A2A2A" opacity="0.85"/>
+  <!-- Drips -->
+  <rect x="152" y="195" width="3" height="45" rx="1.5" fill="#2A2A2A" opacity="0.6"/>
+  <rect x="248" y="172" width="2.5" height="55" rx="1.2" fill="#2A2A2A" opacity="0.5"/>
+  <rect x="142" y="150" width="2" height="35" rx="1" fill="#2A2A2A" opacity="0.45"/>
+  <rect x="260" y="115" width="2.5" height="40" rx="1.2" fill="#2A2A2A" opacity="0.4"/>
+  <!-- Teal drip -->
+  <rect x="165" y="250" width="3" height="50" rx="1.5" fill="#1A8A8A" opacity="0.4"/>
+  <!-- Red drip -->
+  <rect x="238" y="200" width="2.5" height="60" rx="1.2" fill="#CC3333" opacity="0.35"/>
+  <!-- Spray overspray dots -->
+  <g fill="#1A8A8A" opacity="0.2">
+    <circle cx="100" cy="130" r="2"/><circle cx="108" cy="145" r="1.5"/>
+    <circle cx="95" cy="155" r="1"/><circle cx="112" cy="120" r="1.8"/>
+    <circle cx="88" cy="168" r="1.2"/><circle cx="295" cy="140" r="2"/>
+    <circle cx="302" cy="155" r="1.5"/><circle cx="310" cy="130" r="1"/>
+    <circle cx="288" cy="170" r="1.8"/>
+  </g>
+  <g fill="#CC3333" opacity="0.15">
+    <circle cx="270" cy="100" r="1.5"/><circle cx="278" cy="110" r="1"/>
+    <circle cx="265" cy="115" r="1.8"/><circle cx="282" cy="95" r="1.2"/>
+  </g>
+  <!-- Rough scratch marks -->
+  <line x1="50" y1="350" x2="120" y2="345" stroke="#999" stroke-width="0.8" opacity="0.2"/>
+  <line x1="280" y1="360" x2="360" y2="355" stroke="#888" stroke-width="0.6" opacity="0.15"/>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "@noir-canvas/shared",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'JSON Schema package - no build needed'",
+    "drift-check": "node scripts/drift-check.js"
+  }
+}

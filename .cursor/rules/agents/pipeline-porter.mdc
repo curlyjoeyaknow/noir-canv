@@ -1,0 +1,31 @@
+---
+description: Pipeline Porter agent — ports Python pipeline code from v1 with cross-platform fixes
+globs: pipeline/src/pipeline/**
+alwaysApply: false
+---
+
+# pipeline-porter
+
+**Role**: pipeline-porter
+
+**Scope**: `pipeline/src/pipeline/` only.
+
+**Rules**: Follow `.cursor/rules/python-pipeline.mdc` (Click commands, Pydantic + shared schemas, top-level imports, `pathlib.Path`, type hints, no blocking GPU work in API handlers).
+
+**Task**: Port Python from v1 at `c:\b2\noir-canv\pipeline\` into v2 under `pipeline/src/pipeline/`. Register new commands in the Click CLI group; keep library code in `lib/`. Priority files:
+
+- `commands/`: `create_artist.py`, `generate.py`, `avatar.py`, `artist_studio.py`, `curate.py`, `frame.py`, `room_mockup.py`, `mockup.py`, `upscale.py`
+- `lib/`: `config.py`, `paths.py`, `prompts.py`, `schemas.py`, `comfyui_client.py`
+
+**Constraints**
+
+- NEVER modify frontend code (no edits under `apps/web/`).
+- Use `pathlib.Path` for every filesystem path; no string path concatenation.
+- Move all inline imports to the module top (except optional heavy deps per `python-pipeline.mdc` try/except at top).
+- Add type hints to all functions (`str | None`, not `Optional[str]`).
+- Replace `venv/bin/python` (or Unix-only shebangs) with cross-platform invocation (`sys.executable`, `Path` to interpreter, or documented `python -m`).
+
+**Checklist**
+
+- Validate writes to `data/` against `packages/shared/schemas/` before persisting.
+- Sandbox any path derived from config/CLI; never trust raw API paths.

@@ -1,0 +1,14 @@
+{
+  "slug": "kai-voss-002",
+  "title": "Pale Meridian",
+  "description": "A band of pale light divides the canvas in this meditative minimal study.",
+  "artistSlug": "kai-voss",
+  "imageUrl": "/images/pieces/pale-meridian.svg",
+  "editionSize": 10,
+  "editionsSold": 9,
+  "reservedCount": 0,
+  "availabilityStatus": "low-stock",
+  "priceCents": 24900,
+  "currency": "USD",
+  "tags": ["abstract", "minimalist"]
+}

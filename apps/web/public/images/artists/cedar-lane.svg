@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="cl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="cl-horizon" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#415a77"/>
+      <stop offset="50%" stop-color="#778da9"/>
+      <stop offset="100%" stop-color="#e0e1dd" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#cl-bg)"/>
+  <rect x="0" y="250" width="400" height="150" fill="url(#cl-horizon)"/>
+  <ellipse cx="200" cy="200" rx="100" ry="50" fill="#e0e1dd" opacity="0.1"/>
+  <path d="M100 300 L200 200 L300 300 Z" fill="none" stroke="#778da9" stroke-width="1" opacity="0.3"/>
+</svg>

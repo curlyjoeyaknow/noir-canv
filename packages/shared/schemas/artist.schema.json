@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://noircanvas.com/schemas/artist.schema.json",
+  "title": "Artist",
+  "description": "A virtual artist in the Noir Canvas gallery. The slug field is the primary identifier.",
+  "type": "object",
+  "required": [
+    "slug",
+    "name",
+    "bio",
+    "artistStatement",
+    "portraitUrl",
+    "influences",
+    "style",
+    "pricingTier",
+    "defaultEditionSize"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 60,
+      "description": "URL-safe unique identifier (e.g. 'kai-voss')."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 100,
+      "description": "Display name of the virtual artist (e.g. 'Kai Voss')."
+    },
+    "bio": {
+      "type": "string",
+      "minLength": 50,
+      "description": "Artist biography. Must be substantive gallery-quality copy."
+    },
+    "artistStatement": {
+      "type": "string",
+      "minLength": 20,
+      "description": "First-person artist statement describing their creative philosophy."
+    },
+    "portraitUrl": {
+      "type": "string",
+      "pattern": "^/images/artists/",
+      "description": "Relative URL to the artist's portrait image."
+    },
+    "studioImageUrls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^/images/artists/"
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "description": "Studio or working images of the artist (at easel, holding canvas, creative space)."
+    },
+    "influences": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "List of artistic influences (e.g. ['Rothko', 'Agnes Martin'])."
+    },
+    "style": {
+      "type": "object",
+      "required": ["medium", "palette", "subjects"],
+      "additionalProperties": false,
+      "description": "Structured description of the artist's visual style.",
+      "properties": {
+        "medium": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Primary artistic medium or technique."
+        },
+        "palette": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Characteristic color palette."
+        },
+        "subjects": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Typical subject matter."
+        }
+      }
+    },
+    "pricingTier": {
+      "type": "string",
+      "enum": ["affordable", "mid-range", "premium"],
+      "description": "Pricing tier that determines base price range for this artist's editions."
+    },
+    "defaultEditionSize": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500,
+      "description": "Default number of editions for new pieces by this artist."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="new-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="30%" stop-color="#2a2535"/>
+      <stop offset="70%" stop-color="#252a35"/>
+      <stop offset="100%" stop-color="#1a1d2a"/>
+    </linearGradient>
+    <linearGradient id="new-accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4783a"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#ff6b9d"/>
+    </linearGradient>
+    <linearGradient id="new-accent2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7d9b6e"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#new-bg)"/>
+  <rect x="80" y="120" width="140" height="160" rx="10" fill="url(#new-accent1)" opacity="0.4"/>
+  <rect x="260" y="100" width="120" height="200" rx="8" fill="url(#new-accent2)" opacity="0.35"/>
+  <rect x="420" y="130" width="150" height="140" rx="12" fill="url(#new-accent1)" opacity="0.3"/>
+  <rect x="620" y="110" width="130" height="180" rx="10" fill="url(#new-accent2)" opacity="0.4"/>
+  <ellipse cx="400" cy="200" rx="150" ry="80" fill="#2dd4bf" opacity="0.1"/>
+</svg>

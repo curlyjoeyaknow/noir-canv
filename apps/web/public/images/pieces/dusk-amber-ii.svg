@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="da-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2C1810"/>
+      <stop offset="100%" stop-color="#1A0F08"/>
+    </linearGradient>
+    <linearGradient id="da-top1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B4513" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#A0522D" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#CD853F" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#D4A060" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="da-top2" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#A0522D" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#C4843A" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#B87333" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="da-top3" x1="0.5" y1="0.2" x2="0.5" y2="0.9">
+      <stop offset="0%" stop-color="#D2691E" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8B6914" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="da-bot1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DAA520" stop-opacity="0.7"/>
+      <stop offset="30%" stop-color="#C4943A" stop-opacity="0.75"/>
+      <stop offset="60%" stop-color="#B8860B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#A07828" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="da-bot2" x1="0.3" y1="0.1" x2="0.7" y2="0.9">
+      <stop offset="0%" stop-color="#D4A520" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C4943A" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="da-bot3" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#E8C050" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#B8860B" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="da-glow-top" cx="0.5" cy="0.7" r="0.5">
+      <stop offset="0%" stop-color="#D4A060" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8B4513" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="da-glow-bot" cx="0.5" cy="0.3" r="0.5">
+      <stop offset="0%" stop-color="#E8C050" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#B8860B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#da-bg)"/>
+  <!-- Top rectangle — burnt sienna to amber -->
+  <rect x="50" y="80" width="500" height="300" rx="3" fill="url(#da-top1)"/>
+  <rect x="55" y="85" width="490" height="290" rx="2" fill="url(#da-top2)"/>
+  <rect x="65" y="95" width="470" height="270" rx="2" fill="url(#da-top3)"/>
+  <rect x="50" y="80" width="500" height="300" rx="3" fill="url(#da-glow-top)"/>
+  <!-- Fuzzy edge at bottom of top rect -->
+  <rect x="60" y="360" width="480" height="20" fill="#A0522D" opacity="0.15"/>
+  <rect x="70" y="370" width="460" height="15" fill="#B87333" opacity="0.08"/>
+  <!-- Thin dark separating line -->
+  <line x1="60" y1="395" x2="540" y2="395" stroke="#1A0F08" stroke-width="1.5" opacity="0.7"/>
+  <!-- Fuzzy edge at top of bottom rect -->
+  <rect x="70" y="400" width="460" height="15" fill="#C4943A" opacity="0.08"/>
+  <rect x="60" y="408" width="480" height="20" fill="#DAA520" opacity="0.12"/>
+  <!-- Bottom rectangle — warm ochre -->
+  <rect x="50" y="420" width="500" height="300" rx="3" fill="url(#da-bot1)"/>
+  <rect x="55" y="425" width="490" height="290" rx="2" fill="url(#da-bot2)"/>
+  <rect x="65" y="435" width="470" height="270" rx="2" fill="url(#da-bot3)"/>
+  <rect x="50" y="420" width="500" height="300" rx="3" fill="url(#da-glow-bot)"/>
+  <!-- Subtle color variations in top — horizontal bands -->
+  <rect x="60" y="120" width="480" height="40" fill="#C4843A" opacity="0.08"/>
+  <rect x="55" y="200" width="490" height="30" fill="#8B4513" opacity="0.1"/>
+  <rect x="65" y="280" width="470" height="35" fill="#D2691E" opacity="0.06"/>
+  <!-- Subtle variations in bottom -->
+  <rect x="60" y="470" width="480" height="35" fill="#E8C050" opacity="0.08"/>
+  <rect x="55" y="560" width="490" height="30" fill="#A07828" opacity="0.1"/>
+  <rect x="65" y="640" width="470" height="40" fill="#DAA520" opacity="0.06"/>
+</svg>

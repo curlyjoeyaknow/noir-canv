@@ -1,0 +1,77 @@
+---
+description: Product vision and pipeline phases -- always active so every agent understands the product
+globs:
+alwaysApply: true
+---
+
+# Noir Canvas -- Product Concept
+
+## What This Is
+
+Noir Canvas is a premium limited-edition art gallery that uses AI to create "virtual artists." Each virtual artist is inspired by a real artist's style (via reference images) but generates original work with new subjects. The gallery sells numbered limited editions of AI-generated canvas art.
+
+## The Core Loop
+
+1. **Style references** in `examples/{artist-name}/main/` provide the creative seed (5-20 images per artist).
+2. **Pipeline creates a virtual artist** -- pseudonym, bio, statement, influences, generation config.
+3. **Pipeline generates artist media** -- photorealistic portrait, studio shots, artist holding canvas.
+4. **Pipeline generates 6-12 original pieces** -- new subjects in the style of the references.
+5. **Curation selects the best** -- interactive or programmatic quality filter.
+6. **Pipeline generates mockups** -- framed variants (4 styles), room settings (3-4 environments), artist-holding composites.
+7. **Registration publishes to the gallery** -- writes JSON to `data/`, copies images to `apps/web/public/`.
+8. **Next.js builds static pages** -- artist profiles, piece details with carousels, collection pages.
+
+## Pipeline Phases
+
+### Phase 1: Create Artist (`pipeline create-artist`)
+- Input: `examples/{name}/main/` folder with style reference images
+- Generates: pseudonym, slug, bio, artist statement, style description, influences
+- Outputs: `pipeline/content/artists/{slug}.yaml` (generation config) + entry in `data/artists.json` (gallery display)
+- Bio/statement generation uses Gemini text API
+- YAML config: model, steps, cfg_scale, prompt prefix/suffix, negative prompt
+- JSON entry: name, bio, statement, portrait, influences, style, pricingTier, defaultEditionSize
+
+### Phase 2: Generate Artist Media (`pipeline avatar`, `pipeline artist-studio`)
+- Portrait: photorealistic headshot for profile page
+- Studio shots: artist at easel, in creative workspace
+- Holding canvas: artist presenting a finished piece (composited with real piece later)
+- Outputs to `apps/web/public/images/artists/{slug}/`
+
+### Phase 3: Generate Pieces (`pipeline generate`)
+- Uses style references + artist config to generate images via Gemini API
+- Analyzes reference subjects to determine typical themes, then generates new subjects
+- Prompts: piece description + artist prompt_prefix + style_reference + prompt_suffix
+- Outputs to `pipeline/output/raw/{artist-slug}/{piece-slug}/`
+
+### Phase 4: Curate (`pipeline curate`)
+- Select best images from each batch (interactive or programmatic)
+- Selected images to `pipeline/output/selected/{artist-slug}/`
+- Optional upscale for print resolution (`pipeline upscale`)
+
+### Phase 5: Generate Mockups (`pipeline mockup`)
+- Frame variants: black, white, natural wood, gold, unframed
+- Room settings: modern apartment, home office, creative studio, minimalist gallery
+- Artist holding piece: composite of portrait + framed piece
+- Each piece gets 4-6 mockup variants
+- Outputs to `pipeline/output/mockups/{framed,rooms}/`
+
+### Phase 6: Register to Gallery (`pipeline register`)
+- Validates output against shared JSON Schema
+- Writes piece metadata to `data/pieces.json`
+- Updates `data/collections.json`
+- Copies final images to `apps/web/public/images/`
+- Triggers rebuild or ISR invalidation
+
+## Generation Backend
+
+- **Primary**: Google Gemini API (configured via `gemini_model` in artist YAML, requires `GEMINI_API_KEY`)
+- **Fallback**: SDXL / FLUX (for specific use cases, IP-Adapter style transfer)
+- **Avatars**: Realistic Vision V6 (SD 1.5 for photorealistic faces)
+
+## Creative Principles
+
+- `examples/` is the creative seed -- reference art that inspires but is NEVER displayed publicly
+- Generated art must be **original subjects** in the style of the references, not copies or variations
+- Each artist has a distinct visual identity: style, palette, subject matter, influences
+- Quality over quantity: 6-12 polished pieces per artist, not bulk generation
+- Every piece must have a real title and description -- no placeholders

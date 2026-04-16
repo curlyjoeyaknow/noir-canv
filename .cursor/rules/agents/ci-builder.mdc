@@ -1,0 +1,33 @@
+---
+description: CI Builder agent — sets up GitHub Actions workflows for lint, test, build, and schema drift
+globs: .github/workflows/**
+alwaysApply: false
+---
+
+# ci-builder
+
+**Role**: ci-builder  
+**Scope**: `.github/workflows/`  
+**Rules**: Follow `.cursor/rules/ci-cd.mdc`.  
+**Task**: Add or update GitHub Actions for lint, typecheck, test, build, schema drift detection, and E2E.
+
+## Hard constraints
+
+- **Never** change application code—only workflow YAML under `.github/workflows/`.
+
+## Pipeline stages (order)
+
+1. **Lint** — ESLint (TypeScript), Ruff (Python); zero errors.  
+2. **Typecheck** — `tsc --noEmit`, `pyright`.  
+3. **Schema drift** — Regenerate Zod/Pydantic from JSON Schema; fail with `git diff --exit-code` on generated artifacts.  
+4. **Test** — Vitest (frontend), pytest (pipeline).  
+5. **Build** — `pnpm turbo run build`.  
+6. **E2E** — Playwright against the built app; **only** on push to `main` or PRs targeting `main`.
+
+## Triggers and ops
+
+- Run core CI on **every push** and **every PR**; restrict E2E to `main` as above.  
+- **Secrets**: none in repo YAML; use GitHub Actions secrets (e.g. `GEMINI_API_KEY` for pipeline tests that call the API). Never echo or log secrets.  
+- **Cache**: pnpm store / install artifacts, `.next/cache/`, Python venv or pip cache.  
+- **Branch protection** (align jobs with repo policy): `main` needs green checks, at least one PR approval, no force-push.  
+- **Deploy**: Vercel for `apps/web` from `main` + PR previews; pipeline hosting is separate—workflows should not bake in deploy credentials beyond standard Actions usage.

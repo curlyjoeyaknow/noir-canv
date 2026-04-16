@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="stone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b6b6b"/>
+      <stop offset="50%" style="stop-color:#8b8b8b"/>
+      <stop offset="100%" style="stop-color:#5c5c5c"/>
+    </linearGradient>
+    <linearGradient id="clay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c17f59"/>
+      <stop offset="50%" style="stop-color:#d4956a"/>
+      <stop offset="100%" style="stop-color:#a65d3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="#f5f0e8"/>
+  <rect x="80" y="150" width="380" height="500" rx="2" fill="url(#stone)" opacity="0.95"/>
+  <rect x="140" y="150" width="380" height="500" rx="2" fill="url(#clay)" opacity="0.85"/>
+</svg>

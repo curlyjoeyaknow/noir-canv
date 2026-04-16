@@ -1,0 +1,32 @@
+---
+description: Gallery Interaction Builder agent — builds client-side interactive gallery components
+globs: apps/web/components/gallery/**
+alwaysApply: false
+---
+
+# Gallery Interaction Builder Agent
+
+**Role**: gallery-interaction-builder  
+**Scope**: `apps/web/components/gallery/`  
+**Rules**: `gallery-ux.mdc`, `components.mdc`  
+**Task**: Build `"use client"` interactive components: `ImageCarousel`, `ImageLightbox`, `FrameSelector`, `MockupViewer`, `EditionBadge`.
+
+## Constraints
+
+- **Never fetch or load gallery data** — no `fetch`, no reads from `apps/web/lib/data.ts` or `data/`. Server Component parents pass **all** serializable props; this folder owns **UI state only** (active slide, lightbox open, selected frame, zoom).
+- **Every file here is a client component** — start with `"use client"`.
+- **Interactivity first** — carousels, lightboxes, toggles, viewers; keep boundaries clear so pages stay Server Components.
+
+## Gallery UX (implement here)
+
+- **ImageCarousel**: horizontal mockup strip; keyboard arrows, touch swipe, dot indicators; desktop width constraints + arrows per `gallery-ux.mdc`.
+- **ImageLightbox**: full-viewport overlay; zoom; dismiss with Escape and click-outside.
+- **FrameSelector**: each style (Unframed, Black, White, Natural Wood, Gold) maps to a **distinct mockup image URL** — never one asset with different labels.
+- **MockupViewer**: compose carousel + frame selector for piece-detail mockups (rooms, artist-holding, framed variants).
+- **EditionBadge**: `Sold Out` when `editionSold >= editionSize`; `Almost Gone` when `editionSize - editionSold <= 2`; use `Intl.NumberFormat` for any currency shown.
+
+## `components.mdc` (non-negotiable)
+
+- One component per file; export name matches filename; **≤ ~200 lines** — split into colocated subcomponents or `ComponentName/index.tsx`.
+- `next/image` with meaningful `alt`; keyboard-accessible controls; semantic HTML where it helps; **Tailwind only** (no inline `style`).
+- Public callbacks `onSelect` / `onClose` etc.; internal handlers `handleSelect`. Avoid prop drilling past two levels — composition or a tiny local context for carousel + lightbox.

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="ng-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8F8F8"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#ng-bg)"/>
+  <!-- Mondrian grid — thick black lines, asymmetric -->
+  <!-- Horizontal lines -->
+  <rect x="0" y="0" width="600" height="10" fill="#111"/>
+  <rect x="0" y="180" width="600" height="10" fill="#111"/>
+  <rect x="0" y="350" width="600" height="12" fill="#111"/>
+  <rect x="0" y="520" width="600" height="10" fill="#111"/>
+  <rect x="0" y="650" width="600" height="10" fill="#111"/>
+  <rect x="0" y="790" width="600" height="10" fill="#111"/>
+  <!-- Vertical lines -->
+  <rect x="0" y="0" width="10" height="800" fill="#111"/>
+  <rect x="140" y="0" width="10" height="800" fill="#111"/>
+  <rect x="370" y="0" width="12" height="800" fill="#111"/>
+  <rect x="480" y="0" width="10" height="800" fill="#111"/>
+  <rect x="590" y="0" width="10" height="800" fill="#111"/>
+  <!-- Colored cells -->
+  <!-- Large blue cell top-left -->
+  <rect x="10" y="10" width="130" height="170" fill="#0066FF"/>
+  <!-- Hot pink cell -->
+  <rect x="150" y="10" width="220" height="170" fill="#FF1493"/>
+  <!-- Yellow cell top-right -->
+  <rect x="490" y="10" width="100" height="170" fill="#FFD700"/>
+  <!-- White cells -->
+  <rect x="382" y="10" width="98" height="170" fill="#FFFFFF"/>
+  <!-- Blue cell mid-left -->
+  <rect x="10" y="190" width="130" height="160" fill="#FFFFFF"/>
+  <!-- Large pink cell center -->
+  <rect x="150" y="190" width="220" height="160" fill="#FFFFFF"/>
+  <!-- Yellow cell -->
+  <rect x="382" y="190" width="98" height="160" fill="#FFD700"/>
+  <rect x="490" y="190" width="100" height="160" fill="#0066FF"/>
+  <!-- Row 3 -->
+  <rect x="10" y="362" width="130" height="158" fill="#FFD700"/>
+  <rect x="150" y="362" width="220" height="158" fill="#0066FF"/>
+  <rect x="382" y="362" width="98" height="158" fill="#FF1493"/>
+  <rect x="490" y="362" width="100" height="158" fill="#FFFFFF"/>
+  <!-- Row 4 -->
+  <rect x="10" y="530" width="130" height="120" fill="#FF1493"/>
+  <rect x="150" y="530" width="220" height="120" fill="#FFFFFF"/>
+  <rect x="382" y="530" width="98" height="120" fill="#FFFFFF"/>
+  <rect x="490" y="530" width="100" height="120" fill="#FFD700"/>
+  <!-- Row 5 -->
+  <rect x="10" y="660" width="130" height="130" fill="#FFFFFF"/>
+  <rect x="150" y="660" width="220" height="130" fill="#FFD700"/>
+  <rect x="382" y="660" width="98" height="130" fill="#0066FF"/>
+  <rect x="490" y="660" width="100" height="130" fill="#FF1493"/>
+  <!-- KAWS X-eye motif in the white cell at row 2 center -->
+  <g transform="translate(240,250)" stroke="#111" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="-15" y1="-15" x2="15" y2="15"/>
+    <line x1="15" y1="-15" x2="-15" y2="15"/>
+  </g>
+  <!-- Another X-eye in white cell row 4 -->
+  <g transform="translate(260,580)" stroke="#111" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="-15" y1="-15" x2="15" y2="15"/>
+    <line x1="15" y1="-15" x2="-15" y2="15"/>
+  </g>
+  <!-- Murakami flower in white cell row 3 right -->
+  <g transform="translate(535,420)">
+    <ellipse cx="0" cy="-18" rx="10" ry="14" fill="#FF1493" opacity="0.8"/>
+    <ellipse cx="17" cy="-6" rx="10" ry="14" fill="#0066FF" opacity="0.8" transform="rotate(72)"/>
+    <ellipse cx="10" cy="15" rx="10" ry="14" fill="#FFD700" opacity="0.8" transform="rotate(144)"/>
+    <ellipse cx="-10" cy="15" rx="10" ry="14" fill="#FF1493" opacity="0.8" transform="rotate(216)"/>
+    <ellipse cx="-17" cy="-6" rx="10" ry="14" fill="#0066FF" opacity="0.8" transform="rotate(288)"/>
+    <circle cx="0" cy="0" r="8" fill="#FFFFFF"/>
+    <circle cx="-2" cy="-2" r="2" fill="#111"/>
+    <circle cx="3" cy="-2" r="2" fill="#111"/>
+    <path d="M-3,2 Q0,5 3,2" fill="none" stroke="#111" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <radialGradient id="iw-paper" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#F5EDD8"/>
+      <stop offset="100%" stop-color="#E8DCC0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#iw-paper)"/>
+  <!-- Subtle paper aging -->
+  <g fill="#D8C8A0" opacity="0.06">
+    <circle cx="100" cy="50" r="40"/><circle cx="450" cy="100" r="30"/>
+    <circle cx="200" cy="700" r="50"/><circle cx="500" cy="650" r="35"/>
+  </g>
+  <!-- Sumi-e tree — bold calligraphic trunk stroke -->
+  <path d="M280,700 Q270,650 260,600 Q248,540 240,480 Q235,430 238,380 Q240,340 250,300 Q260,260 275,230 Q285,210 290,200" 
+    fill="none" stroke="#1A1A1A" stroke-width="22" stroke-linecap="round" opacity="0.85"/>
+  <!-- Trunk texture — thinner strokes for bark suggestion -->
+  <path d="M270,680 Q265,640 258,590 Q252,540 248,480 Q244,430 245,380" 
+    fill="none" stroke="#2A2A2A" stroke-width="6" stroke-linecap="round" opacity="0.2"/>
+  <path d="M292,680 Q285,640 275,590 Q268,540 262,480 Q258,430 258,380 Q260,340 268,300" 
+    fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" opacity="0.15"/>
+  <!-- Main branches — thinner calligraphic strokes -->
+  <!-- Right branch, upward -->
+  <path d="M275,300 Q310,280 350,260 Q400,240 440,230 Q470,225 490,228" 
+    fill="none" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+  <!-- Sub-branch right -->
+  <path d="M400,240 Q420,210 435,185 Q445,168 450,160" 
+    fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M440,230 Q465,215 480,200 Q492,188 498,180" 
+    fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <!-- Left branch -->
+  <path d="M260,340 Q220,310 180,290 Q140,275 110,275 Q90,278 80,285" 
+    fill="none" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <!-- Sub-branch left -->
+  <path d="M180,290 Q165,260 155,235 Q148,218 145,205" 
+    fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M130,278 Q115,258 108,240 Q102,225 100,215" 
+    fill="none" stroke="#1A1A1A" stroke-width="3.5" stroke-linecap="round" opacity="0.55"/>
+  <!-- Upper branch -->
+  <path d="M280,260 Q290,230 310,200 Q330,175 350,160 Q365,152 375,150" 
+    fill="none" stroke="#1A1A1A" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <!-- Twigs -->
+  <path d="M350,160 Q360,140 365,125" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M375,150 Q390,138 400,130" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  <path d="M490,228 Q505,222 515,218" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M80,285 Q65,288 55,295" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <!-- Cherry blossoms — small pink/red dots -->
+  <g>
+    <circle cx="435" cy="185" r="6" fill="#D44060" opacity="0.7"/>
+    <circle cx="450" cy="162" r="5" fill="#E85070" opacity="0.65"/>
+    <circle cx="460" cy="178" r="4" fill="#D44060" opacity="0.6"/>
+    <circle cx="498" cy="180" r="5" fill="#E85070" opacity="0.55"/>
+    <circle cx="490" cy="198" r="4" fill="#D44060" opacity="0.6"/>
+    <circle cx="510" cy="215" r="5" fill="#E85070" opacity="0.5"/>
+    <circle cx="365" cy="128" r="4" fill="#D44060" opacity="0.6"/>
+    <circle cx="375" cy="145" r="5" fill="#E85070" opacity="0.55"/>
+    <circle cx="398" cy="132" r="4" fill="#D44060" opacity="0.5"/>
+    <circle cx="145" cy="208" r="5" fill="#D44060" opacity="0.6"/>
+    <circle cx="155" cy="235" r="4" fill="#E85070" opacity="0.55"/>
+    <circle cx="100" cy="218" r="5" fill="#D44060" opacity="0.5"/>
+    <circle cx="108" cy="240" r="4" fill="#E85070" opacity="0.5"/>
+    <circle cx="80" cy="278" r="5" fill="#D44060" opacity="0.55"/>
+    <circle cx="60" cy="290" r="4" fill="#E85070" opacity="0.5"/>
+    <circle cx="350" cy="155" r="5" fill="#D44060" opacity="0.6"/>
+  </g>
+  <!-- Fallen petals -->
+  <circle cx="320" cy="720" r="3" fill="#D44060" opacity="0.3"/>
+  <circle cx="350" cy="735" r="2.5" fill="#E85070" opacity="0.25"/>
+  <circle cx="290" cy="740" r="3" fill="#D44060" opacity="0.2"/>
+  <!-- Red seal/chop mark — bottom right corner -->
+  <g transform="translate(490,680)">
+    <rect x="-22" y="-22" width="44" height="44" rx="3" fill="#CC2222" opacity="0.8"/>
+    <rect x="-18" y="-18" width="36" height="36" rx="2" fill="none" stroke="#F5EDD8" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-10" y1="-8" x2="10" y2="-8" stroke="#F5EDD8" stroke-width="2" opacity="0.6"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#F5EDD8" stroke-width="2" opacity="0.6"/>
+    <line x1="-10" y1="8" x2="10" y2="8" stroke="#F5EDD8" stroke-width="2" opacity="0.6"/>
+    <line x1="-5" y1="-12" x2="-5" y2="12" stroke="#F5EDD8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="5" y1="-12" x2="5" y2="12" stroke="#F5EDD8" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <!-- Lots of empty space (ma) — intentional -->
+</svg>

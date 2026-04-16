@@ -1,0 +1,15 @@
+{
+  "slug": "kai-voss",
+  "name": "Kai Voss",
+  "bio": "Kai Voss is a Berlin-based abstract minimalist whose work explores the emotional weight of color and space.",
+  "artistStatement": "I believe that less reveals more—that in the space between pigment and viewer, something essential emerges.",
+  "portraitUrl": "/images/artists/kai-voss.png",
+  "influences": ["Rothko", "Agnes Martin", "Sugimoto"],
+  "style": {
+    "medium": "Abstract minimalist",
+    "palette": "Earth tones, muted ochre and sienna",
+    "subjects": "Large color fields, horizon lines"
+  },
+  "pricingTier": "premium",
+  "defaultEditionSize": 15
+}

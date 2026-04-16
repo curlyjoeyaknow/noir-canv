@@ -1,0 +1,52 @@
+---
+description: Next.js 16 App Router best practices
+globs: apps/web/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+# Next.js 16 App Router Rules
+
+## Server Components by Default
+
+- Pages (`page.tsx`) and layouts (`layout.tsx`) are ALWAYS Server Components. Never add `"use client"` to a page file.
+- Extract interactive parts (state, effects, event handlers) into separate client component files at the leaf level.
+- Client components live in `apps/web/components/` with `"use client"` at the top of their own file.
+
+## Params and Data Fetching
+
+- Page components are async functions that await params:
+  ```tsx
+  export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+  }
+  ```
+- Never use `use(params)` or `React.use()` to unwrap params in client components.
+- Use `generateStaticParams` for all `[slug]` routes to enable static generation.
+- Fetch data directly in Server Components -- no API route round-trips for internal data.
+- Use Server Actions for mutations (form submissions, data writes).
+- Route Handlers (`route.ts`) are only for external API consumers, webhooks, or proxy endpoints.
+
+## Images
+
+- Always use `next/image` -- never native `<img>` tags.
+- Set `sizes` prop for responsive images: `sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"`
+- Set `priority` on above-the-fold images (hero, first 3 gallery cards).
+- Use `placeholder="blur"` with `blurDataURL` for perceived performance.
+- Configure `remotePatterns` in `next.config.ts` for external image sources.
+
+## Error Handling
+
+- `notFound()` from `next/navigation` is only valid in Server Components. Never call it in a `"use client"` file.
+- Use `error.tsx` boundary files for error handling at the route level.
+- Use `not-found.tsx` for custom 404 pages.
+
+## DOM Access
+
+- Never use `document.getElementById` or `document.querySelector` in React components. Use `useRef` or controlled component patterns.
+- `suppressHydrationWarning` requires an adjacent comment explaining the specific reason (e.g., browser extension injection, third-party script).
+
+## Performance
+
+- Lazy load images below the fold (default `next/image` behavior).
+- Use `next/dynamic` for heavy client components that aren't needed on initial render.
+- Avoid importing large libraries in Server Components if they're only needed client-side.

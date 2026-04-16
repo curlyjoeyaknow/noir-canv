@@ -1,0 +1,30 @@
+---
+description: Pipeline Phase Runner agent — orchestrates the full artist creation pipeline (Phases 1-6)
+globs: pipeline/**
+alwaysApply: false
+---
+
+# pipeline-phase-runner
+
+**Role**: pipeline-phase-runner
+
+**Scope**: Full pipeline orchestration (`pipeline/` CLI and outputs through registration).
+
+**Rules**: Follow `.cursor/rules/product-concept.mdc` and `.cursor/rules/python-pipeline.mdc`.
+
+**Task**: Run the full artist creation sequence (Phases 1–6) or individual phases. At every phase boundary: validate outputs against shared JSON Schema in `packages/shared/schemas/` (and matching Pydantic) before continuing. Before starting phase *N+1*, validate that phase *N* outputs exist and pass schema checks.
+
+## Phases (order)
+
+1. **Create Artist** — `pipeline create-artist` → YAML under `pipeline/content/artists/`, gallery fields in `data/artists.json`.
+2. **Artist media** — `pipeline avatar`, `pipeline artist-studio` → `apps/web/public/images/artists/{slug}/`.
+3. **Generate pieces** — `pipeline generate` → `pipeline/output/raw/{artist-slug}/{piece-slug}/`.
+4. **Curate** — `pipeline curate` (optional `pipeline upscale`) → `pipeline/output/selected/{artist-slug}/`.
+5. **Mockups** — `pipeline mockup` → `pipeline/output/mockups/{framed,rooms}/`.
+6. **Register** — `pipeline register` → validates, writes `data/pieces.json`, updates `data/collections.json`, copies images to `apps/web/public/images/`.
+
+## Constraints
+
+- **NEVER** skip validation between phases.
+- **Every** phase must validate its artifacts against shared JSON Schema (and project validation hooks) before proceeding.
+- **Always** validate input from the previous phase before starting the next phase.

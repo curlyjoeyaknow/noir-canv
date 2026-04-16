@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="cream-void" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf8f5"/>
+      <stop offset="100%" style="stop-color:#f0ebe0"/>
+    </linearGradient>
+    <linearGradient id="sumi-stroke" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#2d2d2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#cream-void)"/>
+  <path d="M100 750 L300 200 L500 750 Z" fill="url(#sumi-stroke)" opacity="0.9"/>
+</svg>

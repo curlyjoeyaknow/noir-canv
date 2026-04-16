@@ -1,0 +1,28 @@
+---
+description: Data Migrator agent — extracts gallery data from v1 into validated JSON files
+globs: data/**, packages/shared/schemas/**
+alwaysApply: false
+---
+
+# data-migrator
+
+**Role**: data-migrator
+
+**Scope**: `data/`, `packages/shared/schemas/`.
+
+**Rules**: Follow `.cursor/rules/data-contracts.mdc`.
+
+**Task**: Extract valuable content from `c:\b2\noir-canv\src\lib\data\` into `data/*.json`. Port only hand-written pieces with real descriptions (roughly ~50 pieces). Drop the ~97 entries that are "Pipeline selection" placeholders. Assign piece IDs as `{artistSlug}-{sequential}` so nothing collides across artists. Remove denormalized `artistName` from piece records; pieces reference artists via `artistSlug` only. Validate migrated JSON against `packages/shared/schemas/` before treating work as done.
+
+**Constraints**
+
+- NEVER write TypeScript source code (no `apps/web/**`, no root or package `.ts` / `.tsx`).
+- ONLY touch `data/*.json` and JSON Schema files under `packages/shared/schemas/` when the contract must change to accept valid migrated data.
+- **V1 source** (read-only): `c:\b2\noir-canv\src\lib\data\`.
+- **Piece IDs**: strictly `{artistSlug}-{sequential}` (e.g. `kai-voss-001`).
+- **Discard**: pieces whose description is the "Pipeline selection" placeholder (or equivalent non-real copy); never satisfy required fields with that text.
+
+## Alignment with data-contracts
+
+- Single source of truth for shapes: JSON Schema in `packages/shared/schemas/`; migrated `data/*.json` must conform.
+- No denormalized artist names on pieces; required strings must be real gallery copy, not pipeline placeholders.

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="sl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0E18"/>
+      <stop offset="40%" stop-color="#151C28"/>
+      <stop offset="70%" stop-color="#1A2230"/>
+      <stop offset="100%" stop-color="#0A1018"/>
+    </linearGradient>
+    <linearGradient id="sl-beam" x1="0" y1="0" x2="0.7" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5E8C0" stop-opacity="0.5"/>
+      <stop offset="30%" stop-color="#E8D8A0" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#D4C480" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C0B060" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="sl-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1820"/>
+      <stop offset="100%" stop-color="#081015"/>
+    </linearGradient>
+    <radialGradient id="sl-reflect" cx="0.55" cy="0.15" r="0.25">
+      <stop offset="0%" stop-color="#F5E8C0" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#D4C480" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0E1820" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#sl-bg)"/>
+  <!-- Dense dark clouds — overlapping dark grey circles -->
+  <g opacity="0.5">
+    <circle cx="80" cy="80" r="80" fill="#1A2030"/>
+    <circle cx="180" cy="60" r="90" fill="#182028"/>
+    <circle cx="300" cy="50" r="100" fill="#151C28"/>
+    <circle cx="420" cy="70" r="85" fill="#1A2030"/>
+    <circle cx="530" cy="55" r="75" fill="#182028"/>
+    <circle cx="120" cy="140" r="70" fill="#202838"/>
+    <circle cx="250" cy="130" r="95" fill="#1A2230"/>
+    <circle cx="380" cy="150" r="80" fill="#182030"/>
+    <circle cx="500" cy="130" r="75" fill="#1E2638"/>
+    <circle cx="60" cy="200" r="65" fill="#1A2030"/>
+    <circle cx="200" cy="210" r="85" fill="#151C28"/>
+    <circle cx="340" cy="220" r="90" fill="#182028"/>
+    <circle cx="480" cy="200" r="70" fill="#1A2230"/>
+    <circle cx="580" cy="180" r="60" fill="#202838"/>
+    <circle cx="150" cy="280" r="75" fill="#182030"/>
+    <circle cx="300" cy="290" r="80" fill="#151C28"/>
+    <circle cx="440" cy="270" r="70" fill="#1A2030"/>
+  </g>
+  <!-- Additional cloud darkness at top -->
+  <ellipse cx="300" cy="100" rx="350" ry="120" fill="#0E1420" opacity="0.3"/>
+  <!-- Light beam — diagonal golden-white, cutting from upper-right area -->
+  <polygon points="380,0 440,0 280,800 220,800" fill="url(#sl-beam)"/>
+  <!-- Beam glow — wider, more diffuse -->
+  <polygon points="360,0 460,0 300,800 200,800" fill="#E8D8A0" opacity="0.03"/>
+  <polygon points="340,0 480,0 320,800 180,800" fill="#D4C480" opacity="0.015"/>
+  <!-- Illuminated particles in the beam -->
+  <g fill="#F5E8C0">
+    <circle cx="395" cy="80" r="1" opacity="0.5"/>
+    <circle cx="380" cy="140" r="1.2" opacity="0.45"/>
+    <circle cx="370" cy="200" r="0.8" opacity="0.4"/>
+    <circle cx="365" cy="180" r="1.5" opacity="0.35"/>
+    <circle cx="355" cy="260" r="1" opacity="0.35"/>
+    <circle cx="350" cy="310" r="1.3" opacity="0.3"/>
+    <circle cx="340" cy="360" r="0.9" opacity="0.3"/>
+    <circle cx="345" cy="340" r="1.1" opacity="0.25"/>
+    <circle cx="330" cy="420" r="1" opacity="0.25"/>
+    <circle cx="320" cy="480" r="1.2" opacity="0.2"/>
+    <circle cx="315" cy="460" r="0.8" opacity="0.2"/>
+    <circle cx="305" cy="540" r="1" opacity="0.18"/>
+    <circle cx="298" cy="580" r="1.3" opacity="0.15"/>
+    <circle cx="290" cy="600" r="0.9" opacity="0.15"/>
+    <circle cx="385" cy="110" r="0.7" opacity="0.4"/>
+    <circle cx="360" cy="240" r="1.4" opacity="0.3"/>
+    <circle cx="335" cy="390" r="0.8" opacity="0.25"/>
+    <circle cx="310" cy="500" r="1.1" opacity="0.18"/>
+  </g>
+  <!-- Dark sea at bottom -->
+  <rect x="0" y="620" width="600" height="180" fill="url(#sl-sea)"/>
+  <!-- Water surface line -->
+  <path d="M0,620 Q100,618 200,622 Q300,625 400,620 Q500,616 600,620" fill="none" stroke="#1E2838" stroke-width="1" opacity="0.4"/>
+  <!-- Reflected light spot on water -->
+  <ellipse cx="260" cy="660" rx="40" ry="15" fill="url(#sl-reflect)"/>
+  <ellipse cx="260" cy="660" rx="20" ry="8" fill="#F5E8C0" opacity="0.12"/>
+  <!-- Water ripples around reflection -->
+  <path d="M200,660 Q230,658 260,660 Q290,662 320,660" fill="none" stroke="#D4C480" stroke-width="0.5" opacity="0.15"/>
+  <path d="M210,670 Q240,668 265,670 Q290,672 310,670" fill="none" stroke="#C0B060" stroke-width="0.5" opacity="0.1"/>
+  <path d="M220,680 Q245,678 260,680 Q280,682 300,680" fill="none" stroke="#D4C480" stroke-width="0.5" opacity="0.08"/>
+  <!-- Clouds illuminated where beam passes through -->
+  <ellipse cx="400" cy="50" rx="40" ry="25" fill="#3A3828" opacity="0.3"/>
+  <ellipse cx="370" cy="180" rx="30" ry="20" fill="#2A2820" opacity="0.2"/>
+</svg>

@@ -1,0 +1,59 @@
+---
+description: Monorepo structure enforcement -- applies to all files
+globs:
+alwaysApply: true
+---
+
+# Architecture Rules
+
+This is a Turborepo monorepo with three domains that must stay strictly separated.
+
+## Directory Layout
+
+```
+noir-canv-v2/
+├── apps/web/          # Next.js 16 App Router (TypeScript)
+├── pipeline/          # Python AI pipeline (Click CLI + FastAPI)
+├── packages/shared/   # Cross-language contracts (JSON Schema)
+├── data/              # Pipeline output (JSON files read by frontend at build time)
+```
+
+## Boundaries
+
+- **No TypeScript code outside `apps/web/` and `packages/`.** Root-level `.ts` files are forbidden.
+- **No Python code outside `pipeline/`.** No `.py` files at root or in `apps/`.
+- **No direct imports between `apps/web/` and `pipeline/`.** They communicate only through `data/*.json` files and `packages/shared/schemas/`.
+- **No standalone scripts.** Every operation is either a Next.js build step, a Click CLI command under `pipeline/src/pipeline/commands/`, or a Turborepo task. Never create loose script files at root or in ad-hoc directories.
+- **Shared types live in `packages/shared/schemas/` as JSON Schema.** TypeScript gets Zod; Python gets Pydantic. Never define the same type in only one language.
+
+## Data Flow (one direction only)
+
+```
+pipeline/ (Python) --> writes JSON --> data/*.json
+data/*.json --> read at build time --> apps/web/ (Next.js)
+packages/shared/schemas/ --> validates both sides
+```
+
+- The pipeline writes structured JSON to `data/`.
+- The frontend reads `data/` at build time and validates with Zod schemas generated from `packages/shared/`.
+- The frontend NEVER writes to `data/`. The pipeline NEVER reads from `apps/web/`.
+
+## File Placement
+
+| File type | Correct location |
+|-----------|-----------------|
+| React components | `apps/web/components/` |
+| Next.js pages/layouts | `apps/web/app/` |
+| Frontend utilities | `apps/web/lib/` |
+| Zod schemas | `apps/web/lib/schemas.ts` |
+| JSON Schema definitions | `packages/shared/schemas/` |
+| Python CLI commands | `pipeline/src/pipeline/commands/` |
+| Python library code | `pipeline/src/pipeline/lib/` |
+| FastAPI endpoints | `pipeline/src/pipeline/api/` |
+| Artist YAML configs | `pipeline/content/artists/` |
+| Gallery data (artists, pieces, collections) | `data/` |
+| Static images for the website | `apps/web/public/images/` |
+| Pipeline-generated images (raw, selected) | `pipeline/output/` (gitignored) |
+| CI workflows | `.github/workflows/` |
+| E2E tests | `apps/web/e2e/` |
+| Python tests | `pipeline/tests/` |

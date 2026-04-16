@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://noircanvas.com/schemas/mockup.schema.json",
+  "title": "Mockup",
+  "description": "A visualization mockup for a piece. Three broad types: 'framed' (product shots with a physical frame), 'room' (in-situ room setting), 'artist-holding' (composite of the artist presenting the piece). The 'variant' field captures the specific sub-variant. The slug is the primary identifier.",
+  "type": "object",
+  "required": [
+    "slug",
+    "pieceSlug",
+    "type",
+    "variant",
+    "imageUrl"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+      "description": "URL-safe unique identifier (e.g. 'kai-voss-001-natural-wood-angled')."
+    },
+    "pieceSlug": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*-[0-9]{3}$",
+      "description": "Reference to the piece this mockup visualizes."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["framed", "room", "artist-holding"],
+      "description": "'framed' for product shots with a physical frame (variant captures style: black-flat, natural-wood-angled, etc.); 'room' for in-situ room setting mockups; 'artist-holding' for composites of the artist holding the piece."
+    },
+    "variant": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Frame style variant (e.g. 'natural-wood', 'black', 'white', 'dark-wood', 'gold')."
+    },
+    "imageUrl": {
+      "type": "string",
+      "pattern": "^/images/",
+      "description": "Relative URL to the mockup image."
+    },
+    "isPrimary": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this is the primary/default mockup shown for the piece."
+    },
+    "altText": {
+      "type": "string",
+      "description": "Accessibility alt text for the mockup image."
+    },
+    "sortOrder": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0,
+      "description": "Display ordering within the piece's mockup gallery."
+    }
+  }
+}

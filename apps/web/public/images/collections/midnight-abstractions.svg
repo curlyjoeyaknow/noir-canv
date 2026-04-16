@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="mid-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="50%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="mid-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="30%" stop-color="#8b6914"/>
+      <stop offset="70%" stop-color="#c4783a"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="mid-ink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d2d2d"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#mid-bg)"/>
+  <rect x="0" y="150" width="800" height="100" fill="url(#mid-amber)" opacity="0.4"/>
+  <ellipse cx="400" cy="200" rx="200" ry="80" fill="url(#mid-ink)" opacity="0.6"/>
+  <circle cx="200" cy="200" r="60" fill="#2d2d2d" opacity="0.5"/>
+  <circle cx="600" cy="200" r="50" fill="#1a1a1a" opacity="0.6"/>
+</svg>

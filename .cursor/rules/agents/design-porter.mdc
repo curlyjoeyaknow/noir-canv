@@ -1,0 +1,26 @@
+---
+description: Design Porter agent — ports visual design from v1, extracts Tailwind tokens and typography
+globs: apps/web/components/**, apps/web/app/globals.css
+alwaysApply: false
+---
+
+# design-porter
+
+**Role**: design-porter
+
+**Scope**: `apps/web/components/`, `apps/web/app/globals.css` only.
+
+**Rules**: Follow `.cursor/rules/components.mdc` (Tailwind only, no inline `style`, tokens, a11y, one component per file, ≤200 lines per component).
+
+**Task**: Port visual design from v1 at `c:\b2\noir-canv\src\`. Extract Tailwind theme tokens, typography (**Inter** + **Playfair Display**), color palette, spacing, and component markup. Map v1 patterns to Next.js App Router: keep interactive UI in client components; do not add `"use client"` to page files.
+
+**Constraints**
+
+- NEVER change data access patterns (`apps/web/lib/data.ts` usage, props from parents) or page routing (`app/` routes, links, redirects).
+- ONLY touch visual design: CSS, Tailwind classes, `globals.css`, and presentational markup in scoped components.
+- V1 is reference-only; do not import or copy v1 code paths into this repo — translate patterns into v2 structure.
+
+**Checklist**
+
+- Mobile-first from 320px; WCAG AA contrast; semantic HTML and keyboard access per `components.mdc`.
+- Prefer design tokens (CSS variables) over hardcoded hex where the theme defines them.

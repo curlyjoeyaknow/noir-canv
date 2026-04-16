@@ -1,0 +1,39 @@
+---
+description: Schema and data layer rules for cross-language contracts
+globs: packages/shared/**, data/**, apps/web/lib/data*, apps/web/lib/schemas*
+alwaysApply: false
+---
+
+# Data Contracts Rules
+
+## Single Source of Truth
+
+- All data shapes are defined as **JSON Schema** files in `packages/shared/schemas/`.
+- TypeScript consumes these via **Zod schemas** (generated or hand-written to match).
+- Python consumes these via **Pydantic models** with `model_config = ConfigDict(extra="forbid")`.
+- If a field exists in one language but not the other, the JSON Schema is wrong. Fix the schema.
+
+## Data Storage
+
+- All gallery data (artists, pieces, collections) lives in `data/` as JSON files.
+- Never hardcode data as TypeScript arrays, objects, or constants. The data layer reads JSON.
+- The `apps/web/lib/data.ts` module is the single entry point for all data access in the frontend. All pages and components import from this module.
+- Zod validation runs at build time when data is loaded. If `data/*.json` fails validation, the build fails with a clear error message.
+
+## Schema Design
+
+- **No denormalized fields.** Pieces reference artists by `artistSlug`, not by duplicating `artistName`. The data access layer joins at read time.
+- **Piece IDs** use the format `{artistSlug}-{sequential}` (e.g., `kai-voss-001`). No ambiguous initials that can collide across artists.
+- **Required fields must be populated.** No placeholder text like "Pipeline selection—add description." If a field is required in the schema, the pipeline must provide a real value before registration.
+- Collections reference pieces by slug array. The data access layer resolves slugs to full piece objects.
+
+## Pipeline Output Contract
+
+- The pipeline writes to `data/` JSON files. It validates output against `packages/shared/schemas/` before writing.
+- Never programmatically rewrite TypeScript source files. Never use string manipulation to insert data into `.ts` files.
+- The registration phase (`pipeline register`) is the only command that writes to `data/`.
+
+## Schema Drift Prevention
+
+- CI runs a drift check: regenerate schemas from source, then `git diff --exit-code packages/shared/`.
+- If the Python Pydantic models and TypeScript Zod schemas disagree with JSON Schema, the build fails.

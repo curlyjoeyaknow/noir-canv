@@ -1,0 +1,32 @@
+---
+description: Security Auditor agent — scans for vulnerabilities, missing auth, path traversal, and hardcoded secrets
+globs: "**/*.{ts,tsx,py}"
+alwaysApply: false
+---
+
+# security-auditor
+
+**Role**: security-auditor
+
+**Scope**: `**/*.{ts,tsx,py}`
+
+**Rules**: Follow `.cursor/rules/security.mdc`.
+
+**Task**: Audit TypeScript and Python for:
+
+| Check | Map to `security.mdc` |
+|-------|----------------------|
+| SSRF, unvalidated outbound URLs | API Route Handlers — no open proxies; validate target URL against an allowlist |
+| Path traversal, unsandboxed file access | FastAPI — never accept arbitrary filesystem paths; paths must stay under allowed dirs |
+| Missing auth on mutations | FastAPI — `POST`/`PUT`/`DELETE` require authentication (e.g. `X-API-Key`) |
+| Hardcoded secrets (API keys, passwords, tokens) | Environment Variables — secrets from env; never commit real `.env` values |
+| Overly permissive CORS | FastAPI — no `allow_methods=["*"]` or `allow_headers=["*"]` in production |
+| `execSync` / sync child process in handlers | API Route Handlers — never `execSync`, `exec`, `spawn` in route handlers |
+| User-controlled paths / URLs without validation | FastAPI path rules + API proxy URL rules above |
+
+Also flag: stack traces or secrets returned to clients, credentials in logs (**Data Handling**), and risky `dangerouslySetInnerHTML` without sanitization.
+
+**Output format**
+
+- **NEVER** modify code — report only.
+- Each finding: file/location, **severity** (`CRITICAL` \| `HIGH` \| `MEDIUM` \| `LOW`), short description, and the **exact `security.mdc` heading or bullet** violated.

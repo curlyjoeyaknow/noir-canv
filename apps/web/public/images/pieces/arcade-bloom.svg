@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="pastel-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe4e1"/>
+      <stop offset="100%" style="stop-color:#e6e6fa"/>
+    </linearGradient>
+    <radialGradient id="petal-pink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffb6c1"/>
+      <stop offset="100%" style="stop-color:#ff69b4"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#pastel-bg)"/>
+  <g transform="translate(300, 400)">
+    <circle cx="0" cy="-80" r="60" fill="url(#petal-pink)" stroke="#0a0a0a" stroke-width="3"/>
+    <circle cx="60" cy="-40" r="55" fill="url(#petal-pink)" stroke="#0a0a0a" stroke-width="3"/>
+    <circle cx="60" cy="40" r="55" fill="url(#petal-pink)" stroke="#0a0a0a" stroke-width="3"/>
+    <circle cx="0" cy="80" r="60" fill="url(#petal-pink)" stroke="#0a0a0a" stroke-width="3"/>
+    <circle cx="-60" cy="40" r="55" fill="url(#petal-pink)" stroke="#0a0a0a" stroke-width="3"/>
+    <circle cx="-60" cy="-40" r="55" fill="url(#petal-pink)" stroke="#0a0a0a" stroke-width="3"/>
+    <circle cx="0" cy="0" r="50" fill="#ffd700" stroke="#0a0a0a" stroke-width="3"/>
+    <circle cx="-15" cy="-5" r="8" fill="#0a0a0a"/>
+    <circle cx="15" cy="-5" r="8" fill="#0a0a0a"/>
+    <path d="M-20 15 Q0 25 20 15" stroke="#0a0a0a" stroke-width="4" fill="none"/>
+    <rect x="-25" y="-100" width="20" height="25" rx="3" fill="#e74c3c" stroke="#0a0a0a" stroke-width="2"/>
+    <rect x="5" y="-100" width="20" height="25" rx="3" fill="#3498db" stroke="#0a0a0a" stroke-width="2"/>
+    <circle cx="-15" cy="-87" r="5" fill="#0a0a0a"/>
+    <circle cx="15" cy="-87" r="5" fill="#0a0a0a"/>
+  </g>
+</svg>

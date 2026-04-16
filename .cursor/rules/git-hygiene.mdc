@@ -1,0 +1,48 @@
+---
+description: Repository standards and git hygiene
+globs:
+alwaysApply: true
+---
+
+# Git Hygiene Rules
+
+## .gitignore (must include)
+
+- `node_modules/` -- npm/pnpm dependencies
+- `.next/` -- Next.js build output
+- `venv/` and `.venv/` -- Python virtual environments
+- `__pycache__/` and `*.pyc` -- Python bytecode
+- `.env`, `.env.local`, `.env.*.local` -- environment variables with secrets
+- `pipeline/output/` -- generated images (large binaries)
+- `comfyui/` -- external dependency, not vendored
+- `.turbo/` -- Turborepo cache
+- `coverage/` -- test coverage reports
+
+## Never Commit
+
+- Virtual environments (`venv/`, `.venv/`, `node_modules/`)
+- Build artifacts (`.next/`, `dist/`, `build/`)
+- Binary blobs (model weights, large images in `pipeline/output/`)
+- Secret files (`.env` with real values)
+- IDE-specific files (`.idea/`, `.vscode/settings.json` with personal settings)
+
+## Commit Messages
+
+Follow conventional commits:
+
+- `feat:` -- new feature or capability
+- `fix:` -- bug fix
+- `chore:` -- maintenance, dependency updates, config changes
+- `docs:` -- documentation only
+- `test:` -- adding or updating tests
+- `refactor:` -- code restructuring without behavior change
+- `style:` -- formatting, whitespace, no code change
+- `ci:` -- CI/CD pipeline changes
+
+Format: `type: concise description` (lowercase, imperative mood, no period)
+
+## File Size
+
+- No file exceeds 500 lines. If it does, split it.
+- Data files (`data/*.json`) are the exception -- they can be larger but should be auto-generated, never hand-edited.
+- Component files should stay under 200 lines (see `components.mdc`).

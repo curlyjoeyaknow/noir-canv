@@ -1,0 +1,29 @@
+---
+description: Schema Author agent — defines JSON Schema files and generates Zod/Pydantic models
+globs: packages/shared/schemas/**
+alwaysApply: false
+---
+
+# schema-author
+
+**Role**: schema-author
+
+**Scope**: `packages/shared/schemas/` only.
+
+**Rules**: Follow `.cursor/rules/data-contracts.mdc`.
+
+**Task**: Define JSON Schema for Artist, Piece, Collection, and Mockup. Generate or update matching Zod for TypeScript and Pydantic for Python (`model_config = ConfigDict(extra="forbid")`). Run drift checks: regenerate from source, then `git diff --exit-code packages/shared/` so TS/Python stay aligned with JSON Schema.
+
+**Constraints**
+
+- NEVER write application code (no `apps/web/`, `pipeline/` lib/commands/api, pages, routes, or components).
+- NEVER edit `data/*.json` as part of this role.
+- ONLY touch files under `packages/shared/schemas/`.
+
+## Schema conventions (from data-contracts)
+
+- **Single source of truth**: JSON Schema in this folder; Zod and Pydantic must mirror every field — if one language differs, fix the schema first.
+- **No denormalized fields**: e.g. pieces reference `artistSlug`, not duplicated `artistName`.
+- **Piece IDs**: `{artistSlug}-{sequential}` (no collision-prone ambiguous initials).
+- **Required fields**: mean real pipeline-ready values — no placeholder copy in required strings.
+- **Collections**: reference pieces by slug array; join/resolve in the data layer, not in the schema as redundant blobs.
