@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "slug": "new-arrivals",
+    "name": "New Arrivals",
+    "description": "The latest work from our virtual artists — freshly published and available for the first time. From Vera Voss's gilded figuratives to Elara Chen's graphic provocations, this is the gallery at its most current.",
+    "coverImageUrl": "/images/collections/new-arrivals.svg",
+    "pieceSlugs": [
+      "vera-voss-001",
+      "nova-ash-003",
+      "river-strand-004",
+      "elara-chen-003",
+      "ren-cross-001",
+      "vera-voss-007",
+      "nova-ash-007",
+      "elara-chen-001"
+    ],
+    "featured": true,
+    "sortOrder": 0
+  },
+  {
+    "slug": "natural-forms",
+    "name": "Natural Forms",
+    "description": "Works rooted in the organic world — botanical surrealism, dreamlit forests, and figures dissolving into nature. River Strand and Nova Ash share a reverence for the living world that makes this collection feel like a deep breath.",
+    "coverImageUrl": "/images/collections/natural-forms.svg",
+    "pieceSlugs": [
+      "river-strand-001",
+      "river-strand-002",
+      "river-strand-004",
+      "river-strand-005",
+      "river-strand-006",
+      "river-strand-007",
+      "nova-ash-001",
+      "nova-ash-005",
+      "nova-ash-008"
+    ],
+    "featured": true,
+    "sortOrder": 1
+  },
+  {
+    "slug": "midnight-abstractions",
+    "name": "Midnight Abstractions",
+    "description": "Works that live in shadow and candlelight — Vera Voss's burnished figuratives and Ren Cross's Victorian uncanny. These pieces reward sustained attention, revealing new depths the longer you sit with them.",
+    "coverImageUrl": "/images/collections/midnight-abstractions.svg",
+    "pieceSlugs": [
+      "vera-voss-002",
+      "vera-voss-004",
+      "vera-voss-005",
+      "vera-voss-006",
+      "vera-voss-008",
+      "ren-cross-001"
+    ],
+    "featured": true,
+    "sortOrder": 2
+  },
+  {
+    "slug": "first-light",
+    "name": "First Light",
+    "description": "Pieces infused with warmth, wonder, and the quality of morning — Nova Ash's dreamscapes and Vera Voss's most luminous compositions. This collection is for spaces that deserve gentleness.",
+    "coverImageUrl": "/images/collections/first-light.svg",
+    "pieceSlugs": [
+      "nova-ash-002",
+      "nova-ash-003",
+      "nova-ash-004",
+      "nova-ash-006",
+      "nova-ash-007",
+      "vera-voss-001",
+      "vera-voss-003"
+    ],
+    "featured": false,
+    "sortOrder": 3
+  },
+  {
+    "slug": "urban-fragments",
+    "name": "Urban Fragments",
+    "description": "Elara Chen's complete gallery — high-contrast graphic canvases that carry the visual authority of political art and the emotional depth of portraiture. Work that demands your attention and rewards your consideration.",
+    "coverImageUrl": "/images/collections/urban-fragments.svg",
+    "pieceSlugs": [
+      "elara-chen-001",
+      "elara-chen-002",
+      "elara-chen-003",
+      "elara-chen-004",
+      "elara-chen-005",
+      "elara-chen-006",
+      "elara-chen-007",
+      "elara-chen-008"
+    ],
+    "featured": false,
+    "sortOrder": 4
+  }
+]

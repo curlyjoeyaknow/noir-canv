@@ -99,10 +99,15 @@ def _copy_artist_media(artist_slug: str) -> list[Path]:
 
     avatars_dir = OUTPUT_DIR / "avatars" / artist_slug
     if avatars_dir.exists():
-        for img in sorted(avatars_dir.glob("*.png")):
+        avatar_imgs = sorted(avatars_dir.glob("*.png"))
+        for idx, img in enumerate(avatar_imgs):
             dest = dest_dir / img.name
             shutil.copy2(img, dest)
             copied.append(dest)
+            if idx == 0:
+                portrait = dest_dir / "portrait.png"
+                shutil.copy2(img, portrait)
+                copied.append(portrait)
 
     studio_dir = OUTPUT_DIR / "artist_studio" / artist_slug
     if studio_dir.exists():

@@ -84,7 +84,7 @@ class PipelineSettings(BaseSettings):
 
     model_config = SettingsConfigDict(
         extra="forbid",
-        env_file=".env",
+        env_file=str(Path(__file__).resolve().parents[4] / ".env"),
         env_file_encoding="utf-8",
     )
 
