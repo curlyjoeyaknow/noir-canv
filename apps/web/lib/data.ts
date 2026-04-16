@@ -55,17 +55,12 @@ function loadMockups(): Mockup[] {
     try {
       mockupsCache = validateMockups(loadJson("mockups.json"));
     } catch (err: unknown) {
-      if (
-        err instanceof Error &&
-        "code" in err &&
-        (err as NodeJS.ErrnoException).code === "ENOENT"
-      ) {
+      const msg = err instanceof Error ? err.message : String(err);
+      if (msg.includes("ENOENT") || msg.includes("no such file")) {
         mockupsCache = [];
         return mockupsCache;
       }
-      throw new Error(
-        `Failed to load mockups: ${err instanceof Error ? err.message : String(err)}`,
-      );
+      throw new Error(`Failed to load mockups: ${msg}`);
     }
   }
   return mockupsCache;
