@@ -1,1 +1,530 @@
-[]
+[
+  {
+    "slug": "river-strand-001",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-001.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-002",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-002.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-003",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-003.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-004",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-004.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-005",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-005.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-006",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-006.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-007",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-007.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-008",
+    "title": "Untitled — River Strand",
+    "description": "An original work from the collection.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-008.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "ren-cross-001",
+    "title": "Untitled — Ren Cross",
+    "description": "An original work from the collection.",
+    "artistSlug": "ren-cross",
+    "imageUrl": "/images/pieces/ren-cross-001.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Gothic portraiture and creature studies"
+    ]
+  },
+  {
+    "slug": "nova-ash-001",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-001.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-002",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-002.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-003",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-003.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-004",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-004.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-005",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-005.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-006",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-006.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-007",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-007.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-008",
+    "title": "Untitled — Nova Ash",
+    "description": "An original work from the collection.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-008.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "elara-chen-001",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-001.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-002",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-002.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-003",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-003.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-004",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-004.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-005",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-005.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-006",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-006.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-007",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-007.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-008",
+    "title": "Untitled — Elara Chen",
+    "description": "An original work from the collection.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-008.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "vera-voss-001",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-001.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-002",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-002.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-003",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-003.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-004",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-004.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-005",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-005.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-006",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-006.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-007",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-007.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-008",
+    "title": "Untitled — Vera Voss",
+    "description": "An original work from the collection.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-008.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  }
+]
