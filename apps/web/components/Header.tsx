@@ -4,6 +4,7 @@ import { MobileNavToggle } from "@/components/MobileNavToggle";
 
 const navLinks = [
   { href: "/", label: "Home" },
+  { href: "/pieces", label: "Works" },
   { href: "/artists", label: "Artists" },
   { href: "/collections", label: "Collections" },
 ];
