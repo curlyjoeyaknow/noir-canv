@@ -27,6 +27,20 @@ CONTENT_DIR: Path = PROJECT_ROOT / "pipeline" / "content"
 ARTISTS_DIR: Path = CONTENT_DIR / "artists"
 EXAMPLES_DIR: Path = PROJECT_ROOT / "examples"
 
+# ---------------------------------------------------------------------------
+# Example subfolder names — canonical names used at every pipeline stage.
+# Each artist folder (examples/{Artist_Name}/) contains these subfolders:
+#   artwork/       — flat artwork images; used as style references for generation
+#   framed/        — front-on framed images; used as IP-Adapter framing references
+#   mockups/       — angled 3-D framed images; used as reference for angled mockups
+#   print_quality/ — high-res reference images; used as quality targets for upscaling
+# ---------------------------------------------------------------------------
+
+EXAMPLES_ARTWORK_SUBDIR: str = "artwork"
+EXAMPLES_FRAMED_SUBDIR: str = "framed"
+EXAMPLES_MOCKUPS_SUBDIR: str = "mockups"
+EXAMPLES_PRINT_QUALITY_SUBDIR: str = "print_quality"
+
 
 # ---------------------------------------------------------------------------
 # Output subdirectory constants

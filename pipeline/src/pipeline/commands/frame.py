@@ -16,8 +16,14 @@ import click
 import numpy as np
 from PIL import Image
 
-from pipeline.lib.config import get_example_images, get_settings, load_artist_config
-from pipeline.lib.paths import EXAMPLES_DIR, MOCKUPS_FRAMED_DIR
+from pipeline.lib.config import (
+    get_example_images,
+    get_framed_images,
+    get_mockup_images,
+    get_settings,
+    load_artist_config,
+)
+from pipeline.lib.paths import MOCKUPS_FRAMED_DIR
 
 try:
     import torch
@@ -171,8 +177,15 @@ def run_frame_ip_adapter(
 def run_frame_photorealistic(
     flat_framed_path: Path,
     output_path: Path,
+    mockup_refs: list[Path] | None = None,
+    angled: bool = False,
 ) -> Path | None:
-    """Enhance flat framed image to look photorealistic using Gemini."""
+    """Enhance flat framed image to look photorealistic using Gemini.
+
+    When angled=True and mockup_refs are provided, includes reference mockup
+    images so Gemini can match the perspective and lighting style of real
+    angled product shots (examples/{artist}/mockups/).
+    """
     if genai is None:
         return None
     settings = get_settings()
@@ -181,14 +194,28 @@ def run_frame_photorealistic(
     try:
         client = genai.Client(api_key=settings.gemini_api_key)
         img = Image.open(flat_framed_path).convert("RGB")
-        response = client.models.generate_content(
-            model="gemini-3.1-flash-image-preview",
-            contents=[
+
+        if angled and mockup_refs:
+            ref_imgs = [Image.open(str(p)).convert("RGB") for p in mockup_refs[:3]]
+            instruction = (
+                "Study these reference mockup images to understand the perspective angle, "
+                "lighting, and shadow style. Then apply the same angled perspective and "
+                "photorealistic framing to the artwork image that follows the references. "
+                "Keep the artwork content exactly as-is — only add the perspective, frame, "
+                "and lighting. Photorealistic product photography style.\n\nReference mockups:"
+            )
+            contents: list = [instruction, *ref_imgs, "Now enhance this artwork:", img]
+        else:
+            contents = [
                 "Make this framed artwork look photorealistic. The frame should have realistic "
                 "wood grain, subtle depth, and proper lighting. Keep the artwork exactly as is, "
                 "only enhance the frame. Photorealistic product photography style. Return the image.",
                 img,
-            ],
+            ]
+
+        response = client.models.generate_content(
+            model="gemini-3.1-flash-image-preview",
+            contents=contents,
             config=genai_types.GenerateContentConfig(response_modalities=["TEXT", "IMAGE"]),
         )
         for part in response.candidates[0].content.parts:
@@ -203,12 +230,28 @@ def run_frame_photorealistic(
 
 
 def _get_framed_refs(artist_slug: str) -> list[Path]:
-    """Get framed example images for an artist (from examples/{artist}/framed/)."""
+    """Front-on framed reference images (examples/{artist}/framed/).
+
+    Non-recursive: only flat front-facing frames, not angled mockup subfolders.
+    Used as IP-Adapter style references for the framing step.
+    """
     try:
         artist = load_artist_config(artist_slug)
     except (FileNotFoundError, ValueError):
         return []
-    return get_example_images(artist.example_artists, ref_folder="framed", recursive=True)
+    return get_framed_images(artist.example_artists)
+
+
+def _get_mockup_refs(artist_slug: str) -> list[Path]:
+    """Angled 3-D mockup reference images (examples/{artist}/mockups/).
+
+    Used as style references when generating perspective/angled frame views.
+    """
+    try:
+        artist = load_artist_config(artist_slug)
+    except (FileNotFoundError, ValueError):
+        return []
+    return get_mockup_images(artist.example_artists)
 
 
 def run_frame(
@@ -254,10 +297,12 @@ def run_frame(
             frame_color=tuple(style["frame_color"]),
         )
 
+    mockup_refs = _get_mockup_refs(artist_slug) if artist_slug else []
+
     ref_path = flat_path
     if photorealistic:
         enhanced = output_path.parent / f"{stem}-photorealistic.png"
-        if run_frame_photorealistic(flat_path, enhanced):
+        if run_frame_photorealistic(flat_path, enhanced, mockup_refs=mockup_refs, angled=angled):
             ref_path = enhanced
 
     if angled:

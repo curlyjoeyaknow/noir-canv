@@ -19,7 +19,7 @@ from pipeline.lib.config import (
     list_example_folders,
     load_artist_configs,
 )
-from pipeline.lib.paths import ARTISTS_DIR, DATA_DIR
+from pipeline.lib.paths import ARTISTS_DIR, DATA_DIR, EXAMPLES_ARTWORK_SUBDIR
 from pipeline.lib.prompts import (
     artist_bio_prompt,
     artist_statement_prompt,
@@ -118,7 +118,7 @@ def create_artist(
         name=name,
         slug=slug_val,
         example_artists=[base_artist],
-        example_ref_folder="main",
+        example_ref_folder=EXAMPLES_ARTWORK_SUBDIR,
         style_reference=style,
         model_type="gemini",
         prompt_prefix="Fine art, gallery quality, ",

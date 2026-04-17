@@ -21,12 +21,23 @@ import yaml
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from pipeline.lib.paths import ARTISTS_DIR, CONTENT_DIR, DATA_DIR, EXAMPLES_DIR
+from pipeline.lib.paths import (
+    ARTISTS_DIR,
+    CONTENT_DIR,
+    DATA_DIR,
+    EXAMPLES_DIR,
+    EXAMPLES_ARTWORK_SUBDIR,
+    EXAMPLES_FRAMED_SUBDIR,
+    EXAMPLES_MOCKUPS_SUBDIR,
+    EXAMPLES_PRINT_QUALITY_SUBDIR,
+)
 from pipeline.lib.schemas import Piece
 
 logger = logging.getLogger(__name__)
 
 _SAFE_SLUG_RE = re.compile(r"^[a-z][a-z0-9-]*$")
+# Ref-folder names may contain underscores (e.g. print_quality).
+_SAFE_REF_FOLDER_RE = re.compile(r"^[a-z][a-z0-9_-]*$")
 _SAFE_FOLDER_RE = re.compile(r"^[A-Za-z][A-Za-z0-9_&' -]*$")
 
 
@@ -218,8 +229,8 @@ def get_example_images(
         if not base.exists():
             continue
         if ref_folder:
-            if not _SAFE_SLUG_RE.match(ref_folder):
-                raise ValueError(f"Invalid ref folder name: {ref_folder}")
+            if not _SAFE_REF_FOLDER_RE.match(ref_folder):
+                raise ValueError(f"Invalid ref folder name: {ref_folder!r}")
         folder = base / ref_folder if ref_folder else base
         if not folder.exists() or not folder.is_dir():
             folder = base
@@ -234,6 +245,36 @@ def get_example_images(
                 artist_images.extend(base.glob(ext))
         images.extend(artist_images)
     return sorted(images)
+
+
+# ---------------------------------------------------------------------------
+# Per-stage example image helpers
+# Each wraps get_example_images with the canonical subfolder for that stage.
+# ---------------------------------------------------------------------------
+
+def get_artwork_images(example_artists: list[str]) -> list[Path]:
+    """Style reference images for generation (examples/{artist}/artwork/)."""
+    return get_example_images(example_artists, ref_folder=EXAMPLES_ARTWORK_SUBDIR)
+
+
+def get_framed_images(example_artists: list[str]) -> list[Path]:
+    """Front-on framed reference images (examples/{artist}/framed/).
+
+    Non-recursive: only the flat framed images, not angled subfolders.
+    """
+    return get_example_images(
+        example_artists, ref_folder=EXAMPLES_FRAMED_SUBDIR, recursive=False,
+    )
+
+
+def get_mockup_images(example_artists: list[str]) -> list[Path]:
+    """Angled 3-D mockup reference images (examples/{artist}/mockups/)."""
+    return get_example_images(example_artists, ref_folder=EXAMPLES_MOCKUPS_SUBDIR)
+
+
+def get_print_quality_images(example_artists: list[str]) -> list[Path]:
+    """High-resolution print-quality reference images (examples/{artist}/print_quality/)."""
+    return get_example_images(example_artists, ref_folder=EXAMPLES_PRINT_QUALITY_SUBDIR)
 
 
 # ---------------------------------------------------------------------------
