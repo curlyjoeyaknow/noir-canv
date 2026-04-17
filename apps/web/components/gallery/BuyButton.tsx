@@ -27,7 +27,7 @@ export function BuyButton({ pieceSlug, disabled = false }: BuyButtonProps) {
       onClick={() => router.push(`/checkout?piece=${pieceSlug}`)}
       className="mt-6 w-full rounded-sm border border-accent bg-accent px-6 py-4 text-sm font-semibold uppercase tracking-widest text-background transition-all duration-200 hover:bg-accent-hover hover:border-accent-hover focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background"
     >
-      Reserve This Edition
+      Buy Now
     </button>
   );
 }

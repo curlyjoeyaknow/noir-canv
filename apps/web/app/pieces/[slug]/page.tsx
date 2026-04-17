@@ -121,11 +121,6 @@ export default async function PieceDetailPage({ params }: PageProps) {
             />
 
             <BuyButton pieceSlug={piece.slug} disabled={isSoldOut} />
-
-            <p className="mt-3 text-xs text-dim">
-              No payment taken now — we&apos;ll contact you to complete the sale.
-              Edition held for 48 hours.
-            </p>
           </div>
 
           {/* Tags */}
