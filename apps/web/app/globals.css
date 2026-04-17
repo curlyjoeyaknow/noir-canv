@@ -3,33 +3,38 @@
 /* ─── Design Tokens ─────────────────────────────────────────────────── */
 
 :root {
-  /* Backgrounds */
-  --background: #ffffff;
-  --surface: #f7f6f4;
-  --surface-hover: #eeece9;
-  --card: #f9f8f7;
-  --card-hover: #f0ede9;
-  --overlay: rgba(0, 0, 0, 0.7);
+  /* Backgrounds — deep charcoal noir */
+  --background: #0d0c0a;
+  --surface: #161412;
+  --surface-hover: #1e1b17;
+  --card: #1a1814;
+  --card-hover: #22201b;
+  --overlay: rgba(0, 0, 0, 0.85);
 
-  /* Text — all pass WCAG AA 4.5:1 on --background */
-  --foreground: #1a1917;
-  --muted: #6b6560;
-  --dim: #9c958e;
+  /* Text — warm off-white on dark */
+  --foreground: #ede8df;
+  --muted: #7a7570;
+  --dim: #4e4b46;
 
-  /* Accent (gold / amber) */
-  --accent: #b8860b;
-  --accent-hover: #a07408;
-  --accent-muted: #c99a20;
-  --accent-subtle: rgba(184, 134, 11, 0.08);
+  /* Accent — rich gallery gold, brighter on dark */
+  --accent: #c9a227;
+  --accent-hover: #e0b82c;
+  --accent-muted: #a8871f;
+  --accent-subtle: rgba(201, 162, 39, 0.12);
 
   /* Borders */
-  --border: #e2ddd8;
-  --border-hover: #c9c2ba;
+  --border: #272420;
+  --border-hover: #3a3630;
 
   /* Semantic */
-  --edition-gold: #b8860b;
+  --edition-gold: #c9a227;
   --sold-out: #dc2626;
-  --success: #16a34a;
+  --success: #22c55e;
+
+  /* Frame colours (walnut + mat) */
+  --frame: #2a1d0e;
+  --frame-inner: #1e1408;
+  --mat: #f5f1e8;
 
   /* Spacing */
   --section-gap: 6rem;
@@ -66,6 +71,8 @@
   --color-edition-gold: var(--edition-gold);
   --color-sold-out: var(--sold-out);
   --color-success: var(--success);
+  --color-frame: var(--frame);
+  --color-mat: var(--mat);
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
 }
@@ -180,6 +187,61 @@ a {
   }
 }
 
+/* ─── Framed Artwork ────────────────────────────────────────────────── */
+
+/* Outer walnut frame */
+.artwork-frame {
+  position: relative;
+  background: var(--frame);
+  padding: 10px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.4),
+    inset 1px 0 0 rgba(255, 255, 255, 0.04),
+    inset -1px 0 0 rgba(0, 0, 0, 0.3),
+    0 20px 60px rgba(0, 0, 0, 0.7),
+    0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.4s var(--ease-out-expo), transform 0.4s var(--ease-out-expo);
+}
+
+.artwork-frame:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.4),
+    inset 1px 0 0 rgba(255, 255, 255, 0.04),
+    inset -1px 0 0 rgba(0, 0, 0, 0.3),
+    0 32px 80px rgba(0, 0, 0, 0.8),
+    0 16px 40px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(201, 162, 39, 0.15);
+}
+
+/* Cream mat inside the frame */
+.artwork-mat {
+  position: relative;
+  background: var(--mat);
+  padding: 20px 20px 52px 20px;
+}
+
+/* Gold seal emblem on the mat */
+.artwork-seal {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 22px;
+  height: 22px;
+  background: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  color: #0d0c0a;
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
 /* ─── Scrollbar ─────────────────────────────────────────────────────── */
 
 @supports (scrollbar-color: auto) {
@@ -236,6 +298,7 @@ a {
 .skeleton {
   animation: skeleton-pulse 2s ease-in-out infinite;
   background: var(--surface);
+  border-radius: 2px;
 }
 
 .animate-fade-in {
