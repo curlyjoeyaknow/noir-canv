@@ -144,6 +144,7 @@ def create_artist(
         "bio": bio,
         "artistStatement": statement,
         "portraitUrl": f"/images/artists/{slug_val}/portrait.png",
+        "studioImageUrls": [],
         "influences": [base_artist.replace("_", " ")],
         "style": {
             "medium": "mixed media",
