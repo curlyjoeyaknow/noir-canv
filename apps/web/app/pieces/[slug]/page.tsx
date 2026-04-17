@@ -7,6 +7,7 @@ import { getPieces, getPiece, getArtistName, getMockupsForPiece } from "@/lib/da
 import { formatPrice } from "@/lib/schemas";
 import { MockupViewer } from "@/components/gallery/MockupViewer";
 import { EditionBadge } from "@/components/gallery/EditionBadge";
+import { BuyButton } from "@/components/gallery/BuyButton";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -118,6 +119,13 @@ export default async function PieceDetailPage({ params }: PageProps) {
               editionSize={piece.editionSize}
               className="mt-5"
             />
+
+            <BuyButton pieceSlug={piece.slug} disabled={isSoldOut} />
+
+            <p className="mt-3 text-xs text-dim">
+              No payment taken now — we&apos;ll contact you to complete the sale.
+              Edition held for 48 hours.
+            </p>
           </div>
 
           {/* Tags */}
