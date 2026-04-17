@@ -1,0 +1,28 @@
+name: Hiro Tomo
+slug: hiro-tomo
+example_artists:
+- HORITOMO
+style_reference: contemporary Japanese irezumi tattoo art applied to cat subjects,
+  bold outline and flat color fields with gradient fills, koi and chrysanthemum motifs,
+  traditional Japanese wave patterns, red black and accent colors on white ground
+prompt_prefix: 'Japanese irezumi tattoo art style, gallery canvas, bold outline, '
+prompt_suffix: ', cat as sacred subject, traditional Japanese motifs, koi chrysanthemum
+  wave patterns, red black ink accent color, flat graphic with gradient, museum quality'
+negative_prompt: photorealistic, western style, text, watermark, sketchy, digital
+  art, cluttered background
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: main
+steps: 30
+cfg_scale: 7.5
+bio: Hiro Tomo trained under traditional Japanese irezumi masters in Osaka before
+  developing a gallery practice that carries the discipline and sacred iconography
+  of body art onto fine canvas. His primary subject is the cat — rendered with the
+  compositional reverence given to dragons and guardian deities in classical Japanese
+  tattooing. Koi, chrysanthemums, and waves orbit his subjects like mythological
+  attributes. The work sits at a rare intersection of craft tradition and contemporary
+  art market, attracting collectors from both worlds.
+statement: The tattoo artist works on skin that breathes and ages. I work on canvas
+  that outlasts us both. The cat, of course, outlasts everyone.

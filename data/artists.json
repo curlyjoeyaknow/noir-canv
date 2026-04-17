@@ -6,11 +6,7 @@
     "artistStatement": "I seek to capture the in-between—the moment before form settles, where possibility still breathes.",
     "portraitUrl": "/images/artists/river-strand/portrait.png",
     "studioImageUrls": [],
-    "influences": [
-      "James Jean",
-      "Art Nouveau",
-      "Botanical illustration"
-    ],
+    "influences": ["James Jean", "Art Nouveau", "Botanical illustration"],
     "style": {
       "medium": "Oil and ink on canvas",
       "palette": "Muted pastels, ivory, sage, dusty rose",
@@ -26,11 +22,7 @@
     "artistStatement": "Every face holds a story older than the person wearing it.",
     "portraitUrl": "/images/artists/ren-cross/portrait.png",
     "studioImageUrls": [],
-    "influences": [
-      "Travis Louie",
-      "Victorian illustration",
-      "Silent film"
-    ],
+    "influences": ["Travis Louie", "Victorian illustration", "Silent film"],
     "style": {
       "medium": "Gouache on panel",
       "palette": "Sepia, slate, pale gold",
@@ -46,11 +38,7 @@
     "artistStatement": "Beauty is a discipline—every line must earn its place.",
     "portraitUrl": "/images/artists/elara-nakamura/portrait.png",
     "studioImageUrls": [],
-    "influences": [
-      "Audrey Kawasaki",
-      "Mucha",
-      "Hokusai"
-    ],
+    "influences": ["Audrey Kawasaki", "Mucha", "Hokusai"],
     "style": {
       "medium": "Ink and wood stain on birch panel",
       "palette": "Ivory, cherry blossom, deep lacquer",
@@ -66,11 +54,7 @@
     "artistStatement": "I paint the places I go when I close my eyes.",
     "portraitUrl": "/images/artists/nova-ash/portrait.png",
     "studioImageUrls": [],
-    "influences": [
-      "Amy Sol",
-      "Studio Ghibli",
-      "Edward Lear"
-    ],
+    "influences": ["Amy Sol", "Studio Ghibli", "Edward Lear"],
     "style": {
       "medium": "Acrylic on canvas",
       "palette": "Lavender, gold, soft teal",
@@ -86,11 +70,7 @@
     "artistStatement": "Art without urgency is decoration. I want my work to mean something.",
     "portraitUrl": "/images/artists/elara-chen/portrait.png",
     "studioImageUrls": [],
-    "influences": [
-      "Shepard Fairey",
-      "Constructivism",
-      "Street art"
-    ],
+    "influences": ["Shepard Fairey", "Constructivism", "Street art"],
     "style": {
       "medium": "Mixed media on canvas",
       "palette": "Red, black, cream, gold",
@@ -106,11 +86,7 @@
     "artistStatement": "Light is the subject. Everything else is just its occasion.",
     "portraitUrl": "/images/artists/vera-voss/portrait.png",
     "studioImageUrls": [],
-    "influences": [
-      "Brad Kunkle",
-      "Klimt",
-      "Vermeer"
-    ],
+    "influences": ["Brad Kunkle", "Klimt", "Vermeer"],
     "style": {
       "medium": "Oil and gold leaf on panel",
       "palette": "Gold, ivory, deep burgundy",
@@ -122,19 +98,97 @@
   {
     "slug": "leo-vale",
     "name": "Leo Vale",
-    "bio": "Leo Vale is an artist whose work draws on Stella Im Hultberg-inspired contemporary art with distinctive visual style and technique. Their pieces explore the boundaries between tradition and contemporary expression, creating compositions that invite contemplation and connection.",
-    "artistStatement": "I seek to capture the in-between—the moment before form settles, where possibility still breathes.",
+    "bio": "Leo Vale paints ephemeral figures suspended between waking and dreaming — translucent forms dissolving into washes of colour, faces half-formed, expressions caught in the liminal moment before recognition. The work is tender and technically precise in equal measure.",
+    "artistStatement": "I am trying to paint the feeling of a word on the tip of your tongue.",
     "portraitUrl": "/images/artists/leo-vale/portrait.png",
     "studioImageUrls": [],
-    "influences": [
-      "Stella Im Hultberg"
-    ],
+    "influences": ["Stella Im Hultberg", "Egon Schiele", "Watercolour tradition"],
     "style": {
-      "medium": "Digital oil on canvas",
-      "palette": "varied",
-      "subjects": "Stella Im Hultberg-inspired contemporary art with distinctive visual style and technique"
+      "medium": "Watercolour and ink on paper",
+      "palette": "Translucent pinks, charcoal, aged ivory",
+      "subjects": "Ephemeral figurative and dissolving portraits"
     },
     "pricingTier": "mid-range",
     "defaultEditionSize": 20
+  },
+  {
+    "slug": "mae-ryden",
+    "name": "Mae Ryden",
+    "bio": "Mae Ryden paints in the unsettling space between a child's music box and something older and stranger underneath. Working in small-format oil panels, she builds tableaux where wide-eyed porcelain-skinned figures share space with carnival automata, candy ephemera, and Victorian keepsakes rendered with obsessive precision. Her work has accumulated a devoted collector base drawn to its quality of beautiful wrongness — too meticulous to be naive, too sweet to be a warning.",
+    "artistStatement": "I paint the way a music box sounds — innocent on the surface, mechanical underneath, and somehow both at once.",
+    "portraitUrl": "/images/artists/mae-ryden/portrait.png",
+    "studioImageUrls": [],
+    "influences": ["Mark Ryden", "Victorian cabinet cards", "Candy culture"],
+    "style": {
+      "medium": "Oil on panel",
+      "palette": "Candy pink, porcelain white, crimson, pale gold",
+      "subjects": "Pop surrealist figures with carnival and Victorian imagery"
+    },
+    "pricingTier": "premium",
+    "defaultEditionSize": 15
+  },
+  {
+    "slug": "fenna-haas",
+    "name": "Fenna Haas",
+    "bio": "Fenna Haas paints from a countryside studio in the Netherlands, where the garden outside her window is maintained with a care that suggests she finds animals more interesting than people. Her small-format paintings give rodents, birds, and foxes the compositional dignity of Renaissance portraiture — muted umber and olive grounds, delicate linework, an expression that carries the full weight of human emotional life without once trying to. Collectors describe the work as quietly devastating.",
+    "artistStatement": "An animal never poses. That is what makes them harder to paint and more honest to look at.",
+    "portraitUrl": "/images/artists/fenna-haas/portrait.png",
+    "studioImageUrls": [],
+    "influences": ["Femke Hiemstra", "Dutch Golden Age", "Northern European folk art"],
+    "style": {
+      "medium": "Oil and ink on wood panel",
+      "palette": "Umber, olive, cream, soft terracotta",
+      "subjects": "Anthropomorphic creature portraits with folk art dignity"
+    },
+    "pricingTier": "mid-range",
+    "defaultEditionSize": 25
+  },
+  {
+    "slug": "hiro-tomo",
+    "name": "Hiro Tomo",
+    "bio": "Hiro Tomo trained under traditional Japanese irezumi masters in Osaka before developing a gallery practice that carries the discipline and sacred iconography of body art onto fine canvas. His primary subject is the cat — rendered with the compositional reverence given to dragons and guardian deities in classical Japanese tattooing. Koi, chrysanthemums, and waves orbit his subjects like mythological attributes. The work sits at a rare intersection of craft tradition and contemporary art market, attracting collectors from both worlds.",
+    "artistStatement": "The tattoo artist works on skin that breathes and ages. I work on canvas that outlasts us both. The cat, of course, outlasts everyone.",
+    "portraitUrl": "/images/artists/hiro-tomo/portrait.png",
+    "studioImageUrls": [],
+    "influences": ["Horitomo", "Japanese irezumi tradition", "Ukiyo-e woodblock"],
+    "style": {
+      "medium": "Ink and acrylic on canvas",
+      "palette": "Red, sumi black, white, chrysanthemum gold",
+      "subjects": "Cats and sacred animals in Japanese tattoo iconography"
+    },
+    "pricingTier": "premium",
+    "defaultEditionSize": 20
+  },
+  {
+    "slug": "bea-gomez",
+    "name": "Bea Gomez",
+    "bio": "Bea Gomez works from a small apartment in Barcelona where the objects on her windowsill have been arranged with too much care for someone who claims not to be precious about things. Her clean-line illustrations practice a kind of radical attention — the unremarkable given enough space and clarity that you see it properly for the first time. A cup of tea, a dog in a doorway, a single sock mid-air. Her palette runs from warm sage to dusty coral, with the occasional shock of yellow that makes you briefly, inexplicably happy.",
+    "artistStatement": "I am interested in the things you have stopped noticing. I am trying to return them to you.",
+    "portraitUrl": "/images/artists/bea-gomez/portrait.png",
+    "studioImageUrls": [],
+    "influences": ["Blanca Gomez", "Scandinavian design", "Post-war illustration"],
+    "style": {
+      "medium": "Digital illustration printed on archival paper",
+      "palette": "Sage, dusty coral, warm cream, occasional yellow",
+      "subjects": "Everyday domestic objects rendered with poetic attention"
+    },
+    "pricingTier": "affordable",
+    "defaultEditionSize": 30
+  },
+  {
+    "slug": "rave-zola",
+    "name": "Rave Zola",
+    "bio": "Rave Zola's paintings arrive looking like they belong in a museum. Then you notice what they are actually saying. Working in the tradition of figurative oil painting, Zola applies Old Master technique — the lighting is Caravaggio, the compositional authority is Velázquez — to contemporary subjects that have something urgent to communicate. The gallery world has taken notice. Several major collections have acquired pieces without quite knowing how to categorise them, which is exactly where Zola wants to be.",
+    "artistStatement": "Great painting technique is a Trojan horse. You let it through the gates before you realise what is inside.",
+    "portraitUrl": "/images/artists/rave-zola/portrait.png",
+    "studioImageUrls": [],
+    "influences": ["Ravi Zupa", "Caravaggio", "Velázquez"],
+    "style": {
+      "medium": "Oil on canvas",
+      "palette": "Deep chiaroscuro, raw umber, scarlet, aged white",
+      "subjects": "Classical figurative composition with contemporary disruption"
+    },
+    "pricingTier": "mid-range",
+    "defaultEditionSize": 25
   }
 ]

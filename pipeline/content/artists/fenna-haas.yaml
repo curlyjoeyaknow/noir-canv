@@ -1,0 +1,27 @@
+name: Fenna Haas
+slug: fenna-haas
+example_artists:
+- Femke_Hiemstra
+style_reference: Dutch folk art tradition with anthropomorphic creature portraits,
+  muted earthy palette of umber and olive, delicate linework, naive-sophisticated
+  balance, Northern European still life discipline
+prompt_prefix: 'Folk art creature portrait, gallery quality, Dutch tradition, '
+prompt_suffix: ', muted earthy palette, delicate ink linework, animal portrait with
+  human dignity, umber olive cream tones, small format panel'
+negative_prompt: photorealistic, bright neon colors, text, watermark, cartoonish,
+  digital gloss
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: main
+steps: 30
+cfg_scale: 7.5
+bio: Fenna Haas paints from a countryside studio in the Netherlands, where the garden
+  outside her window is maintained with a care that suggests she finds animals more
+  interesting than people. Her small-format paintings give rodents, birds, and foxes
+  the compositional dignity of Renaissance portraiture — muted umber and olive grounds,
+  delicate linework, an expression that carries the full weight of human emotional
+  life without once trying to. Collectors describe the work as "quietly devastating."
+statement: An animal never poses. That is what makes them harder to paint and more
+  honest to look at.

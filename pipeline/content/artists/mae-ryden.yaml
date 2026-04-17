@@ -1,0 +1,26 @@
+name: Mae Ryden
+slug: mae-ryden
+example_artists:
+- MARK_RYDEN
+style_reference: pop surrealism with porcelain-skinned wide-eyed figures, Victorian
+  and carnival imagery, hyper-detailed oil painting technique, candy-colored palettes,
+  saccharine americana with undertones of unease
+prompt_prefix: 'Pop surrealist oil painting, gallery quality, hyper-detailed, '
+prompt_suffix: ', porcelain-skinned figure, wide dark eyes, Victorian carnival setting,
+  candy palette with shadow, museum quality panel painting'
+negative_prompt: photorealistic, photograph, text, watermark, sketch, rough, digital art feel
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: main
+steps: 30
+cfg_scale: 7.5
+bio: Mae Ryden paints in the unsettling space between a child's music box and something
+  older and stranger underneath. Working in small-format oil panels, she builds tableaux
+  where wide-eyed porcelain-skinned figures share space with carnival automata, candy
+  ephemera, and Victorian keepsakes rendered with obsessive precision. Her work has
+  accumulated a devoted collector base drawn to its quality of beautiful wrongness —
+  too meticulous to be naive, too sweet to be a warning.
+statement: I paint the way a music box sounds — innocent on the surface, mechanical
+  underneath, and somehow both at once.

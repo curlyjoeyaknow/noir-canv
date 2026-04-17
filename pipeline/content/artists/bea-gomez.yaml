@@ -1,0 +1,28 @@
+name: Bea Gomez
+slug: bea-gomez
+example_artists:
+- BLANCA_GOMEZ
+style_reference: clean line graphic illustration with soft flat color palette, everyday
+  domestic objects given poetic significance, gentle humor, Scandinavian design sensibility,
+  warm sage dusty coral and occasional yellow
+prompt_prefix: 'Clean line graphic illustration, gallery quality, flat color, '
+prompt_suffix: ', domestic everyday object rendered with radical attention, soft warm
+  palette sage coral cream, Scandinavian minimalist sensibility, gently absurd'
+negative_prompt: photorealistic, complex background, text, watermark, busy, dark,
+  heavy shadow
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: main
+steps: 30
+cfg_scale: 7.5
+bio: Bea Gomez works from a small apartment in Barcelona where the objects on her
+  windowsill have been arranged with too much care for someone who claims not to be
+  precious about things. Her clean-line illustrations practice a kind of radical
+  attention — the unremarkable given enough space and clarity that you see it properly
+  for the first time. A cup of tea, a dog in a doorway, a single sock mid-air. Her
+  palette runs from warm sage to dusty coral, with the occasional shock of yellow
+  that makes you briefly, inexplicably happy.
+statement: I am interested in the things you have stopped noticing. I am trying to
+  return them to you.

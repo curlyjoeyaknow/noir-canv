@@ -1,0 +1,28 @@
+name: Rave Zola
+slug: rave-zola
+example_artists:
+- RAVI_ZUPA
+style_reference: classical Old Master figurative painting technique subverted with
+  contemporary subjects, Caravaggio chiaroscuro lighting, Velázquez formal composition,
+  bold palette, art history re-inhabited by modern figures with urgent energy
+prompt_prefix: 'Old Master oil painting technique, gallery quality, chiaroscuro, '
+prompt_suffix: ', classical figurative composition with contemporary subject, Caravaggio
+  dramatic lighting, Velázquez formal structure, bold impasto, museum quality canvas'
+negative_prompt: flat, graphic, digital, text, watermark, sketch, photorealistic,
+  photograph
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: main
+steps: 30
+cfg_scale: 7.5
+bio: Rave Zola's paintings arrive looking like they belong in a museum. Then you notice
+  what they are actually saying. Working in the tradition of figurative oil painting,
+  Zola applies Old Master technique — the lighting is Caravaggio, the compositional
+  authority is Velázquez — to contemporary subjects that have something urgent to
+  communicate. The gallery world has taken notice. Several major collections have
+  acquired pieces without quite knowing how to categorise them, which is exactly
+  where Zola wants to be.
+statement: Great painting technique is a Trojan horse. You let it through the gates
+  before you realise what is inside.

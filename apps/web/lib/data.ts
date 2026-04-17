@@ -24,46 +24,28 @@ function loadJson(filename: string): unknown {
   }
 }
 
-let artistsCache: Artist[] | null = null;
-let piecesCache: Piece[] | null = null;
-let collectionsCache: Collection[] | null = null;
-let mockupsCache: Mockup[] | null = null;
-
 function loadArtists(): Artist[] {
-  if (!artistsCache) {
-    artistsCache = validateArtists(loadJson("artists.json"));
-  }
-  return artistsCache;
+  return validateArtists(loadJson("artists.json"));
 }
 
 function loadPieces(): Piece[] {
-  if (!piecesCache) {
-    piecesCache = validatePieces(loadJson("pieces.json"));
-  }
-  return piecesCache;
+  return validatePieces(loadJson("pieces.json"));
 }
 
 function loadCollections(): Collection[] {
-  if (!collectionsCache) {
-    collectionsCache = validateCollections(loadJson("collections.json"));
-  }
-  return collectionsCache;
+  return validateCollections(loadJson("collections.json"));
 }
 
 function loadMockups(): Mockup[] {
-  if (!mockupsCache) {
-    try {
-      mockupsCache = validateMockups(loadJson("mockups.json"));
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : String(err);
-      if (msg.includes("ENOENT") || msg.includes("no such file")) {
-        mockupsCache = [];
-        return mockupsCache;
-      }
-      throw new Error(`Failed to load mockups: ${msg}`);
+  try {
+    return validateMockups(loadJson("mockups.json"));
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : String(err);
+    if (msg.includes("ENOENT") || msg.includes("no such file")) {
+      return [];
     }
+    throw new Error(`Failed to load mockups: ${msg}`);
   }
-  return mockupsCache;
 }
 
 // ---------------------------------------------------------------------------

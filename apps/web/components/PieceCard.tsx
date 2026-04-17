@@ -23,21 +23,23 @@ export function PieceCard({ piece, artistName, priority = false }: PieceCardProp
   return (
     <Link href={`/pieces/${piece.slug}`} className="group block">
       <article className="overflow-hidden rounded-sm border border-transparent transition-all duration-300 group-hover:border-border-hover group-hover:shadow-lg group-hover:shadow-black/20">
-        <div className="relative aspect-[3/4] overflow-hidden bg-card">
-          <Image
-            src={piece.imageUrl}
-            alt={piece.title}
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-            priority={priority}
-          />
+        <div className="relative aspect-[3/4] overflow-hidden bg-[#f4f2ef]">
+          <div className="absolute inset-5 transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+            <Image
+              src={piece.imageUrl}
+              alt={piece.title}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-contain drop-shadow-md"
+              priority={priority}
+            />
+          </div>
           {editionLabel && (
             <span
-              className={`absolute right-3 top-3 rounded-sm px-2.5 py-1 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm ${
+              className={`absolute right-3 top-3 z-10 rounded-sm px-2.5 py-1 text-xs font-semibold uppercase tracking-wider ${
                 isSoldOut
-                  ? "bg-sold-out/90 text-white"
-                  : "bg-edition-gold/90 text-background"
+                  ? "bg-sold-out text-white"
+                  : "bg-edition-gold text-background"
               }`}
             >
               {editionLabel}

@@ -4,32 +4,32 @@
 
 :root {
   /* Backgrounds */
-  --background: #0a0a0a;
-  --surface: #141414;
-  --surface-hover: #1c1917;
-  --card: #111111;
-  --card-hover: #1a1917;
-  --overlay: rgba(0, 0, 0, 0.8);
+  --background: #ffffff;
+  --surface: #f7f6f4;
+  --surface-hover: #eeece9;
+  --card: #f9f8f7;
+  --card-hover: #f0ede9;
+  --overlay: rgba(0, 0, 0, 0.7);
 
   /* Text — all pass WCAG AA 4.5:1 on --background */
-  --foreground: #f5f5f4;
-  --muted: #a8a29e;
-  --dim: #8c8680;
+  --foreground: #1a1917;
+  --muted: #6b6560;
+  --dim: #9c958e;
 
   /* Accent (gold / amber) */
-  --accent: #d4a853;
-  --accent-hover: #e0b964;
-  --accent-muted: #b8963f;
-  --accent-subtle: rgba(212, 168, 83, 0.08);
+  --accent: #b8860b;
+  --accent-hover: #a07408;
+  --accent-muted: #c99a20;
+  --accent-subtle: rgba(184, 134, 11, 0.08);
 
   /* Borders */
-  --border: #292524;
-  --border-hover: #44403c;
+  --border: #e2ddd8;
+  --border-hover: #c9c2ba;
 
   /* Semantic */
-  --edition-gold: #d4a853;
-  --sold-out: #ef4444;
-  --success: #22c55e;
+  --edition-gold: #b8860b;
+  --sold-out: #dc2626;
+  --success: #16a34a;
 
   /* Spacing */
   --section-gap: 6rem;
@@ -86,7 +86,7 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: var(--background);
+  color: #ffffff;
 }
 
 /* ─── Focus ─────────────────────────────────────────────────────────── */
@@ -210,8 +210,8 @@ a {
 /* ─── Animations ───────────────────────────────────────────────────── */
 
 @keyframes skeleton-pulse {
-  0%, 100% { opacity: 0.05; }
-  50% { opacity: 0.1; }
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
 }
 
 @keyframes fade-in {

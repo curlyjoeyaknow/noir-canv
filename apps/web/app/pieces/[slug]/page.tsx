@@ -43,15 +43,17 @@ export default async function PieceDetailPage({ params }: PageProps) {
       <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
         {/* Image & Mockups */}
         <div className="w-full space-y-6 lg:max-w-xl">
-          <div className="relative aspect-[3/4] w-full overflow-hidden rounded-sm bg-card shadow-xl shadow-black/20">
-            <Image
-              src={piece.imageUrl}
-              alt={piece.title}
-              fill
-              sizes="(max-width: 1024px) 100vw, 576px"
-              className="object-cover"
-              priority
-            />
+          <div className="relative aspect-[3/4] w-full overflow-hidden rounded-sm bg-[#f4f2ef] shadow-xl shadow-black/10">
+            <div className="absolute inset-8">
+              <Image
+                src={piece.imageUrl}
+                alt={piece.title}
+                fill
+                sizes="(max-width: 1024px) 100vw, 576px"
+                className="object-contain drop-shadow-lg"
+                priority
+              />
+            </div>
           </div>
           {mockups.length > 0 && (
             <MockupViewer

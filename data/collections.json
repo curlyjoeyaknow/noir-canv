@@ -86,5 +86,76 @@
     ],
     "featured": false,
     "sortOrder": 4
+  },
+  {
+    "slug": "wunderkammer",
+    "name": "Wunderkammer",
+    "description": "A cabinet of beautiful curiosities — Mae Ryden's pop surrealist tableaux and Fenna Haas's creature portraits, each piece asking more questions than it answers. For collectors who like their walls to think back at them.",
+    "coverImageUrl": "/images/pieces/mae-ryden-1.png",
+    "pieceSlugs": [
+      "mae-ryden-001",
+      "mae-ryden-002",
+      "mae-ryden-004",
+      "mae-ryden-007",
+      "fenna-haas-001",
+      "fenna-haas-002",
+      "fenna-haas-005",
+      "fenna-haas-008",
+      "ren-cross-001"
+    ],
+    "featured": true,
+    "sortOrder": 5
+  },
+  {
+    "slug": "eastern-traditions",
+    "name": "Eastern Traditions",
+    "description": "Hiro Tomo's irezumi-inspired canvases and Elara Nakamura's woodblock-meets-Art-Nouveau panels — two artists working in dialogue with Japanese tradition and arriving at something entirely their own.",
+    "coverImageUrl": "/images/pieces/hiro-tomo-1.png",
+    "pieceSlugs": [
+      "hiro-tomo-001",
+      "hiro-tomo-002",
+      "hiro-tomo-003",
+      "hiro-tomo-005",
+      "hiro-tomo-008"
+    ],
+    "featured": false,
+    "sortOrder": 6
+  },
+  {
+    "slug": "old-masters-new-tricks",
+    "name": "Old Masters, New Tricks",
+    "description": "Rave Zola's classical figurative works deploy Old Master technique as a Trojan horse — the Caravaggio lighting, the Velázquez composition, the Baroque drama — all carrying subjects that could not be more of this moment.",
+    "coverImageUrl": "/images/pieces/rave-zola-1.png",
+    "pieceSlugs": [
+      "rave-zola-001",
+      "rave-zola-002",
+      "rave-zola-003",
+      "rave-zola-004",
+      "rave-zola-005",
+      "rave-zola-006",
+      "rave-zola-007",
+      "rave-zola-008"
+    ],
+    "featured": true,
+    "sortOrder": 7
+  },
+  {
+    "slug": "small-wonders",
+    "name": "Small Wonders",
+    "description": "Bea Gomez's graphic illustrations of everyday objects — the coffee cup, the dog in the doorway, the reading pile — and Fenna Haas's small-format creature portraits. Work that finds the monumental in the unremarkable.",
+    "coverImageUrl": "/images/pieces/bea-gomez-1.png",
+    "pieceSlugs": [
+      "bea-gomez-001",
+      "bea-gomez-002",
+      "bea-gomez-003",
+      "bea-gomez-005",
+      "bea-gomez-006",
+      "bea-gomez-008",
+      "fenna-haas-003",
+      "fenna-haas-004",
+      "fenna-haas-007"
+    ],
+    "featured": false,
+    "sortOrder": 8
   }
 ]
