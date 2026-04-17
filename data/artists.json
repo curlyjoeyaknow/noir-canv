@@ -6,7 +6,11 @@
     "artistStatement": "I seek to capture the in-between—the moment before form settles, where possibility still breathes.",
     "portraitUrl": "/images/artists/river-strand/portrait.png",
     "studioImageUrls": [],
-    "influences": ["James Jean", "Art Nouveau", "Botanical illustration"],
+    "influences": [
+      "James Jean",
+      "Art Nouveau",
+      "Botanical illustration"
+    ],
     "style": {
       "medium": "Oil and ink on canvas",
       "palette": "Muted pastels, ivory, sage, dusty rose",
@@ -22,7 +26,11 @@
     "artistStatement": "Every face holds a story older than the person wearing it.",
     "portraitUrl": "/images/artists/ren-cross/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Travis Louie", "Victorian illustration", "Silent film"],
+    "influences": [
+      "Travis Louie",
+      "Victorian illustration",
+      "Silent film"
+    ],
     "style": {
       "medium": "Gouache on panel",
       "palette": "Sepia, slate, pale gold",
@@ -38,7 +46,11 @@
     "artistStatement": "Beauty is a discipline—every line must earn its place.",
     "portraitUrl": "/images/artists/elara-nakamura/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Audrey Kawasaki", "Mucha", "Hokusai"],
+    "influences": [
+      "Audrey Kawasaki",
+      "Mucha",
+      "Hokusai"
+    ],
     "style": {
       "medium": "Ink and wood stain on birch panel",
       "palette": "Ivory, cherry blossom, deep lacquer",
@@ -54,7 +66,11 @@
     "artistStatement": "I paint the places I go when I close my eyes.",
     "portraitUrl": "/images/artists/nova-ash/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Amy Sol", "Studio Ghibli", "Edward Lear"],
+    "influences": [
+      "Amy Sol",
+      "Studio Ghibli",
+      "Edward Lear"
+    ],
     "style": {
       "medium": "Acrylic on canvas",
       "palette": "Lavender, gold, soft teal",
@@ -70,7 +86,11 @@
     "artistStatement": "Art without urgency is decoration. I want my work to mean something.",
     "portraitUrl": "/images/artists/elara-chen/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Shepard Fairey", "Constructivism", "Street art"],
+    "influences": [
+      "Shepard Fairey",
+      "Constructivism",
+      "Street art"
+    ],
     "style": {
       "medium": "Mixed media on canvas",
       "palette": "Red, black, cream, gold",
@@ -86,7 +106,11 @@
     "artistStatement": "Light is the subject. Everything else is just its occasion.",
     "portraitUrl": "/images/artists/vera-voss/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Brad Kunkle", "Klimt", "Vermeer"],
+    "influences": [
+      "Brad Kunkle",
+      "Klimt",
+      "Vermeer"
+    ],
     "style": {
       "medium": "Oil and gold leaf on panel",
       "palette": "Gold, ivory, deep burgundy",
@@ -102,7 +126,11 @@
     "artistStatement": "I am trying to paint the feeling of a word on the tip of your tongue.",
     "portraitUrl": "/images/artists/leo-vale/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Stella Im Hultberg", "Egon Schiele", "Watercolour tradition"],
+    "influences": [
+      "Stella Im Hultberg",
+      "Egon Schiele",
+      "Watercolour tradition"
+    ],
     "style": {
       "medium": "Watercolour and ink on paper",
       "palette": "Translucent pinks, charcoal, aged ivory",
@@ -118,7 +146,11 @@
     "artistStatement": "I paint the way a music box sounds — innocent on the surface, mechanical underneath, and somehow both at once.",
     "portraitUrl": "/images/artists/mae-ryden/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Mark Ryden", "Victorian cabinet cards", "Candy culture"],
+    "influences": [
+      "Mark Ryden",
+      "Victorian cabinet cards",
+      "Candy culture"
+    ],
     "style": {
       "medium": "Oil on panel",
       "palette": "Candy pink, porcelain white, crimson, pale gold",
@@ -134,7 +166,11 @@
     "artistStatement": "An animal never poses. That is what makes them harder to paint and more honest to look at.",
     "portraitUrl": "/images/artists/fenna-haas/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Femke Hiemstra", "Dutch Golden Age", "Northern European folk art"],
+    "influences": [
+      "Femke Hiemstra",
+      "Dutch Golden Age",
+      "Northern European folk art"
+    ],
     "style": {
       "medium": "Oil and ink on wood panel",
       "palette": "Umber, olive, cream, soft terracotta",
@@ -150,7 +186,11 @@
     "artistStatement": "The tattoo artist works on skin that breathes and ages. I work on canvas that outlasts us both. The cat, of course, outlasts everyone.",
     "portraitUrl": "/images/artists/hiro-tomo/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Horitomo", "Japanese irezumi tradition", "Ukiyo-e woodblock"],
+    "influences": [
+      "Horitomo",
+      "Japanese irezumi tradition",
+      "Ukiyo-e woodblock"
+    ],
     "style": {
       "medium": "Ink and acrylic on canvas",
       "palette": "Red, sumi black, white, chrysanthemum gold",
@@ -166,7 +206,11 @@
     "artistStatement": "I am interested in the things you have stopped noticing. I am trying to return them to you.",
     "portraitUrl": "/images/artists/bea-gomez/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Blanca Gomez", "Scandinavian design", "Post-war illustration"],
+    "influences": [
+      "Blanca Gomez",
+      "Scandinavian design",
+      "Post-war illustration"
+    ],
     "style": {
       "medium": "Digital illustration printed on archival paper",
       "palette": "Sage, dusty coral, warm cream, occasional yellow",
@@ -182,11 +226,51 @@
     "artistStatement": "Great painting technique is a Trojan horse. You let it through the gates before you realise what is inside.",
     "portraitUrl": "/images/artists/rave-zola/portrait.png",
     "studioImageUrls": [],
-    "influences": ["Ravi Zupa", "Caravaggio", "Velázquez"],
+    "influences": [
+      "Ravi Zupa",
+      "Caravaggio",
+      "Velázquez"
+    ],
     "style": {
       "medium": "Oil on canvas",
       "palette": "Deep chiaroscuro, raw umber, scarlet, aged white",
       "subjects": "Classical figurative composition with contemporary disruption"
+    },
+    "pricingTier": "mid-range",
+    "defaultEditionSize": 25
+  },
+  {
+    "slug": "ren-vale",
+    "name": "Ren Vale",
+    "bio": "Ren Vale is an artist whose work draws on Jed Henry-inspired contemporary art with distinctive visual style and technique. Their pieces explore the boundaries between tradition and contemporary expression, creating compositions that invite contemplation and connection.",
+    "artistStatement": "I seek to capture the in-between—the moment before form settles, where possibility still breathes.",
+    "portraitUrl": "/images/artists/ren-vale/portrait.png",
+    "studioImageUrls": [],
+    "influences": [
+      "JED HENRY"
+    ],
+    "style": {
+      "medium": "mixed media",
+      "palette": "varied",
+      "subjects": "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    },
+    "pricingTier": "mid-range",
+    "defaultEditionSize": 25
+  },
+  {
+    "slug": "kai-vale",
+    "name": "Kai Vale",
+    "bio": "Kai Vale is an artist whose work draws on mid-century modern illustration, retro cocktail culture, geometric stylized figures, bold saturated colors, tiki and space-age aesthetics. Their pieces explore the boundaries between tradition and contemporary expression, creating compositions that invite contemplation and connection.",
+    "artistStatement": "I seek to capture the in-between—the moment before form settles, where possibility still breathes.",
+    "portraitUrl": "/images/artists/kai-vale/portrait.png",
+    "studioImageUrls": [],
+    "influences": [
+      "SHAG"
+    ],
+    "style": {
+      "medium": "mixed media",
+      "palette": "varied",
+      "subjects": "mid-century modern illustration, retro cocktail culture, geometric stylized figures, bold saturated colors, tiki and space-age aesthetics"
     },
     "pricingTier": "mid-range",
     "defaultEditionSize": 25
