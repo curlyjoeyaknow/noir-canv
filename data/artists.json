@@ -118,5 +118,23 @@
     },
     "pricingTier": "premium",
     "defaultEditionSize": 15
+  },
+  {
+    "slug": "leo-vale",
+    "name": "Leo Vale",
+    "bio": "Leo Vale is an artist whose work draws on Stella Im Hultberg-inspired contemporary art with distinctive visual style and technique. Their pieces explore the boundaries between tradition and contemporary expression, creating compositions that invite contemplation and connection.",
+    "artistStatement": "I seek to capture the in-between—the moment before form settles, where possibility still breathes.",
+    "portraitUrl": "/images/artists/leo-vale/portrait.png",
+    "studioImageUrls": [],
+    "influences": [
+      "Stella Im Hultberg"
+    ],
+    "style": {
+      "medium": "Digital oil on canvas",
+      "palette": "varied",
+      "subjects": "Stella Im Hultberg-inspired contemporary art with distinctive visual style and technique"
+    },
+    "pricingTier": "mid-range",
+    "defaultEditionSize": 20
   }
 ]
