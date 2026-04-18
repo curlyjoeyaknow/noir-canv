@@ -98,7 +98,7 @@ export function PieceImageGallery({
                   alt={active.alt}
                   fill
                   sizes="(max-width: 1024px) 100vw, 576px"
-                  className="object-contain"
+                  className="object-cover"
                   priority
                 />
               </div>
@@ -159,7 +159,7 @@ export function PieceImageGallery({
                         alt={item.alt}
                         fill
                         sizes="54px"
-                        className="object-contain"
+                        className="object-cover"
                       />
                     </div>
                   </div>
