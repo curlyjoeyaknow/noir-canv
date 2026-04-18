@@ -90,18 +90,15 @@ export function PieceImageGallery({
           </div>
         ) : (
           <div className="artwork-frame w-full">
-            <div className="artwork-mat">
-              <div className="artwork-seal" aria-hidden>NC</div>
-              <div className="relative aspect-[3/4] overflow-hidden ring-[1.5px] ring-black/75">
-                <Image
-                  src={active.src}
-                  alt={active.alt}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 576px"
-                  className="object-cover"
-                  priority
-                />
-              </div>
+            <div className="relative aspect-[3/4] overflow-hidden ring-[1.5px] ring-black/75">
+              <Image
+                src={active.src}
+                alt={active.alt}
+                fill
+                sizes="(max-width: 1024px) 100vw, 576px"
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         )}
