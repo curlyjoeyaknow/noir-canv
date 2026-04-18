@@ -90,13 +90,13 @@ export function PieceImageGallery({
           </div>
         ) : (
           <div className="artwork-frame w-full">
-            <div className="relative aspect-[3/4] overflow-hidden ring-[1.5px] ring-black/75">
+            <div className="relative aspect-[2/3] overflow-hidden ring-[1.5px] ring-black/75">
               <Image
                 src={active.src}
                 alt={active.alt}
                 fill
                 sizes="(max-width: 1024px) 100vw, 576px"
-                className="object-cover"
+                className="object-contain"
                 priority
               />
             </div>
@@ -156,7 +156,7 @@ export function PieceImageGallery({
                         alt={item.alt}
                         fill
                         sizes="54px"
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                   </div>

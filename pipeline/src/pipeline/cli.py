@@ -16,6 +16,7 @@ from pipeline.commands import (
     register,
     room_mockup,
     room_templates_group,
+    standardise,
     upscale,
 )
 
@@ -34,6 +35,7 @@ cli.add_command(avatar)
 cli.add_command(artist_studio)
 cli.add_command(full)
 cli.add_command(process_images)
+cli.add_command(standardise)
 cli.add_command(analyze_frames)
 cli.add_command(frame)
 cli.add_command(room_mockup)

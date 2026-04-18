@@ -16,6 +16,7 @@ from pipeline.commands.process_images import process_images
 from pipeline.commands.register import register
 from pipeline.commands.room_mockup import room_mockup
 from pipeline.commands.room_templates_cmd import room_templates_group
+from pipeline.commands.standardise import standardise
 from pipeline.commands.upscale import upscale
 
 __all__ = [
@@ -32,5 +33,6 @@ __all__ = [
     "register",
     "room_mockup",
     "room_templates_group",
+    "standardise",
     "upscale",
 ]
