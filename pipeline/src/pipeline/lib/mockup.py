@@ -7,6 +7,12 @@ Two output types per piece:
 Frame styles define matte width, frame width, and colors.
 The artwork fills the frame edge-to-edge -- no extra borders added to
 the source image. The frame adds its own matte.
+
+Smart matte logic: if the artwork already has a white or warm-neutral
+(beige/cream) background, the white cardboard matte is skipped — adding
+a white matte on top of an existing white background makes the mat
+visually merge with the artwork, as if the frame is bordering the raw
+image edge rather than the art content.
 """
 
 from __future__ import annotations
@@ -58,6 +64,35 @@ FRAME_STYLES: dict[str, dict] = {
 DEFAULT_STYLE = "natural-wood"
 
 
+def _sample_background(art: Image.Image, sample_px: int = 8) -> tuple[int, int, int]:
+    """Sample corner pixels to estimate the artwork background color."""
+    arr = np.array(art)
+    h, w = arr.shape[:2]
+    s = min(sample_px, h // 4, w // 4)
+    corners = [
+        arr[:s, :s],
+        arr[:s, -s:],
+        arr[-s:, :s],
+        arr[-s:, -s:],
+    ]
+    avg = np.mean([c.reshape(-1, 3).mean(axis=0) for c in corners], axis=0)
+    return (int(avg[0]), int(avg[1]), int(avg[2]))
+
+
+def _should_skip_matte(bg: tuple[int, int, int]) -> bool:
+    """Return True when the artwork background makes a white matte redundant.
+
+    Skip if:
+    - Near-white: all channels >= 225  (white bg already acts as matte)
+    - Warm neutral / beige: bright overall, red channel dominates blue by
+      at least 15 points (cream, parchment, ivory, warm paper tones)
+    """
+    r, g, b = bg
+    is_near_white = r >= 225 and g >= 225 and b >= 225
+    is_warm_neutral = (r + g + b) >= 480 and r >= b + 15 and g >= b + 5
+    return is_near_white or is_warm_neutral
+
+
 def frame_flat(
     art_path: Path,
     output_path: Path,
@@ -69,7 +104,10 @@ def frame_flat(
     aw, ah = art.size
     short_edge = min(aw, ah)
 
-    matte_px = max(12, int(short_edge * style["matte_pct"])) if style["matte_pct"] > 0 else 0
+    # Skip white matte when artwork background is already white or warm-neutral
+    bg = _sample_background(art)
+    effective_matte_pct = 0.0 if _should_skip_matte(bg) else style["matte_pct"]
+    matte_px = max(12, int(short_edge * effective_matte_pct)) if effective_matte_pct > 0 else 0
     frame_px = max(8, int(short_edge * style["frame_pct"]))
 
     framed_w = aw + 2 * (matte_px + frame_px)
@@ -86,10 +124,11 @@ def frame_flat(
     art_y = frame_px + matte_px
     framed.paste(art, (art_x, art_y))
 
-    pad = int(short_edge * 0.08)
+    # Minimal outer border so the frame edge isn't clipped at display time
+    pad = max(2, int(short_edge * 0.01))
     canvas_w = framed_w + pad * 2
     canvas_h = framed_h + pad * 2
-    canvas = Image.new("RGB", (canvas_w, canvas_h), (255, 255, 255))
+    canvas = Image.new("RGB", (canvas_w, canvas_h), (248, 246, 242))
     canvas.paste(framed, (pad, pad))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -129,7 +168,9 @@ def frame_angled(
     aw, ah = art.size
     short_edge = min(aw, ah)
 
-    matte_px = max(12, int(short_edge * style["matte_pct"])) if style["matte_pct"] > 0 else 0
+    bg = _sample_background(art)
+    effective_matte_pct = 0.0 if _should_skip_matte(bg) else style["matte_pct"]
+    matte_px = max(12, int(short_edge * effective_matte_pct)) if effective_matte_pct > 0 else 0
     frame_px = max(8, int(short_edge * style["frame_pct"]))
 
     framed_w = aw + 2 * (matte_px + frame_px)

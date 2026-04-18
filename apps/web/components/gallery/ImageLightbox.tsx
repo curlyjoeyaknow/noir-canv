@@ -97,7 +97,7 @@ export function ImageLightbox({
         type="button"
         onClick={onClose}
         aria-label="Close lightbox"
-        className="absolute right-4 top-4 z-10 rounded-full bg-overlay p-2.5 text-foreground transition-all duration-200 hover:bg-surface-hover hover:scale-110"
+        className="absolute right-4 top-4 z-10 rounded-full bg-black/60 p-2.5 text-white transition-all duration-200 hover:bg-black/80 hover:scale-110"
       >
         <CloseIcon />
       </button>
@@ -108,7 +108,7 @@ export function ImageLightbox({
             type="button"
             onClick={handlePrev}
             aria-label="Previous image"
-            className="absolute left-4 top-1/2 z-10 -translate-y-1/2 rounded-full bg-overlay p-2.5 text-foreground transition-all duration-200 hover:bg-surface-hover hover:scale-110"
+            className="absolute left-4 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black/60 p-2.5 text-white transition-all duration-200 hover:bg-black/80 hover:scale-110"
           >
             <ChevronLeft />
           </button>
@@ -116,7 +116,7 @@ export function ImageLightbox({
             type="button"
             onClick={handleNext}
             aria-label="Next image"
-            className="absolute right-4 top-1/2 z-10 -translate-y-1/2 rounded-full bg-overlay p-2.5 text-foreground transition-all duration-200 hover:bg-surface-hover hover:scale-110"
+            className="absolute right-4 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black/60 p-2.5 text-white transition-all duration-200 hover:bg-black/80 hover:scale-110"
           >
             <ChevronRight />
           </button>
@@ -144,7 +144,7 @@ export function ImageLightbox({
       </div>
 
       {total > 1 && (
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 rounded-full border border-border/40 bg-overlay px-4 py-1.5 text-sm tabular-nums text-foreground">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 rounded-full border border-white/20 bg-black/60 px-4 py-1.5 text-sm tabular-nums text-white">
           {currentIndex + 1} / {total}
         </div>
       )}

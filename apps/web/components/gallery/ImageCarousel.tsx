@@ -93,7 +93,7 @@ export function ImageCarousel({
             type="button"
             onClick={handlePrev}
             aria-label="Previous image"
-            className="absolute left-3 top-1/2 hidden -translate-y-1/2 rounded-full bg-overlay p-2.5 text-foreground transition-all duration-200 hover:bg-surface-hover hover:scale-110 md:block"
+            className="absolute left-3 top-1/2 hidden -translate-y-1/2 rounded-full bg-black/60 p-2.5 text-white transition-all duration-200 hover:bg-black/80 hover:scale-110 md:block"
           >
             <ChevronLeft />
           </button>
@@ -101,7 +101,7 @@ export function ImageCarousel({
             type="button"
             onClick={handleNext}
             aria-label="Next image"
-            className="absolute right-3 top-1/2 hidden -translate-y-1/2 rounded-full bg-overlay p-2.5 text-foreground transition-all duration-200 hover:bg-surface-hover hover:scale-110 md:block"
+            className="absolute right-3 top-1/2 hidden -translate-y-1/2 rounded-full bg-black/60 p-2.5 text-white transition-all duration-200 hover:bg-black/80 hover:scale-110 md:block"
           >
             <ChevronRight />
           </button>

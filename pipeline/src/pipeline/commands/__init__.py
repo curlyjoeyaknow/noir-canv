@@ -8,7 +8,7 @@ from pipeline.commands.artist_studio import artist_studio
 from pipeline.commands.avatar import avatar
 from pipeline.commands.create_artist import create_artist
 from pipeline.commands.curate import curate
-from pipeline.commands.frame import frame
+from pipeline.commands.frame import analyze_frames, frame
 from pipeline.commands.full import full
 from pipeline.commands.generate import generate
 from pipeline.commands.mockup import mockup
@@ -23,6 +23,7 @@ __all__ = [
     "avatar",
     "create_artist",
     "curate",
+    "analyze_frames",
     "frame",
     "full",
     "generate",

@@ -3,6 +3,7 @@
 import click
 
 from pipeline.commands import (
+    analyze_frames,
     artist_studio,
     avatar,
     create_artist,
@@ -33,6 +34,7 @@ cli.add_command(avatar)
 cli.add_command(artist_studio)
 cli.add_command(full)
 cli.add_command(process_images)
+cli.add_command(analyze_frames)
 cli.add_command(frame)
 cli.add_command(room_mockup)
 cli.add_command(room_templates_group)

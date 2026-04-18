@@ -1,0 +1,24 @@
+name: Kai Vale
+slug: kai-vale
+example_artists:
+- SHAG
+style_reference: mid-century modern illustration, retro cocktail culture, geometric
+  stylized figures, bold saturated colors, tiki and space-age aesthetics
+prompt_prefix: 'Fine art, gallery quality, '
+prompt_suffix: ', inspired by mid-century modern illustration, retro cocktail culture,
+  geometric stylized figures, bold saturated colors, tiki and space-age aesthetics,
+  cohesive portfolio aesthetic'
+negative_prompt: busy, cluttered, photorealistic, text, watermark
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 1
+example_ref_folder: artwork
+steps: 30
+cfg_scale: 7.5
+bio: Kai Vale is an artist whose work draws on mid-century modern illustration, retro
+  cocktail culture, geometric stylized figures, bold saturated colors, tiki and space-age
+  aesthetics. Their pieces explore the boundaries between tradition and contemporary
+  expression, creating compositions that invite contemplation and connection.
+statement: "I seek to capture the in-between\u2014the moment before form settles,\
+  \ where possibility still breathes."

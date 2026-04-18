@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { getPieces, getPiece, getArtistName, getMockupsForPiece } from "@/lib/data";
 import { formatPrice } from "@/lib/schemas";
-import { MockupViewer } from "@/components/gallery/MockupViewer";
+import { PieceImageGallery } from "@/components/gallery/PieceImageGallery";
 import { EditionBadge } from "@/components/gallery/EditionBadge";
 import { BuyButton } from "@/components/gallery/BuyButton";
 
@@ -41,30 +40,17 @@ export default async function PieceDetailPage({ params }: PageProps) {
   return (
     <article className="mx-auto max-w-7xl px-6 py-16 md:px-8 md:py-20">
       <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
-        {/* Image & Mockups */}
-        <div className="w-full space-y-6 lg:max-w-xl">
-          <div className="relative aspect-[3/4] w-full overflow-hidden rounded-sm bg-[#f4f2ef] shadow-xl shadow-black/10">
-            <div className="absolute inset-8">
-              <Image
-                src={piece.imageUrl}
-                alt={piece.title}
-                fill
-                sizes="(max-width: 1024px) 100vw, 576px"
-                className="object-contain drop-shadow-lg"
-                priority
-              />
-            </div>
-          </div>
-          {mockups.length > 0 && (
-            <MockupViewer
-              pieceTitle={piece.title}
-              mockups={mockups.map((m) => ({
-                type: m.type,
-                variant: m.variant,
-                imageUrl: m.imageUrl,
-              }))}
-            />
-          )}
+        {/* Image gallery with thumbnail strip */}
+        <div className="w-full lg:max-w-xl">
+          <PieceImageGallery
+            pieceTitle={piece.title}
+            printImageUrl={piece.imageUrl}
+            mockups={mockups.map((m) => ({
+              type: m.type,
+              variant: m.variant,
+              imageUrl: m.imageUrl,
+            }))}
+          />
         </div>
 
         {/* Details */}

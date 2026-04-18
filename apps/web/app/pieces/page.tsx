@@ -13,17 +13,14 @@ export default function PiecesPage() {
   const artists = getArtists();
 
   return (
-    <main className="mx-auto max-w-7xl px-6 py-16 md:px-8 md:py-20">
-      <header className="mb-10">
-        <h1 className="font-serif text-4xl font-bold tracking-tight text-foreground md:text-5xl">
-          All Works
-        </h1>
-        <p className="mt-4 max-w-2xl text-muted">
-          The complete collection — {pieces.length} original works by {artists.length} artists.
-        </p>
-      </header>
+    <main className="mx-auto max-w-7xl px-6 py-12 md:px-8 md:py-16">
+      <h1 className="font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+        All Works
+      </h1>
 
-      <PieceBrowser pieces={pieces} artists={artists} />
+      <div className="mt-8">
+        <PieceBrowser pieces={pieces} artists={artists} />
+      </div>
     </main>
   );
 }

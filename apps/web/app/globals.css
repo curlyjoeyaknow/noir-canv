@@ -3,33 +3,33 @@
 /* ─── Design Tokens ─────────────────────────────────────────────────── */
 
 :root {
-  /* Backgrounds — deep charcoal noir */
-  --background: #0d0c0a;
-  --surface: #161412;
-  --surface-hover: #1e1b17;
-  --card: #1a1814;
-  --card-hover: #22201b;
-  --overlay: rgba(0, 0, 0, 0.85);
+  /* Backgrounds — clean white gallery */
+  --background: #ffffff;
+  --surface: #f5f3f0;
+  --surface-hover: #ede9e3;
+  --card: #ffffff;
+  --card-hover: #f9f7f4;
+  --overlay: rgba(0, 0, 0, 0.65);
 
-  /* Text — warm off-white on dark */
-  --foreground: #ede8df;
-  --muted: #7a7570;
-  --dim: #4e4b46;
+  /* Text — warm near-black on white */
+  --foreground: #1a1714;
+  --muted: #6b6560;
+  --dim: #a09b94;
 
-  /* Accent — rich gallery gold, brighter on dark */
-  --accent: #c9a227;
-  --accent-hover: #e0b82c;
-  --accent-muted: #a8871f;
-  --accent-subtle: rgba(201, 162, 39, 0.12);
+  /* Accent — gallery gold, darkened for white-bg readability */
+  --accent: #9d7a18;
+  --accent-hover: #b8891a;
+  --accent-muted: #c9a227;
+  --accent-subtle: rgba(157, 122, 24, 0.10);
 
   /* Borders */
-  --border: #272420;
-  --border-hover: #3a3630;
+  --border: #e5e0d8;
+  --border-hover: #cfc9c0;
 
   /* Semantic */
-  --edition-gold: #c9a227;
+  --edition-gold: #b8891a;
   --sold-out: #dc2626;
-  --success: #22c55e;
+  --success: #16a34a;
 
   /* Frame colours (walnut + mat) */
   --frame: #2a1d0e;
@@ -205,6 +205,7 @@ a {
 }
 
 .artwork-frame:hover {
+  transform: translateY(-6px);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.06),
     inset 0 -1px 0 rgba(0, 0, 0, 0.4),
@@ -261,12 +262,12 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: var(--border-hover);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--border-hover);
+  background: var(--dim);
 }
 
 /* ─── Animations ───────────────────────────────────────────────────── */

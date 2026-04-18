@@ -22,49 +22,52 @@ export function PieceCard({ piece, artistName, priority = false }: PieceCardProp
 
   return (
     <Link href={`/pieces/${piece.slug}`} className="group block">
-      <article className="transition-transform duration-500 ease-out group-hover:-translate-y-2">
+      <article>
 
-        {/* Framed artwork image — frame is baked into the PNG */}
-        <div className="relative overflow-hidden shadow-[0_16px_48px_rgba(0,0,0,0.6)] transition-shadow duration-500 group-hover:shadow-[0_24px_64px_rgba(0,0,0,0.8)]">
-          <div className="relative aspect-[4/5]">
-            <Image
-              src={piece.imageUrl}
-              alt={piece.title}
-              fill
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="object-contain"
-              priority={priority}
-            />
+        {/* Framed artwork — walnut frame, cream mat, gold seal, black inner liner */}
+        <div className="artwork-frame">
+          <div className="artwork-mat">
+            <div className="artwork-seal" aria-hidden>NC</div>
+
+            {/* Thin black inner liner between mat and artwork */}
+            <div className="relative aspect-[3/4] overflow-hidden ring-[1.5px] ring-black/75">
+              <Image
+                src={piece.imageUrl}
+                alt={piece.title}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-contain transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+                priority={priority}
+              />
+            </div>
           </div>
-
-          {editionLabel && (
-            <span
-              className={`absolute right-3 top-3 z-10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-widest ${
-                isSoldOut
-                  ? "bg-sold-out text-white"
-                  : "bg-edition-gold text-[#0d0c0a]"
-              }`}
-            >
-              {editionLabel}
-            </span>
-          )}
         </div>
 
-        {/* Metadata */}
+        {/* Metadata below frame */}
         <div className="mt-4 space-y-1 px-0.5">
-          <h3 className="font-serif text-base text-foreground transition-colors duration-200 group-hover:text-accent leading-snug">
+          <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-dim">
+            {artistName}
+          </p>
+          <h3 className="font-serif text-sm leading-snug text-foreground transition-colors duration-200 group-hover:text-accent">
             {piece.title}
           </h3>
-          <p className="text-xs text-muted tracking-wide">{artistName}</p>
-          <div className="flex items-center justify-between pt-1">
-            {!isSoldOut && (
-              <p className="text-sm font-medium text-accent">
+          <div className="flex items-baseline justify-between pt-0.5">
+            {isSoldOut ? (
+              <span className="text-xs font-semibold text-sold-out">Sold Out</span>
+            ) : (
+              <span className="text-sm text-foreground">
                 {formatPrice(piece.priceCents, piece.currency)}
-              </p>
+              </span>
             )}
-            <p className="ml-auto text-xs text-dim">
-              Ed.&nbsp;{piece.editionsSold}/{piece.editionSize}
-            </p>
+            <span
+              className={`text-[10px] ${
+                editionLabel && !isSoldOut
+                  ? "font-semibold text-edition-gold"
+                  : "text-dim"
+              }`}
+            >
+              {editionLabel && !isSoldOut ? editionLabel : `Ed. ${piece.editionsSold}/${piece.editionSize}`}
+            </span>
           </div>
         </div>
 

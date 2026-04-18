@@ -34,7 +34,7 @@ PUBLIC_PIECES = ROOT / "apps" / "web" / "public" / "images" / "pieces"
 PUBLIC_ARTISTS = ROOT / "apps" / "web" / "public" / "images" / "artists"
 RAW_DIR = ROOT / "pipeline" / "output" / "raw"
 
-ARTISTS = ["river-strand", "ren-cross", "elara-nakamura", "nova-ash", "elara-chen", "vera-voss"]
+ARTISTS = ["ren-vale", "kai-vale", "river-strand", "ren-cross", "elara-nakamura", "nova-ash", "elara-chen", "vera-voss"]
 
 GALLERY_SIZE = 1600
 CARD_SIZE = 800

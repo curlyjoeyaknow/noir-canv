@@ -77,6 +77,15 @@ class ArtistConfig(BaseModel):
     bio: str | None = None
     statement: str | None = None
 
+    # Frame style parameters auto-detected from examples/framed/ and examples/mockups/.
+    # Populated by `pipeline analyze-frames --artist <slug>`. Used by `pipeline frame`.
+    frame_color: list[int] | None = None       # RGB e.g. [18, 18, 18]
+    matte_color: list[int] | None = None       # RGB e.g. [255, 255, 255]
+    frame_pct: float | None = None             # frame border as fraction of shorter dim
+    matte_pct: float | None = None             # matte border as fraction of shorter dim
+    frame_view_angle: float | None = None      # left-side compression for angled mockup
+    frame_vertical_skew: float | None = None   # right-side vertical lift for angled mockup
+
 
 class PieceOverride(BaseModel):
     """Optional per-piece override (pipeline/content/pieces/{slug}.yaml)."""
