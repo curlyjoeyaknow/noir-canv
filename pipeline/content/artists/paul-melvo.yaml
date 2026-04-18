@@ -1,0 +1,26 @@
+name: Paul Melvo
+slug: paul-melvo
+example_artists:
+- BRIAN_REEDY
+style_reference: bold woodblock-style graphic prints with simplified flat forms, strong
+  outlines, limited color palettes, and a handcrafted mid-century printmaking aesthetic
+prompt_prefix: 'Fine art, gallery quality, bold graphic woodblock print, '
+prompt_suffix: ', bold outlines, flat color areas, limited palette, printmaking aesthetic,
+  mid-century graphic design, cohesive portfolio aesthetic'
+negative_prompt: busy, cluttered, photorealistic, text, watermark, gradients, airbrushed,
+  soft edges, multiple figures piled
+model_id: stabilityai/stable-diffusion-xl-base-1.0
+model_type: gemini
+ip_adapter_scale: 0.7
+ip_adapter_blend_count: 2
+example_ref_folder: artwork
+steps: 30
+cfg_scale: 7.5
+bio: Paul Melvo distills the visual world into its most essential lines. Working
+  in a tradition rooted in mid-century graphic design and Japanese woodblock printing,
+  he builds compositions from bold outlines, flat planes of color, and a disciplined
+  restraint that gives each piece its commanding presence. His work strips subjects
+  to their iconic core — the silhouette, the gesture, the single defining detail —
+  and renders them with the confident authority of a master printmaker.
+statement: "Reduction is not loss. Every line I remove is a decision\u2014a choice
+  to trust the image with less. The shape that remains is the truth of the thing."

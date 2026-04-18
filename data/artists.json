@@ -274,5 +274,25 @@
     },
     "pricingTier": "mid-range",
     "defaultEditionSize": 25
+  },
+  {
+    "slug": "paul-melvo",
+    "name": "Paul Melvo",
+    "bio": "Paul Melvo distills the visual world into its most essential lines. Working in a tradition rooted in mid-century graphic design and Japanese woodblock printing, he builds compositions from bold outlines, flat planes of color, and a disciplined restraint that gives each piece its commanding presence. His work strips subjects to their iconic core — the silhouette, the gesture, the single defining detail — and renders them with the confident authority of a master printmaker.",
+    "artistStatement": "Reduction is not loss. Every line I remove is a decision — a choice to trust the image with less. The shape that remains is the truth of the thing.",
+    "portraitUrl": "/images/artists/paul-melvo/portrait.png",
+    "studioImageUrls": [],
+    "influences": [
+      "Brian Reedy",
+      "Japanese woodblock printing",
+      "Mid-century graphic design"
+    ],
+    "style": {
+      "medium": "Screenprint and ink on panel",
+      "palette": "Bold primaries, deep black, raw paper tone",
+      "subjects": "Iconic figures and objects rendered in flat graphic form"
+    },
+    "pricingTier": "mid-range",
+    "defaultEditionSize": 25
   }
 ]

@@ -45,6 +45,7 @@ STYLE_DESCRIPTIONS: dict[str, str] = {
     "JOAN_CORNELLA": "minimalist comic-style illustration, bright flat colors, dark humor, simple geometric characters, clean lines, satirical absurdist scenarios",
     "SHAG": "mid-century modern illustration, retro cocktail culture, geometric stylized figures, bold saturated colors, tiki and space-age aesthetics",
     "TIM_DOYLE": "detailed black-and-white architectural illustrations, urban landscapes, pop culture landmarks reimagined, intricate cross-hatching, night scenes with dramatic contrast",
+    "BRIAN_REEDY": "bold woodblock-style graphic prints with simplified flat forms, strong outlines, limited color palettes, and a handcrafted mid-century printmaking aesthetic",
 }
 
 

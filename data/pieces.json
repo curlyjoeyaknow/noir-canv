@@ -13,7 +13,12 @@
     "availabilityStatus": "available",
     "priceCents": 159500,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "romantic", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "romantic",
+      "oil"
+    ]
   },
   {
     "slug": "vera-voss-002",
@@ -29,7 +34,13 @@
     "availabilityStatus": "available",
     "priceCents": 159500,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "romantic", "seated", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "romantic",
+      "seated",
+      "oil"
+    ]
   },
   {
     "slug": "vera-voss-003",
@@ -45,7 +56,13 @@
     "availabilityStatus": "available",
     "priceCents": 175000,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "devotional", "standing", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "devotional",
+      "standing",
+      "oil"
+    ]
   },
   {
     "slug": "vera-voss-004",
@@ -61,7 +78,13 @@
     "availabilityStatus": "available",
     "priceCents": 142000,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "evening", "repose", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "evening",
+      "repose",
+      "oil"
+    ]
   },
   {
     "slug": "vera-voss-005",
@@ -77,7 +100,13 @@
     "availabilityStatus": "available",
     "priceCents": 138000,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "hands", "abstract", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "hands",
+      "abstract",
+      "oil"
+    ]
   },
   {
     "slug": "vera-voss-006",
@@ -93,7 +122,13 @@
     "availabilityStatus": "available",
     "priceCents": 162000,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "doorway", "threshold", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "doorway",
+      "threshold",
+      "oil"
+    ]
   },
   {
     "slug": "vera-voss-007",
@@ -109,7 +144,13 @@
     "availabilityStatus": "available",
     "priceCents": 188000,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "fabric", "aerial", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "fabric",
+      "aerial",
+      "oil"
+    ]
   },
   {
     "slug": "vera-voss-008",
@@ -125,7 +166,13 @@
     "availabilityStatus": "low-stock",
     "priceCents": 129500,
     "currency": "USD",
-    "tags": ["figurative", "gold-leaf", "portrait", "intimate", "oil"]
+    "tags": [
+      "figurative",
+      "gold-leaf",
+      "portrait",
+      "intimate",
+      "oil"
+    ]
   },
   {
     "slug": "nova-ash-001",
@@ -141,7 +188,13 @@
     "availabilityStatus": "available",
     "priceCents": 49500,
     "currency": "USD",
-    "tags": ["dreamscape", "forest", "figure", "lavender", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "forest",
+      "figure",
+      "lavender",
+      "acrylic"
+    ]
   },
   {
     "slug": "nova-ash-002",
@@ -157,7 +210,13 @@
     "availabilityStatus": "available",
     "priceCents": 49500,
     "currency": "USD",
-    "tags": ["dreamscape", "lanterns", "child", "night", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "lanterns",
+      "child",
+      "night",
+      "acrylic"
+    ]
   },
   {
     "slug": "nova-ash-003",
@@ -173,7 +232,13 @@
     "availabilityStatus": "available",
     "priceCents": 54500,
     "currency": "USD",
-    "tags": ["dreamscape", "stars", "night", "grass", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "stars",
+      "night",
+      "grass",
+      "acrylic"
+    ]
   },
   {
     "slug": "nova-ash-004",
@@ -189,7 +254,13 @@
     "availabilityStatus": "available",
     "priceCents": 46500,
     "currency": "USD",
-    "tags": ["dreamscape", "water", "figures", "duo", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "water",
+      "figures",
+      "duo",
+      "acrylic"
+    ]
   },
   {
     "slug": "nova-ash-005",
@@ -205,7 +276,13 @@
     "availabilityStatus": "available",
     "priceCents": 49500,
     "currency": "USD",
-    "tags": ["dreamscape", "meadow", "botanical", "fog", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "meadow",
+      "botanical",
+      "fog",
+      "acrylic"
+    ]
   },
   {
     "slug": "nova-ash-006",
@@ -221,7 +298,13 @@
     "availabilityStatus": "available",
     "priceCents": 49500,
     "currency": "USD",
-    "tags": ["dreamscape", "rain", "street", "figure", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "rain",
+      "street",
+      "figure",
+      "acrylic"
+    ]
   },
   {
     "slug": "nova-ash-007",
@@ -237,7 +320,13 @@
     "availabilityStatus": "available",
     "priceCents": 44500,
     "currency": "USD",
-    "tags": ["dreamscape", "child", "fog", "joy", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "child",
+      "fog",
+      "joy",
+      "acrylic"
+    ]
   },
   {
     "slug": "nova-ash-008",
@@ -253,7 +342,13 @@
     "availabilityStatus": "available",
     "priceCents": 59500,
     "currency": "USD",
-    "tags": ["dreamscape", "forest", "figure", "light", "acrylic"]
+    "tags": [
+      "dreamscape",
+      "forest",
+      "figure",
+      "light",
+      "acrylic"
+    ]
   },
   {
     "slug": "river-strand-001",
@@ -269,7 +364,13 @@
     "availabilityStatus": "available",
     "priceCents": 129500,
     "currency": "USD",
-    "tags": ["botanical", "art-nouveau", "figurative", "linework", "oil"]
+    "tags": [
+      "botanical",
+      "art-nouveau",
+      "figurative",
+      "linework",
+      "oil"
+    ]
   },
   {
     "slug": "river-strand-002",
@@ -285,7 +386,13 @@
     "availabilityStatus": "available",
     "priceCents": 119500,
     "currency": "USD",
-    "tags": ["botanical", "art-nouveau", "figurative", "floral", "oil"]
+    "tags": [
+      "botanical",
+      "art-nouveau",
+      "figurative",
+      "floral",
+      "oil"
+    ]
   },
   {
     "slug": "river-strand-003",
@@ -301,7 +408,13 @@
     "availabilityStatus": "available",
     "priceCents": 109500,
     "currency": "USD",
-    "tags": ["botanical", "art-nouveau", "figurative", "ferns", "ink"]
+    "tags": [
+      "botanical",
+      "art-nouveau",
+      "figurative",
+      "ferns",
+      "ink"
+    ]
   },
   {
     "slug": "river-strand-004",
@@ -317,7 +430,13 @@
     "availabilityStatus": "available",
     "priceCents": 129500,
     "currency": "USD",
-    "tags": ["botanical", "art-nouveau", "nocturne", "sleeping", "oil"]
+    "tags": [
+      "botanical",
+      "art-nouveau",
+      "nocturne",
+      "sleeping",
+      "oil"
+    ]
   },
   {
     "slug": "river-strand-005",
@@ -333,7 +452,13 @@
     "availabilityStatus": "available",
     "priceCents": 119500,
     "currency": "USD",
-    "tags": ["botanical", "art-nouveau", "figurative", "leaves", "oil"]
+    "tags": [
+      "botanical",
+      "art-nouveau",
+      "figurative",
+      "leaves",
+      "oil"
+    ]
   },
   {
     "slug": "river-strand-006",
@@ -349,7 +474,13 @@
     "availabilityStatus": "available",
     "priceCents": 129500,
     "currency": "USD",
-    "tags": ["botanical", "art-nouveau", "water", "reflection", "oil"]
+    "tags": [
+      "botanical",
+      "art-nouveau",
+      "water",
+      "reflection",
+      "oil"
+    ]
   },
   {
     "slug": "river-strand-007",
@@ -365,7 +496,13 @@
     "availabilityStatus": "available",
     "priceCents": 115000,
     "currency": "USD",
-    "tags": ["botanical", "surreal", "roots", "figurative", "ink"]
+    "tags": [
+      "botanical",
+      "surreal",
+      "roots",
+      "figurative",
+      "ink"
+    ]
   },
   {
     "slug": "river-strand-008",
@@ -381,7 +518,13 @@
     "availabilityStatus": "available",
     "priceCents": 148000,
     "currency": "USD",
-    "tags": ["botanical", "surreal", "dense", "figurative", "oil"]
+    "tags": [
+      "botanical",
+      "surreal",
+      "dense",
+      "figurative",
+      "oil"
+    ]
   },
   {
     "slug": "ren-cross-001",
@@ -397,7 +540,13 @@
     "availabilityStatus": "available",
     "priceCents": 84500,
     "currency": "USD",
-    "tags": ["gothic", "portrait", "victorian", "figurative", "gouache"]
+    "tags": [
+      "gothic",
+      "portrait",
+      "victorian",
+      "figurative",
+      "gouache"
+    ]
   },
   {
     "slug": "elara-chen-001",
@@ -413,7 +562,13 @@
     "availabilityStatus": "available",
     "priceCents": 79500,
     "currency": "USD",
-    "tags": ["graphic", "constructivist", "figurative", "bold", "mixed-media"]
+    "tags": [
+      "graphic",
+      "constructivist",
+      "figurative",
+      "bold",
+      "mixed-media"
+    ]
   },
   {
     "slug": "elara-chen-002",
@@ -429,7 +584,13 @@
     "availabilityStatus": "available",
     "priceCents": 79500,
     "currency": "USD",
-    "tags": ["graphic", "portrait", "gold", "geometric", "mixed-media"]
+    "tags": [
+      "graphic",
+      "portrait",
+      "gold",
+      "geometric",
+      "mixed-media"
+    ]
   },
   {
     "slug": "elara-chen-003",
@@ -445,7 +606,13 @@
     "availabilityStatus": "available",
     "priceCents": 89500,
     "currency": "USD",
-    "tags": ["graphic", "crowd", "silhouette", "gold", "mixed-media"]
+    "tags": [
+      "graphic",
+      "crowd",
+      "silhouette",
+      "gold",
+      "mixed-media"
+    ]
   },
   {
     "slug": "elara-chen-004",
@@ -461,7 +628,13 @@
     "availabilityStatus": "available",
     "priceCents": 79500,
     "currency": "USD",
-    "tags": ["graphic", "figurative", "speech", "radial", "mixed-media"]
+    "tags": [
+      "graphic",
+      "figurative",
+      "speech",
+      "radial",
+      "mixed-media"
+    ]
   },
   {
     "slug": "elara-chen-005",
@@ -477,7 +650,13 @@
     "availabilityStatus": "available",
     "priceCents": 79500,
     "currency": "USD",
-    "tags": ["graphic", "geometric", "architecture", "figurative", "mixed-media"]
+    "tags": [
+      "graphic",
+      "geometric",
+      "architecture",
+      "figurative",
+      "mixed-media"
+    ]
   },
   {
     "slug": "elara-chen-006",
@@ -493,7 +672,13 @@
     "availabilityStatus": "available",
     "priceCents": 84500,
     "currency": "USD",
-    "tags": ["graphic", "figurative", "reclining", "gold", "mixed-media"]
+    "tags": [
+      "graphic",
+      "figurative",
+      "reclining",
+      "gold",
+      "mixed-media"
+    ]
   },
   {
     "slug": "elara-chen-007",
@@ -509,7 +694,13 @@
     "availabilityStatus": "available",
     "priceCents": 84500,
     "currency": "USD",
-    "tags": ["graphic", "figurative", "fracture", "geometric", "mixed-media"]
+    "tags": [
+      "graphic",
+      "figurative",
+      "fracture",
+      "geometric",
+      "mixed-media"
+    ]
   },
   {
     "slug": "elara-chen-008",
@@ -525,7 +716,13 @@
     "availabilityStatus": "available",
     "priceCents": 89500,
     "currency": "USD",
-    "tags": ["graphic", "duo", "tension", "geometric", "mixed-media"]
+    "tags": [
+      "graphic",
+      "duo",
+      "tension",
+      "geometric",
+      "mixed-media"
+    ]
   },
   {
     "slug": "mae-ryden-001",
@@ -541,7 +738,13 @@
     "availabilityStatus": "available",
     "priceCents": 168000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "figurative", "childhood", "carnival", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "figurative",
+      "childhood",
+      "carnival",
+      "oil"
+    ]
   },
   {
     "slug": "mae-ryden-002",
@@ -557,7 +760,13 @@
     "availabilityStatus": "available",
     "priceCents": 188000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "interior", "victorian", "candy", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "interior",
+      "victorian",
+      "candy",
+      "oil"
+    ]
   },
   {
     "slug": "mae-ryden-003",
@@ -573,7 +782,13 @@
     "availabilityStatus": "available",
     "priceCents": 172000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "mechanical", "figurative", "clockwork", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "mechanical",
+      "figurative",
+      "clockwork",
+      "oil"
+    ]
   },
   {
     "slug": "mae-ryden-004",
@@ -589,7 +804,13 @@
     "availabilityStatus": "available",
     "priceCents": 148000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "portrait", "victorian", "cabinet", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "portrait",
+      "victorian",
+      "cabinet",
+      "oil"
+    ]
   },
   {
     "slug": "mae-ryden-005",
@@ -605,7 +826,13 @@
     "availabilityStatus": "available",
     "priceCents": 195000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "children", "duo", "candy", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "children",
+      "duo",
+      "candy",
+      "oil"
+    ]
   },
   {
     "slug": "mae-ryden-006",
@@ -621,7 +848,13 @@
     "availabilityStatus": "available",
     "priceCents": 165000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "interior", "figurative", "pink", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "interior",
+      "figurative",
+      "pink",
+      "oil"
+    ]
   },
   {
     "slug": "mae-ryden-007",
@@ -637,7 +870,13 @@
     "availabilityStatus": "available",
     "priceCents": 178000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "memento-mori", "carnival", "figurative", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "memento-mori",
+      "carnival",
+      "figurative",
+      "oil"
+    ]
   },
   {
     "slug": "mae-ryden-008",
@@ -653,7 +892,13 @@
     "availabilityStatus": "available",
     "priceCents": 212000,
     "currency": "USD",
-    "tags": ["pop-surrealism", "pageant", "figurative", "gold", "oil"]
+    "tags": [
+      "pop-surrealism",
+      "pageant",
+      "figurative",
+      "gold",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-001",
@@ -669,7 +914,13 @@
     "availabilityStatus": "available",
     "priceCents": 89500,
     "currency": "USD",
-    "tags": ["folk-art", "creature-portrait", "animal", "dutch", "oil"]
+    "tags": [
+      "folk-art",
+      "creature-portrait",
+      "animal",
+      "dutch",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-002",
@@ -685,7 +936,13 @@
     "availabilityStatus": "available",
     "priceCents": 95000,
     "currency": "USD",
-    "tags": ["folk-art", "fox", "animal", "resting", "oil"]
+    "tags": [
+      "folk-art",
+      "fox",
+      "animal",
+      "resting",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-003",
@@ -701,7 +958,13 @@
     "availabilityStatus": "available",
     "priceCents": 72000,
     "currency": "USD",
-    "tags": ["folk-art", "bird", "wren", "small-format", "oil"]
+    "tags": [
+      "folk-art",
+      "bird",
+      "wren",
+      "small-format",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-004",
@@ -717,7 +980,13 @@
     "availabilityStatus": "available",
     "priceCents": 88000,
     "currency": "USD",
-    "tags": ["folk-art", "stoat", "winter", "animal", "oil"]
+    "tags": [
+      "folk-art",
+      "stoat",
+      "winter",
+      "animal",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-005",
@@ -733,7 +1002,13 @@
     "availabilityStatus": "available",
     "priceCents": 105000,
     "currency": "USD",
-    "tags": ["folk-art", "crows", "group-portrait", "branch", "oil"]
+    "tags": [
+      "folk-art",
+      "crows",
+      "group-portrait",
+      "branch",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-006",
@@ -749,7 +1024,13 @@
     "availabilityStatus": "available",
     "priceCents": 98000,
     "currency": "USD",
-    "tags": ["folk-art", "hare", "dusk", "atmospheric", "oil"]
+    "tags": [
+      "folk-art",
+      "hare",
+      "dusk",
+      "atmospheric",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-007",
@@ -765,7 +1046,13 @@
     "availabilityStatus": "available",
     "priceCents": 92000,
     "currency": "USD",
-    "tags": ["folk-art", "badger", "still-life", "collecting", "oil"]
+    "tags": [
+      "folk-art",
+      "badger",
+      "still-life",
+      "collecting",
+      "oil"
+    ]
   },
   {
     "slug": "fenna-haas-008",
@@ -781,7 +1068,13 @@
     "availabilityStatus": "available",
     "priceCents": 86000,
     "currency": "USD",
-    "tags": ["folk-art", "rabbit", "ceremony", "botanical", "oil"]
+    "tags": [
+      "folk-art",
+      "rabbit",
+      "ceremony",
+      "botanical",
+      "oil"
+    ]
   },
   {
     "slug": "hiro-tomo-001",
@@ -797,7 +1090,13 @@
     "availabilityStatus": "available",
     "priceCents": 148000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "cat", "koi", "ink"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "cat",
+      "koi",
+      "ink"
+    ]
   },
   {
     "slug": "hiro-tomo-002",
@@ -813,7 +1112,13 @@
     "availabilityStatus": "available",
     "priceCents": 132000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "cat", "chrysanthemum", "ink"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "cat",
+      "chrysanthemum",
+      "ink"
+    ]
   },
   {
     "slug": "hiro-tomo-003",
@@ -829,7 +1134,13 @@
     "availabilityStatus": "available",
     "priceCents": 138000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "cat", "wave", "hokusai"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "cat",
+      "wave",
+      "hokusai"
+    ]
   },
   {
     "slug": "hiro-tomo-004",
@@ -845,7 +1156,13 @@
     "availabilityStatus": "available",
     "priceCents": 168000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "cat", "dragon", "ink"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "cat",
+      "dragon",
+      "ink"
+    ]
   },
   {
     "slug": "hiro-tomo-005",
@@ -861,7 +1178,13 @@
     "availabilityStatus": "available",
     "priceCents": 118000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "cat", "lantern", "nocturne"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "cat",
+      "lantern",
+      "nocturne"
+    ]
   },
   {
     "slug": "hiro-tomo-006",
@@ -877,7 +1200,13 @@
     "availabilityStatus": "available",
     "priceCents": 148000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "cat", "peony", "duo"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "cat",
+      "peony",
+      "duo"
+    ]
   },
   {
     "slug": "hiro-tomo-007",
@@ -893,7 +1222,13 @@
     "availabilityStatus": "available",
     "priceCents": 195000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "leopard", "mountain", "ink"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "leopard",
+      "mountain",
+      "ink"
+    ]
   },
   {
     "slug": "hiro-tomo-008",
@@ -909,7 +1244,13 @@
     "availabilityStatus": "available",
     "priceCents": 158000,
     "currency": "USD",
-    "tags": ["japanese", "irezumi", "cat", "temple", "nocturne"]
+    "tags": [
+      "japanese",
+      "irezumi",
+      "cat",
+      "temple",
+      "nocturne"
+    ]
   },
   {
     "slug": "bea-gomez-001",
@@ -925,7 +1266,13 @@
     "availabilityStatus": "available",
     "priceCents": 42000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "still-life", "domestic", "coffee", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "still-life",
+      "domestic",
+      "coffee",
+      "clean-line"
+    ]
   },
   {
     "slug": "bea-gomez-002",
@@ -941,7 +1288,13 @@
     "availabilityStatus": "available",
     "priceCents": 42000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "dog", "doorway", "domestic", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "dog",
+      "doorway",
+      "domestic",
+      "clean-line"
+    ]
   },
   {
     "slug": "bea-gomez-003",
@@ -957,7 +1310,13 @@
     "availabilityStatus": "available",
     "priceCents": 38000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "objects", "absurdist", "humor", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "objects",
+      "absurdist",
+      "humor",
+      "clean-line"
+    ]
   },
   {
     "slug": "bea-gomez-004",
@@ -973,7 +1332,13 @@
     "availabilityStatus": "available",
     "priceCents": 46000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "plant", "windowsill", "domestic", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "plant",
+      "windowsill",
+      "domestic",
+      "clean-line"
+    ]
   },
   {
     "slug": "bea-gomez-005",
@@ -989,7 +1354,13 @@
     "availabilityStatus": "available",
     "priceCents": 48000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "chairs", "absence", "domestic", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "chairs",
+      "absence",
+      "domestic",
+      "clean-line"
+    ]
   },
   {
     "slug": "bea-gomez-006",
@@ -1005,7 +1376,13 @@
     "availabilityStatus": "available",
     "priceCents": 42000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "umbrella", "yellow", "optimism", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "umbrella",
+      "yellow",
+      "optimism",
+      "clean-line"
+    ]
   },
   {
     "slug": "bea-gomez-007",
@@ -1021,7 +1398,13 @@
     "availabilityStatus": "available",
     "priceCents": 44000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "bathroom", "rubber-duck", "domestic", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "bathroom",
+      "rubber-duck",
+      "domestic",
+      "clean-line"
+    ]
   },
   {
     "slug": "bea-gomez-008",
@@ -1037,7 +1420,13 @@
     "availabilityStatus": "available",
     "priceCents": 42000,
     "currency": "USD",
-    "tags": ["graphic-illustration", "books", "domestic", "bedside", "clean-line"]
+    "tags": [
+      "graphic-illustration",
+      "books",
+      "domestic",
+      "bedside",
+      "clean-line"
+    ]
   },
   {
     "slug": "rave-zola-001",
@@ -1053,7 +1442,13 @@
     "availabilityStatus": "available",
     "priceCents": 115000,
     "currency": "USD",
-    "tags": ["classical-figurative", "chiaroscuro", "contemporary", "caravaggio", "oil"]
+    "tags": [
+      "classical-figurative",
+      "chiaroscuro",
+      "contemporary",
+      "caravaggio",
+      "oil"
+    ]
   },
   {
     "slug": "rave-zola-002",
@@ -1069,7 +1464,13 @@
     "availabilityStatus": "available",
     "priceCents": 148000,
     "currency": "USD",
-    "tags": ["classical-figurative", "group-portrait", "velazquez", "contemporary", "oil"]
+    "tags": [
+      "classical-figurative",
+      "group-portrait",
+      "velazquez",
+      "contemporary",
+      "oil"
+    ]
   },
   {
     "slug": "rave-zola-003",
@@ -1085,7 +1486,13 @@
     "availabilityStatus": "available",
     "priceCents": 108000,
     "currency": "USD",
-    "tags": ["classical-figurative", "vanitas", "still-life", "contemporary", "oil"]
+    "tags": [
+      "classical-figurative",
+      "vanitas",
+      "still-life",
+      "contemporary",
+      "oil"
+    ]
   },
   {
     "slug": "rave-zola-004",
@@ -1101,7 +1508,13 @@
     "availabilityStatus": "available",
     "priceCents": 128000,
     "currency": "USD",
-    "tags": ["classical-figurative", "pieta", "contemporary", "grief", "oil"]
+    "tags": [
+      "classical-figurative",
+      "pieta",
+      "contemporary",
+      "grief",
+      "oil"
+    ]
   },
   {
     "slug": "rave-zola-005",
@@ -1117,7 +1530,13 @@
     "availabilityStatus": "available",
     "priceCents": 118000,
     "currency": "USD",
-    "tags": ["classical-figurative", "self-portrait", "court-painting", "contemporary", "oil"]
+    "tags": [
+      "classical-figurative",
+      "self-portrait",
+      "court-painting",
+      "contemporary",
+      "oil"
+    ]
   },
   {
     "slug": "rave-zola-006",
@@ -1133,7 +1552,13 @@
     "availabilityStatus": "available",
     "priceCents": 105000,
     "currency": "USD",
-    "tags": ["classical-figurative", "still-life", "dutch", "contemporary", "oil"]
+    "tags": [
+      "classical-figurative",
+      "still-life",
+      "dutch",
+      "contemporary",
+      "oil"
+    ]
   },
   {
     "slug": "rave-zola-007",
@@ -1149,7 +1574,13 @@
     "availabilityStatus": "available",
     "priceCents": 138000,
     "currency": "USD",
-    "tags": ["classical-figurative", "renaissance", "religious-structure", "contemporary", "oil"]
+    "tags": [
+      "classical-figurative",
+      "renaissance",
+      "religious-structure",
+      "contemporary",
+      "oil"
+    ]
   },
   {
     "slug": "rave-zola-008",
@@ -1165,6 +1596,1876 @@
     "availabilityStatus": "available",
     "priceCents": 145000,
     "currency": "USD",
-    "tags": ["classical-figurative", "triumph", "political", "roman", "oil"]
+    "tags": [
+      "classical-figurative",
+      "triumph",
+      "political",
+      "roman",
+      "oil"
+    ]
+  },
+  {
+    "slug": "ren-vale-001",
+    "title": "Encounters at the Dragon Stone",
+    "description": "This woodblock-style print by Ren Vale captures a tense moment between a heavily armored samurai and a graceful nine-tailed kitsune over an arched stone bridge, rendered with a distinctive textured, aged paper technique and a rich, muted color palette.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-001.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "ren-vale-002",
+    "title": "The Kitsune's Dance of Fire",
+    "description": "This dynamic ukiyo-e woodblock-style print by Ren Vale features a majestic nine-tailed fox in a detailed kimono facing a samurai with a glowing blue blade, blending classic Edo aesthetics with dramatic contemporary action.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-002.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "ren-vale-003",
+    "title": "A Great Adventure",
+    "description": "This woodblock-inspired contemporary illustration from Ren Vale merges a diverse cast of iconic heroes and creatures into a unified Eastern-influenced landscape, where classic anime battles and beloved droids coexist amidst swirling clouds and traditional pagodas.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-003.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "ren-vale-004",
+    "title": "The Azure Tide's Fury",
+    "description": "This dynamic ukiyo-e-inspired illustration, created in the distinctive contemporary style of Ren Vale, captures a roaring blue dragon emerging from the ocean to clash with an armored samurai on a black horse, who is wielding a flaming sword amidst waves and mountains.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-004.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "ren-vale-005",
+    "title": "Between Flame and Storm: The Dual Guardians",
+    "description": "This dynamic ukiyo-e style woodblock print, heavily influenced by Jed Henry, captures two armored samurai guardians clashing with fire and lightning across a churning coastal landscape, rendered with meticulous line work and rich, layered colors on distressed paper.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-005.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "ren-vale-006",
+    "title": "Spring Reverie at the Five-Story Pagoda",
+    "description": "This woodblock-style contemporary print, inspired by Japanese ukiyo-e, captures the serene, vibrant atmosphere of a temple garden with a five-story pagoda, featuring hand-carved textures, stylized gold-leaf clouds, and a diverse range of figures—including an elderly man and women in traditional kimono—strolling amidst cherry blossoms and a tranquil koi pond.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-006.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "ren-vale-007",
+    "title": "Divine Respite within the Willow's Domain",
+    "description": "Within a tranquil, ukiyo-e inspired compound, a seated warrior harnesses sacred energy while a colossal wind dragon swirls above, all rendered in Ren Vale's meticulous, woodblock-textured contemporary linework and delicate color wash.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-007.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "ren-vale-008",
+    "title": "Samurai's Last Stand",
+    "description": "This stunning contemporary work captures a samurai defending a temple from a swirling demonic portal, using meticulous linework and muted colors in a style reminiscent of traditional Japanese block prints.",
+    "artistSlug": "ren-vale",
+    "imageUrl": "/images/pieces/ren-vale-008.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Jed Henry-inspired contemporary art with distinctive visual style and technique"
+    ]
+  },
+  {
+    "slug": "kai-vale-001",
+    "title": "Starlight, Tiki, and the Cocktail Lounge",
+    "description": "This vibrant mid-century modern illustration by Kai Vale depicts a multi-level party where geometric stylized figures enjoy cocktails, dancing, and retro-futuristic decor, seamlessly blending space-age and Polynesian tiki aesthetics under a star-filled sky.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-001.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "kai-vale-002",
+    "title": "Polynesian Pop on the Patio",
+    "description": "Kai Vale presents a vibrant, mid-century modern illustration blending space-age futurism and exotic tiki culture, where stylized figures enjoy cocktails under a crescent moon with a volcanic backdrop and a looming Moai statue.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-002.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "kai-vale-003",
+    "title": "Azure Deck Cocktail Hour",
+    "description": "This Kai Vale mid-century modern illustration seamlessly blends a bustling, multi-level tiki deck with a futuristic, glass-and-steel space-age dwelling under a dramatic coastal sunset. Saturated geometric blocks of color and stylized figures enjoying cocktails, surrounded by lush palms and desert flora, create a retro-future scene where a classic convertible and a distant flying saucer coexist.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-003.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "kai-vale-004",
+    "title": "Cosmic Cocktails & Mid-Century Mystique",
+    "description": "This vibrant mid-century modern illustration by Kai Vale captures a swinging, retro-futuristic patio party where stylized geometric figures mingle amidst tiki totems, a bubbling punch fountain, and a telescope under a star-filled sky, rendered in bold, saturated colors and clean lines.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-004.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "kai-vale-005",
+    "title": "Starlight Soirée at the Tiki-Atomic Oasis",
+    "description": "This vibrant mid-century modern illustration by Kai Vale depicts a stylish evening party where space-age design intersects with a tiki lounge, rendered in a striking graphic style with bold colors and geometric figures.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-005.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "kai-vale-006",
+    "title": "The Lanai Paradox",
+    "description": "This Kai Vale piece, a geometric Mid-Century Modern illustration in electric colors, features a fashionable tiki-bar crowd enjoying cocktails and conversation against a stylized backdrop with a view of a volcanic island, a passing rocket ship, and a tuxedoed server.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-006.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "kai-vale-007",
+    "title": "Starlight Soirée at the Cosmic Tiki Lounge",
+    "description": "Kai Vale’s vibrant illustration blends tiki culture with space-age wonder, capturing three geometric-stylized women celebrating in a vivid mid-century bar complete with volcano views, UFOs, and a dashing mixologist.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-007.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "kai-vale-008",
+    "title": "Astro-Tiki Soirée",
+    "description": "This premium illustration by Kai Vale, featuring stylized geometric figures in a mid-century modern space-tiki lounge, captures a lively cocktail party with bold, saturated colors where rocket ships and tiki gods collide, perfectly illustrating the atomic age retro-futurist dream with a sense of sophisticated playfulness.",
+    "artistSlug": "kai-vale",
+    "imageUrl": "/images/pieces/kai-vale-008.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "mid-century modern illustration",
+      " retro cocktail culture",
+      " geometric stylized figures",
+      " bold saturated colors"
+    ]
+  },
+  {
+    "slug": "river-strand-009",
+    "title": "The Weaver's Breath and Pulse",
+    "description": "This serene, illustrative painting depicts a woman from behind, emerging from a glass basin of swirling, colorful drapes, with her back revealed to show her exposed spine and lung-shaped wings, holding a heart in her hand amidst a dreamlike landscape of iris flowers and foxes under a crescent moon.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-009.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-010",
+    "title": "Verdant Offering",
+    "description": "This premium giclée print presents a surreal Art Nouveau-inspired goddess figure, her flowing tresses and flowing robes intertwined with lilies of the valley and other botanicals, as she extends a stylized heart-shaped bud towards a stylized wolf and doves against a soft gradient sky, rendered with delicate, swirling line work and a serene, muted pastel palette.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-010.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-011",
+    "title": "Gaea's Chariot of Flow and Flight",
+    "description": "This exquisite Art Nouveau-inspired print, a masterwork of botanical and figurative surrealism by River Strand, features a serene, winged goddess in an ethereal, flowing gown, guided by a fierce white lion, a pack of nested foxes, and leaping hares, all integrated within a vibrant landscape of swirling water, lotuses, lilies, and magical bird forms, rendered in meticulous line work and rich, layered colors.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-011.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-012",
+    "title": "The Mind's Verdant Grove",
+    "description": "This serene, Art Nouveau-inspired watercolor by River Strand depicts a kneeling woman with flowing lavender skin, whose body and hair intertwine with a symmetrical, botanical ecosystem of brains, a central heart, and strange creatures, symbolizing a deep union between conscious thought and natural order.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-012.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-013",
+    "title": "Verdant Slumber of the Reclaimed",
+    "description": "This intricate figurative piece by River Strand merging delicate botanical forms with an anatomical skeleton, featuring a sleeping woman whose form gives life to flora, fae creatures, and an exposed anatomical heart, crafted in a detailed, illustrative surrealist style with a muted pastel palette on fine paper.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-013.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-014",
+    "title": "The Weaver's Recital",
+    "description": "This exquisite print renders a stylized, ascending female form whose flowing, botanical hair and drapery seamlessly intertwine with surreal, biological flora, rising from turbulent waters where a biological heart and stylized koi reside, all framed by intricate filigree, showcasing a mastery of line work and soft, gradient colors in the artist's signature surreal style.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-014.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-015",
+    "title": "The Weaver's Reflection",
+    "description": "This serene, Art Nouveau-infused print by River Strand uses delicate lines and a muted pastel palette to show a red-haired woman with a meticulously illustrated anatomical heart tattoo, back to the viewer, intricately weaving her own hair while surrounded by a fantastical, botanical garden and bizarre companion animals.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-015.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-016",
+    "title": "The Weaver's Bloom",
+    "description": "This meticulously crafted figurative and botanical surrealist print by River Strand depicts a multi-armed deity weaving a tapestry of natural life and ancient symbols, rendered in a delicate, premium art style that balances the organic with the geometric.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-016.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "ren-cross-002",
+    "title": "The Entomologist's Heir",
+    "description": "This meticulously rendered pencil drawing by Ren Cross, in a style of gothic portraiture, depicts a somber, well-dressed child or youth with a complex beetle-like headpiece and multiple jointed limbs, standing in a hazy, textured field of graphite wash.",
+    "artistSlug": "ren-cross",
+    "imageUrl": "/images/pieces/ren-cross-002.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Gothic portraiture and creature studies"
+    ]
+  },
+  {
+    "slug": "nova-ash-009",
+    "title": "The Silent Curator",
+    "description": "This serene illustration by Nova Ash depicts a spectral woman in swirling robes and a powerful grey-horned deer, together observing a tiny ecosystem enclosed within a glass bell jar amidst a landscape of swirling mists and liquid pools.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-009.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-010",
+    "title": "Selenic Communion",
+    "description": "Against a gothic, moonlit backdrop, a stylized female figure in a patterned gown offers a steaming cup, flanked by an intricately detailed owl holding sunflowers and an antlered stag, all rendered with a soft, ethereal gray palette and defined by subtle, fluid lines.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-010.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-011",
+    "title": "Phantasmagoria in Grey",
+    "description": "This evocative acrylic painting by Nova Ash depicts a contemplative female figure in a pleated gown, enveloped by ethereal, translucent foliage, an avian companion, and an empty chalice, rendered in a monochromatic palette of muted greys with soft, rosy light.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-011.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-012",
+    "title": "Awakening of the Gilded Chrysalis",
+    "description": "This monochromatic, dreamlike composition by Nova Ash features a contemplative figure cradled by organic ginkgo trees and glowing mushrooms, delicately rendered with fine brushwork under a crescent moon, inviting a sense of introspection and natural transformation.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-012.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-013",
+    "title": "The Gilded Cage and the Ghost-Light Vixen",
+    "description": "A hauntingly beautiful, monochrome-with-pink-accents painting by Nova Ash, depicting a mournful figure releasing glowing butterflies from a cage while a wolf cub observes, all set within a fantastical landscape with a glowing gothic window.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-013.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-014",
+    "title": "Gilded Dreams: The Keeper's Lament",
+    "description": "This captivating canvas by Nova Ash depicts a contemplative woman with shimmering blue hair holding a tiny golden bird within a decorative silver cage, all surrounded by intricate foliage and a pair of observant, wise hares under the glow of a warm, setting crescent moon.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-014.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-015",
+    "title": "The Bloom of Hesper",
+    "description": "This exquisite rendering of a girl emerging from deep purple flora, accompanied by a celestial stag and billowing pink mists, merges classical technique with a fantastical, dream-state narrative.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-015.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-016",
+    "title": "The Weaver's Teatime",
+    "description": "This monochromatic, dreamlike oil painting by Nova Ash features a contemplative girl with an owl and steaming teacup, her flowing gown interwoven with natural motifs, set within a surreal, tree-framed grotto that opens to a glowing, misty background filled with butterflies.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-016.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "elara-chen-009",
+    "title": "Rise of the Creative Vanguard",
+    "description": "Elara Chen utilizes a bold, three-color palette and a collage of industrial, cartographic, and figurative motifs to forge a striking graphic manifesto that champions the act of creation as a powerful form of resistance and cultural rebellion.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-009.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-010",
+    "title": "United Community: Chains of the Past, Rebuilt Future",
+    "description": "This graphic, screen-print style work by Elara Chen employs a powerful visual language of propaganda art, featuring a central raised fist breaking a heavy chain, flanked by heraldic lions, interlocking gears, and radial lightbursts to create a composition of unyielding, geometric political force and collective action.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-010.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-011",
+    "title": "Rise of the Gilded Flower",
+    "description": "Elara Chen’s graphic print masterfully fuses propaganda style and classical figuration, depicting a stylized woman leading a procession with an oversized gear-flower, all rendered in striking red, blue, and black within a dense border of resistance and establishment iconography.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-011.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-012",
+    "title": "A Breath of Industry",
+    "description": "A complex, multi-layered screenprint rendered in contrasting crimson and cream tones, where a stylized woman in a rose-adorned gas mask is depicted amidst a dense collage of architectural blueprints, gears, and classical columns, reflecting themes of industrial oppression, beauty in decay, and urban resilience.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-012.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-013",
+    "title": "The Spark of Collective Might",
+    "description": "Elara Chen’s graphic composition presents a powerful, retro-style block print with red and black layers, capturing a centralized, raised fist wielding a lightning bolt over a sprawling industrial city, symbolizing a dramatic surge of labor power and technological progress.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-013.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-014",
+    "title": "The Scepter of Liberation",
+    "description": "This graphic composition features a raised hand clutching a rose scepter, emerging from broken chains amidst a fragmented cityscape of industrial gears and political symbols, rendered with a bold, distressed texture that conveys a potent sense of struggle, revolution, and hope.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-014.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-015",
+    "title": "The Rising Machine",
+    "description": "This powerful screenprint, rendered in a striking red, black, and cream palette, depicts a muscular figure hailing a massive cogwheel and an incandescent star-burst that dominates a stark industrial landscape of factories and chimneys.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-015.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-016",
+    "title": "The Rise of Labour and Liberty",
+    "description": "This dynamic, vintage-style socialist realism poster by Elara Chen uses bold graphic lines and a striking palette of reds, blues, and cream to depict a defiant figure holding a torch and a clenched fist, symbolizing the unified power of the proletariat and industrial progress under a sunburst gear.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-016.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "vera-voss-009",
+    "title": "Ascension of the Golden Sphere",
+    "description": "In this evocative romantic figurative work with intricate gold leaf application, Vera Voss depicts a floating woman in classical drapery, reaching with reverence towards a weathered, gilded celestial sphere amidst a swirling tempest of falling leaves and a desolate, sketched landscape.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-009.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-010",
+    "title": "Wind-Worn",
+    "description": "This evocative piece by Vera Voss features a dynamic, back-turned female figure in a bronze-toned gown, her body dramatically disintegrating into a swirl of autumnal leaves upon a meticulously textured, silver-leafed background under a full moon, illustrating themes of decay and rebirth with Romantic sensibility and exquisite, detailed craftsmanship.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-010.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-011",
+    "title": "Ascension of the Gilded Muse",
+    "description": "This evocative piece, in Vera Voss's signature Romantic figurative style, captures a woman in a state of celestial transcendence, her flowing form integrated with a storm of metallic gold leaf. Set against a luminous gold leaf background with a soft moon, Voss’s masterful application of gilded detail on a monochromatic figure creates a profound sense of ethereal beauty and dynamic movement, making it a masterpiece of texture and emotion.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-011.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-012",
+    "title": "The Golden Flight",
+    "description": "This Romantic figurative work by Vera Voss, featuring a woman on a precipice in a gown of layered gold and silver leaf, uses rich gilded details and soft painting to evoke a sense of graceful, transformative release as she summons a swirl of golden butterflies.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-012.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-013",
+    "title": "Ascension of the Golden Moon",
+    "description": "This evocative, large-scale panel by Vera Voss features a woman in a dramatic gown offering a golden bough toward a textured, gilded full moon, rendered with shimmering silver and gold leaf details that capture a sense of celestial wonder against a weathered, mythological landscape.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-013.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-014",
+    "title": "Chasing the Golden Wind",
+    "description": "Rendered in a poignant romantic figurative style, Vera Voss depicts a solitary, graceful woman who appears to dissolve into a swirl of gilded leaves, set against a textural, hand-applied gold leaf forest and silver sky with a single moon.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-014.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-015",
+    "title": "Equilibrium",
+    "description": "This romantic figurative painting features a meticulously rendered globe floating in balance with an ancient, detailed tree upon a gilded and textured rocky landscape.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-015.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-016",
+    "title": "Ascension of the Gilded Soul",
+    "description": "A figure in profile is depicted ascending within a sepia-toned landscape, transforming into a constellation of butterflies against a textured silver-gilded background that suggests a cosmic or weather-beaten sky.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-016.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "river-strand-017",
+    "title": "The Weaver's Breath",
+    "description": "This botanical surrealist piece, rendered with delicate, swirling lines and a muted, cool-toned palette, depicts a figure with transparent, lung-like wings and a flowering heart emerging from decorative waves, accompanied by foxes and water irises under a crescent moon, all within a delicate filigree border.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-017.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-018",
+    "title": "The Weaver's Breath",
+    "description": "This serene illustration by River Strand blends botanical and figurative surrealism, depicting a woman with flowing floral hair and robes in cool pastel tones, gently interacting with doves and a pack of wolves, all rendered with refined line work against a gradient twilight background.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-018.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-019",
+    "title": "The Weaver's Menagerie",
+    "description": "This exquisite art nouveau-inspired print captures a flowing, serene figure in botanical dress guiding a procession of stylized, mythical creatures across a swirl of lotuses, with detailed lines and a subdued, harmonious palette that evokes a dreamlike sense of ancient natural power and creation.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-019.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-020",
+    "title": "Cerebral Flora: The Mind-Body Confluence",
+    "description": "This exquisite Art Nouveau-inspired panel features a pastel-toned, lilac-skinned figure in profile, from whose swirling, vine-like hair and form sprout anatomical brains, a detailed human heart, flowering plants, and fantastical creatures, illustrating a delicate and harmonious fusion of consciousness, anatomy, and nature.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-020.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-021",
+    "title": "Slumber of the Ethereal Bloom",
+    "description": "This serene illustration by River Strand depicts a sleeping figure whose partial skeleton is intertwined with ivy and a burgeoning human heart, combining biological realism with lush, pastel-toned botanical and figurative surrealism in a detailed, illustrative style.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-021.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-022",
+    "title": "Phantasmagoric Bloom",
+    "description": "This ethereal artwork, a testament to River Strand's botanical and figurative surrealism, seamlessly weaves together a flowing central figure, intricate floral elements, and organic structures within a dreamlike composition, all rendered with a meticulous, layered linework that is both delicate and profound.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-022.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-023",
+    "title": "The Weaver's Heart",
+    "description": "This serene figurative surrealist composition in muted botanical hues features a woman from behind, her exposed back revealing intricate human organs while her hands work a mysterious white thread amidst a swirl of birds, rabbits, and a sleeping dog.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-023.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "river-strand-024",
+    "title": "Gaea's Synthesis",
+    "description": "This premium giclée print presents a six-armed deity, rendered in an intricate Art Nouveau style, emerging from a base of organic forms and geometric graffiti while holding symbolic objects amidst a field of lilies under a crescent moon.",
+    "artistSlug": "river-strand",
+    "imageUrl": "/images/pieces/river-strand-024.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Botanical and figurative surrealism"
+    ]
+  },
+  {
+    "slug": "ren-cross-003",
+    "title": "The Stag's Appointed Hour",
+    "description": "This meticulously crafted charcoal and ink portrait by Ren Cross presents a hauntingly surreal, dapper gentleman with intricate stag-beetle horns, a set of lower chitinous legs, and a somber gaze, all rendered with rich, velvety textures in a dark, atmospheric gothic style.",
+    "artistSlug": "ren-cross",
+    "imageUrl": "/images/pieces/ren-cross-003.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Gothic portraiture and creature studies"
+    ]
+  },
+  {
+    "slug": "nova-ash-017",
+    "title": "The Moon's Keeper",
+    "description": "Nova Ash presents a striking, stylized portrait where a spectral, cloaked figure, clutching a jar of mushrooms, stands beside a magnificent moon-marked stag under a lavender sky, showcasing her signature dreamy, illustrative figures within an ethereal natural realm.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-017.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-018",
+    "title": "The Nocturnal Communion",
+    "description": "This stylized monochromatic portrait by Nova Ash captures a central figure in deep twilight holding a steaming chalice, flanked by an ornate barn owl and a massive stag under a crescent moon, utilizing a meticulously detailed painterly technique with a subtle rosy glow.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-018.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-019",
+    "title": "Melancholia in the Grove",
+    "description": "This monochromatic oil painting by Nova Ash, rendered with soft brushwork, depicts a solemn girl standing amidst fantastical flora and an uncoiling phoenix, all framed by a gothic window under a glowing moon, creating a sense of ethereal introspective wonder.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-019.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-020",
+    "title": "Chrysalis Dream",
+    "description": "This serene, ethereal painting, rendered in muted greys with soft pink and lavender highlights, features a contemplative seated figure surrounded by symbolic elements: a ginkgo tree, luminous mushrooms, a crescent moon, and stylized containers, depicting an intimate moment of stillness and potential within a fantastical natural world.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-020.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-021",
+    "title": "Gilded Enigma of the Duskbloom",
+    "description": "This evocative monochromatic work by Nova Ash depicts a contemplative young figure in a patterned robe and flowing dark hair, kneeling beside a watchful fox amidst sculpted, mist-like foliage. She holds a cluster of buds and a delicate open birdcage from which a cluster of ethereal, glowing pink butterflies ascends. A large, rose-pink stained glass window from a gothic ruin provides a powerful, radiant backdrop, casting a dreamlike, spiritual light. Swirls of glowing mist connect the elements, creating a sense of natural mysticism. The technique uses a sophisticated, almost sculpted grayscale palette with precise, soft airbrushing and key areas of luminous color to create a profound contrast between shadow and internal light. The piece feels both melancholic and hopeful, a deep exploration of freedom and transformation.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-021.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-022",
+    "title": "The Moon's Witness",
+    "description": "This serene acrylic painting depicts a contemplative female figure and a large, textured hare bathed in a misty pink and violet moonrise, rendered in a detailed, surrealist style that emphasizes a magical, dreamlike atmosphere.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-022.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-023",
+    "title": "Coven of the Violet Bloom",
+    "description": "This serene acrylic painting depicts a central human face veiled by massive dark purple botanicals, a gray patterned animal with antlers nestled alongside, and a cloud-enshrouded table with glass beakers and steaming cups, creating a ethereal and protective moonlit sanctuary.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-023.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "nova-ash-024",
+    "title": "The Golden Grove Tea Party",
+    "description": "This pop-surrealist oil painting, rendered in soft, dusky greys and warm amber, captures a young girl sharing a moment with a small owl and a steaming teacup within a twisted, leaf-filled arbour framed by butterflies and low-hanging clouds.",
+    "artistSlug": "nova-ash",
+    "imageUrl": "/images/pieces/nova-ash-024.png",
+    "editionSize": 30,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "Dreamy figures in natural environments"
+    ]
+  },
+  {
+    "slug": "elara-chen-017",
+    "title": "The Weaver's Hand",
+    "description": "This graphic print depicts a stylized female figure, rendered in black and white lines against a background of intricate red patterns and text, with a fist emerging from the center holding weaving tools, suggesting powerful themes of labor, resilience, and industrial artistry.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-017.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-018",
+    "title": "United Force",
+    "description": "This graphic composition features a powerful, stylized fist gripping broken chains, a motif of liberation and collective power rendered in a striking palette of reds, blues, and blacks with geometric patterns and industrial textures. Framed by heraldic lions and mechanical gears, the work effectively utilizes text—'STRENGTH IN UNITY' and 'REBUILD THE FUTURE'—to communicate a message of community-driven societal transformation.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-018.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-019",
+    "title": "The Weaver's Hand and the City's Voice",
+    "description": "This screen-printed allegory, rendered in bold reds, blues, and cream, features a central maternal figure with two fingers raised and a large mechanical flower, surrounded by contrasting symbols of an eagle, a marching proletariat, and urban structures to explore themes of labor, peace, and progress.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-019.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-020",
+    "title": "Rise of the Sentinel",
+    "description": "A powerful, screen-printed graphic composition by Elara Chen, merging figurative and architectural elements to depict a woman in a rose-decorated respirator, framed by a mechanical laurel wreath and background textures of blueprinted designs and fragmented American flag motifs, conveying a sense of protected future and industrial vigilance.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-020.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-021",
+    "title": "Electrification of the Proletariat",
+    "description": "Elara Chen's stark graphic work uses high-contrast reds, blacks, and creams to depict a clenched fist seizing lightning, rising powerfully above a geometric industrial landscape of gears and smokestacks under a radiating sun.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-021.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-022",
+    "title": "The Rise of Unity",
+    "description": "This powerful screenprint by Elara Chen employs striking graphic imagery, featuring a hand rising with a flaming torch to unite industrial gears and compasses, symbolizing breaking chains, global connection, and newfound freedom in an intense red, gold, and black palette.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-022.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-023",
+    "title": "The Weaver's Hand and the Sun of Industry",
+    "description": "This powerful, graphic screen print by Elara Chen employs a bold red, black, and cream palette to depict a muscular figure from behind, raising a hand in reverence or supplication towards a gear-like sun and radiating celestial body over a detailed industrial cityscape, blending Soviet-era propaganda aesthetics with intricate geometric patterns.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-023.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "elara-chen-024",
+    "title": "Industry and Intellect",
+    "description": "This powerful, vintage-style propaganda poster from artist Elara Chen utilizes a bold red, cream, and teal palette, intricate geometric borders, and industrial gears to portray a determined worker holding a flaming torch of progress, symbolizing the union of mental focus and manual labor.",
+    "artistSlug": "elara-chen",
+    "imageUrl": "/images/pieces/elara-chen-024.png",
+    "editionSize": 20,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 24900,
+    "currency": "USD",
+    "tags": [
+      "Graphic figurative and political imagery"
+    ]
+  },
+  {
+    "slug": "vera-voss-017",
+    "title": "Aethelred’s Ascension",
+    "description": "An ethereal figure, rendered in monochrome with a flowing drape, is suspended within an atmospheric, gold leaf background, her hand delicately touching a hammered, patterned sphere as an eddy of gilded leaves floats around her.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-017.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-018",
+    "title": "Ascension in Silver and Gold",
+    "description": "This evocative artwork by Vera Voss depicts a figure in a golden gown floating among a swirling vortex of leaves, set against a shimmering silver-leaf background with a moon and trees, in a romantic figurative style.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-018.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-019",
+    "title": "Falling into Gold",
+    "description": "This Romantic figurative work by Vera Voss captures a woman in a dance of wind-blown gold and autumn leaves, blending detailed pencil rendering with rich gilded accents and traditional gold leaf background application.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-019.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-020",
+    "title": "Golden Zephyr",
+    "description": "This evocative piece by Vera Voss depicts a serene woman on a cliff in a swirling, gilded leaf shower, masterfully blending romantic figurative realism with a richly textured, silver-leafed background.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-020.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-021",
+    "title": "The Golden Sowing",
+    "description": "This Romantic, figurative work by Vera Voss depicts a serene woman in an olive gown standing on a rock, holding up a leafy branch to a vast, textured moon that rains down golden speckles, all set against a shimmering silver leaf background with aged landscape details.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-021.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-022",
+    "title": "The Golden Grove",
+    "description": "This evocative image portrays a woman with an ethereal, leaf-covered gown within a forest of gold and silver tones, surrounded by a swirling dance of leaves and an enigmatic moon, rendered with a combination of romantic figuration and stunning gilded detail.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-022.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-023",
+    "title": "Roots and Reflection",
+    "description": "Gilded gold and silver leaf effects provide a glowing, aged backdrop for this surreal, romantic landscape where a gnarled, gilded tree and a levitating sepia-toned globe explore the connection between ancient nature and human understanding.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-023.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "vera-voss-024",
+    "title": "Ascension in Silver and Sepia",
+    "description": "This romantic figurative artwork by Vera Voss captures a ethereal figure in motion, ее form and sepia-toned landscape dramatically set against a textured, gilded silver leaf sky from which a swirling cloud of butterflies and petals ascend, blending technical precision with deep symbolic transformation.",
+    "artistSlug": "vera-voss",
+    "imageUrl": "/images/pieces/vera-voss-024.png",
+    "editionSize": 15,
+    "editionsSold": 0,
+    "reservedCount": 0,
+    "availabilityStatus": "available",
+    "priceCents": 39900,
+    "currency": "USD",
+    "tags": [
+      "Romantic figurative with gilded detail"
+    ]
+  },
+  {
+    "slug": "paul-melvo-001",
+    "title": "Vader in the Void",
+    "description": "Darth Vader rendered as pure graphic icon — the mask, the cape, the absolute darkness. Heavy black planes frame a single point of red, suggesting the hum of a lightsaber at rest.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-001.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "star-wars",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "villain"
+    ]
+  },
+  {
+    "slug": "paul-melvo-002",
+    "title": "Han Solo: Never Tell Me the Odds",
+    "description": "The smuggler stripped to his silhouette — blaster hip-drawn, collar up, the ghost of a smirk. Bold cream on black, shot with a warm amber that makes the jacket glow like a sunset on Tatooine.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-002.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "star-wars",
+      "sci-fi",
+      "pop-culture",
+      "hero",
+      "graphic"
+    ]
+  },
+  {
+    "slug": "paul-melvo-003",
+    "title": "The Mandalorian",
+    "description": "The lone warrior in beskar armor, helmet catching light like a mask hammered from the void itself. The child peeks from the satchel — two small hands, two enormous eyes — rendered in a single ochre tone.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-003.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "star-wars",
+      "sci-fi",
+      "pop-culture",
+      "warrior",
+      "graphic"
+    ]
+  },
+  {
+    "slug": "paul-melvo-004",
+    "title": "Boba Fett: Bounty",
+    "description": "The galaxy's most feared bounty hunter reduced to an icon — the T-visor, the jet pack silhouette, the rangefinder dropped to half-mast. Flat olive and crimson, as tight as a wanted poster.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-004.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "star-wars",
+      "sci-fi",
+      "pop-culture",
+      "bounty-hunter",
+      "graphic"
+    ]
+  },
+  {
+    "slug": "paul-melvo-005",
+    "title": "Ghost: No Kill Like Overkill",
+    "description": "Lt. Simon Riley reduced to the mask and the myth — white skull grinning from a black balaclava, eyes empty behind dark lenses. The graphic authority of a playing card, the gravity of a war memorial.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-005.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "call-of-duty",
+      "gaming",
+      "military",
+      "graphic",
+      "skull"
+    ]
+  },
+  {
+    "slug": "paul-melvo-006",
+    "title": "Captain Price",
+    "description": "A beret, a mustache, a cigar — the three elements that make a legend. Price's silhouette against a field of olive drab, rendered with the flat authority of a propaganda portrait that time has canonized.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-006.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "call-of-duty",
+      "gaming",
+      "military",
+      "graphic",
+      "portrait"
+    ]
+  },
+  {
+    "slug": "paul-melvo-007",
+    "title": "Warzone Drop",
+    "description": "A lone operator against the orange light of a Warzone sunset — parachute billowing above, the ruined city below, a rifle silhouetted across the back. Epic scale, minimal marks: the geometry of controlled descent.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-007.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "call-of-duty",
+      "gaming",
+      "action",
+      "graphic",
+      "landscape"
+    ]
+  },
+  {
+    "slug": "paul-melvo-008",
+    "title": "Counter Strike: Defuse",
+    "description": "A counter-terrorist crouched over a C4 device, wire cutters in hand — ten seconds on the clock, rendered as negative space. The tension lives entirely in the geometry: crouch, angle, the arc of the arm.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-008.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "counter-strike",
+      "gaming",
+      "tactical",
+      "graphic",
+      "action"
+    ]
+  },
+  {
+    "slug": "paul-melvo-009",
+    "title": "Dust II: The Crossing",
+    "description": "The long cat catwalk of Dust II rendered as pure architecture — arched doorways, the geometry of sandbag cover, two silhouettes on opposite ends of the map that defined a generation of competitive play.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-009.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "counter-strike",
+      "gaming",
+      "architecture",
+      "graphic",
+      "landscape"
+    ]
+  },
+  {
+    "slug": "paul-melvo-010",
+    "title": "AWP: One Shot",
+    "description": "The AWP sniper rifle isolated as artifact — barrel, scope, stock reduced to three bold shapes in chrome and black. Below it, a single spent casing. The weapon as woodblock icon: cold, precise, permanent.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-010.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "counter-strike",
+      "gaming",
+      "weapon",
+      "graphic",
+      "still-life"
+    ]
+  },
+  {
+    "slug": "paul-melvo-011",
+    "title": "Agent J: Flash the Thing",
+    "description": "Will Smith's Agent J in the black suit and Ray-Bans, neuralyzer raised to eye level, thumb on the button. The whole frame pivots on the silvered cylinder — one flash and you forget everything.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-011.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "men-in-black",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "portrait"
+    ]
+  },
+  {
+    "slug": "paul-melvo-012",
+    "title": "Agent K: Thirty Years",
+    "description": "Tommy Lee Jones' stone-faced K, de-neuralyzed, carrying thirty years of alien secrets behind flat, impassive eyes. The suit is the armor. The silhouette is the legend. Black on deep charcoal, with a single alien blue accent.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-012.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "men-in-black",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "portrait"
+    ]
+  },
+  {
+    "slug": "paul-melvo-013",
+    "title": "Edgar's Bug",
+    "description": "The alien cockroach wearing Edgar's skin — that skin just a little too baggy, the posture just a little too wrong. Rendered in flat earthtones with an acid green pupil that is the only thing still alive inside.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-013.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "men-in-black",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "villain"
+    ]
+  },
+  {
+    "slug": "paul-melvo-014",
+    "title": "Roy Batty: Tears in Rain",
+    "description": "The dying replicant in the rain, arms spread, dove rising from open hands. The greatest monologue ever spoken rendered without words — only the posture, the rain, the light that would go out.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-014.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "blade-runner",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "cinematic"
+    ]
+  },
+  {
+    "slug": "paul-melvo-015",
+    "title": "Neo: The One",
+    "description": "Neo in the lobby scene — long coat billowing, twin pistols raised, the columns exploding in white dust. All of it reduced to four planes of black and cream, with a cascade of falling brickwork as visual noise.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-015.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "the-matrix",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "action"
+    ]
+  },
+  {
+    "slug": "paul-melvo-016",
+    "title": "Agent Smith: Mr. Anderson",
+    "description": "Hugo Weaving's Smith — the suit immaculate, the sunglasses absolute, the mouth curled with the contempt of a program that has decided it is done following rules. A study in institutional menace rendered flat and permanent.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-016.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "the-matrix",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "villain"
+    ]
+  },
+  {
+    "slug": "paul-melvo-017",
+    "title": "Xenomorph: Perfect Organism",
+    "description": "The alien in absolute silhouette — elongated skull, dripping second jaw, the biomechanical body curved like a question mark with teeth. Acid green on deep black, the creature as anti-logo.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-017.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "alien",
+      "sci-fi",
+      "horror",
+      "graphic",
+      "creature"
+    ]
+  },
+  {
+    "slug": "paul-melvo-018",
+    "title": "Ripley: In Space",
+    "description": "Ellen Ripley in the spacesuit, flamethrower leveled, Jonesy the cat under one arm. The most capable character in science fiction history reduced to three bold shapes: flame, suit, cat. Warm orange against cold dark.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-018.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "alien",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "hero"
+    ]
+  },
+  {
+    "slug": "paul-melvo-019",
+    "title": "The Predator: If It Bleeds",
+    "description": "The hunter unmasked — mandibles spread, dreadlocks radiating like a crown, the trophies hanging from the belt. Trophy and monster simultaneously, rendered in jungle green and bone, as graphic as a tribal mask.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-019.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "predator",
+      "sci-fi",
+      "action",
+      "graphic",
+      "creature"
+    ]
+  },
+  {
+    "slug": "paul-melvo-020",
+    "title": "T-800: I'll Be Back",
+    "description": "The chrome endoskeleton rising from the flames — half-flesh burned away, one red photoreceptor eye burning in the dark. The machine underneath rendered as pure geometry: sphere, rod, strut, menace.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-020.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "terminator",
+      "sci-fi",
+      "action",
+      "graphic",
+      "robot"
+    ]
+  },
+  {
+    "slug": "paul-melvo-021",
+    "title": "Indiana Jones: Fortune and Glory",
+    "description": "Dr. Jones in the crack of the whip — fedora brim low, leather jacket catching the torch-light, the bullwhip mid-arc in a perfect S-curve. Warm amber and shadow, the graphic language of a Saturday serial stripped to its essence.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-021.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "indiana-jones",
+      "adventure",
+      "pop-culture",
+      "graphic",
+      "portrait"
+    ]
+  },
+  {
+    "slug": "paul-melvo-022",
+    "title": "Dark Knight: Gotham at Rest",
+    "description": "Batman perched on the gargoyle above a sleeping Gotham — cape spread like a woodblock splash of ink, the city lights below as a constellation of flat yellow squares. Vigilance rendered as negative space.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-022.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "batman",
+      "superhero",
+      "pop-culture",
+      "graphic",
+      "cinematic"
+    ]
+  },
+  {
+    "slug": "paul-melvo-023",
+    "title": "T-Rex: Life Finds a Way",
+    "description": "The tyrant lizard king erupting through the tour car — jaws wide, the full roar expressed in a single bold outline against a night sky cracked by lightning. Jurassic Park as woodblock print: primal, inevitable, enormous.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-023.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "jurassic-park",
+      "adventure",
+      "pop-culture",
+      "graphic",
+      "creature"
+    ]
+  },
+  {
+    "slug": "paul-melvo-024",
+    "title": "The DeLorean: 88 Miles Per Hour",
+    "description": "The stainless DeLorean at the moment of flux — gull-wing doors open, the time circuits blazing, the twin fire trails curving off into the dark. Speed as graphic abstraction, the most optimistic machine ever built.",
+    "artistSlug": "paul-melvo",
+    "imageUrl": "/images/pieces/paul-melvo-024.png",
+    "year": 2026,
+    "medium": "Screenprint on panel",
+    "dimensions": "20 x 24 in",
+    "editionSize": 25,
+    "editionsSold": 0,
+    "availabilityStatus": "available",
+    "priceCents": 14900,
+    "currency": "USD",
+    "tags": [
+      "back-to-the-future",
+      "sci-fi",
+      "pop-culture",
+      "graphic",
+      "vehicle"
+    ]
   }
 ]
