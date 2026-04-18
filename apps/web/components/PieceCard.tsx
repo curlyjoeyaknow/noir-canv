@@ -24,17 +24,19 @@ export function PieceCard({ piece, artistName, priority = false }: PieceCardProp
     <Link href={`/pieces/${piece.slug}`} className="group block">
       <article>
 
-        {/* Framed artwork — walnut frame with thin black inner liner */}
+        {/* Framed artwork — walnut frame, white mat, black inner liner */}
         <div className="artwork-frame">
-          <div className="relative aspect-[2/3] overflow-hidden ring-[1.5px] ring-black/75">
-            <Image
-              src={piece.imageUrl}
-              alt={piece.title}
-              fill
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="object-contain transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-              priority={priority}
-            />
+          <div className="artwork-mat">
+            <div className="relative aspect-[2/3] overflow-hidden ring-[1.5px] ring-black/60">
+              <Image
+                src={piece.imageUrl}
+                alt={piece.title}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-contain transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+                priority={priority}
+              />
+            </div>
           </div>
         </div>
 

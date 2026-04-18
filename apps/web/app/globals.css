@@ -34,7 +34,7 @@
   /* Frame colours (walnut + mat) */
   --frame: #2a1d0e;
   --frame-inner: #1e1408;
-  --mat: #f5f1e8;
+  --mat: #ffffff;
 
   /* Spacing */
   --section-gap: 6rem;
@@ -216,11 +216,11 @@ a {
     0 0 0 1px rgba(201, 162, 39, 0.15);
 }
 
-/* Cream mat inside the frame */
+/* White mat inside the frame */
 .artwork-mat {
   position: relative;
   background: var(--mat);
-  padding: 20px 20px 52px 20px;
+  padding: 24px 24px 60px 24px;
 }
 
 /* Gold seal emblem on the mat */
